@@ -2,7 +2,7 @@
 
 
 ## *Subtask 1*
-**10 punktów** :tada:  👩‍🎓
+**10 punktów** :tada:👩🏼‍🎓
 
 
 ## *Subtask 3*
