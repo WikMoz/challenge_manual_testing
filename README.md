@@ -13,7 +13,7 @@
       * [5. Funkcja  ROZPOCZNIJ MECZ](5.-funkcja-rozpocznij-mecz)
       * [6. Dodawanie raportu do meczu](6.-dodawanie-raportu-do-meczu)
       * [7. Raport meczowy](7.-raport-meczowy)
-      * [8. Inne uwagi](8.-inne-uwagi)
+     
 ---
 
 # Task 1
@@ -48,7 +48,7 @@ PS. Czuję się trochę jak ten Pan na zdjęciu poniżej &darr; - Nie wie czy mu
 
 
 <p align="justify">
-Aplikacja służy do zapisywania i zarządzania danymi o wybranych piłkarzach oraz o meczach, w jakich brali udział. Służy do tworzenia szczegółowych oberwacji meczowych  - wprowadzania statystyk meczu z opcją notowania również w trakcie jego trwania. Daje możliwość tworzenia raportów dotyczących danego, obserwowanego zawodnika. </p>
+&nbsp;&nbsp;&nbsp;&nbsp;Aplikacja służy do zapisywania i zarządzania danymi o wybranych piłkarzach oraz o meczach, w jakich brali udział. Służy do tworzenia szczegółowych oberwacji meczowych  - wprowadzania statystyk meczu z opcją notowania również w trakcie jego trwania. Daje możliwość tworzenia raportów dotyczących danego, obserwowanego zawodnika. </p>
 
 ***Funkcjonalości:***
 
@@ -69,7 +69,7 @@ Aplikacja służy do zapisywania i zarządzania danymi o wybranych piłkarzach o
 
 
 <p align="justify">
-Aplikacja ma bardzo prostą i mało atrakcyjną szatę graficzną. Elementy na stronie głównej, która jest wizytówką aplikacji są niedopracowane - nieprawidłowe umiejscowienie linków (helpdesk w panelu głównym i główna funkcja strony czyli dodanie gracza w oknie linki pomocnicze) , literówki (aktywnosć), brak wyrównania tekstu (linki w oknie aktywność). 
+&nbsp;&nbsp;&nbsp;&nbsp;Aplikacja ma bardzo prostą i mało atrakcyjną szatę graficzną. Elementy na stronie głównej, która jest wizytówką aplikacji są niedopracowane - nieprawidłowe umiejscowienie linków (helpdesk w panelu głównym i główna funkcja strony czyli dodanie gracza w oknie linki pomocnicze) , literówki (aktywnosć), brak wyrównania tekstu (linki w oknie aktywność). 
 Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodanie meczu dla gracza jest proste, dość intuicyjne. Bardzo mało intuicyjnym elemetem, który może sprawiać problemy jest obsługa opcji graficznego przedstawienia/wprowadzania danych statystycznych z meczu. Brakuje instrukcji, opisu przycisków, możliwości edycji już dodanej akcji. Przechodzi się do tej opcji poprzez małą ikonę umieszczoną na końcu tabeli meczów. Również tworzenie raportu może stanowić problem, ponieważ klikając opcję dodaj raport użytkownik jest przekierowywany do tabeli meczów, gdzie musi odnaleźć małą ikonkę odpowiedzialną za tę funkcję. </p>
 
 ---
@@ -88,7 +88,7 @@ Zalogowałam się do aplikacji jako użytkownik user01@getnada.com
 
 - przy wchodzeniu na stronę, jeszcze przed zalogowaniem pojawia się kod błędu odpowiedzi HTTP - 404  
 >request URL: https://scouts-test.kolektyw.pl/pl/favicon.ico 
-- sprawdziłam logowanie oprócz przeglądarki edge i chrome również na przeglądarkach firefox i brave – na wszystkich się powiodło
+- pojawiły się informacje o problemie z logowaniem,, dlatego sprawdziłam możliwość zalogowania się na kilku przeglądarkach: chrome, edge, firefox i brave – na wszystkich się powiodło
 - na górze strony – literówka -'ilość meczy' zamiast 'ilość meczów'
 - po prawej w okienku aktywność –literówka- aktywnosć (s) zamiast aktywność (ś)
 - w ‘Scouts panel’ powinna być opcja DODAJ GRACZA, a w ‘linkach pomocniczych’- DEV TEAM CONTACT z adnotacją w języku polskim że chodzi o kontakt/pomoc/helpdesk
@@ -97,7 +97,7 @@ Zalogowałam się do aplikacji jako użytkownik user01@getnada.com
 - na telefonie z systemem android na stronie głównej pojawia się dodatkowa rubryka „niezapisany mecz” (oraz dane, którego meczu dotyczy) a pod nim link WRÓĆ DO RAPORTU, który po kliknięciu nie otwiera się. Na komputerze ta rubryka się nie pojawia.
 - brak linku do polityki prywatności
 - brak informacji o plikach cookies
-- dane w oknie 'Aktywność' rozjeżdżają się (zdjecie poniżej), nie są wyrównane do lewej jak nagłówki
+- dane w oknie 'Aktywność' rozjeżdżają się (zdjęcie poniżej), nie są wyrównane do lewej jak nagłówki
 
 ![image](https://user-images.githubusercontent.com/122229411/212754456-276183fb-53fd-4d4e-b33a-01bfd85fac29.png)
 
@@ -115,7 +115,7 @@ Zalogowałam się do aplikacji jako użytkownik user01@getnada.com
 - telefon - można wpisać zbyt dużą ilość znaków 
 - niewiele miejsca na wpisanie osiągnięć
 - przed polami ‘łączy nas piłka’ ‘90min’ ‘profil facebook’ brak nagłówka –  np. profile w portalach
-- dobrym rozwiązeniem byłaby lista wyboru opcji do ‘główna pozycja’, ‘pozycja alternatywna’, ‘poziom rozgrywek’, szczególnie ważna w przypadku pozycji zawodnika - (bramkarz ma inne opcje do wyboru w statystykach meczów niż np. napastnik i gdy wpisze się pozycję z literówką nie można wprowadzić prawidłowo danych)
+- dobrym rozwiązaniem byłaby lista wyboru opcji do ‘główna pozycja’, ‘pozycja alternatywna’, ‘poziom rozgrywek’, szczególnie ważna w przypadku pozycji zawodnika - (bramkarz ma inne opcje do wyboru w statystykach meczów niż np. napastnik i gdy wpisze się pozycję z literówką nie można wprowadzić prawidłowo danych)
 - użytkownicy mogą zmieniać dane wpisane przez innego użytkownika
 - przycisk 'CLEAR' usuwa tylko dane wpisane jako nowe, nie ma funkcji wyczyszczenia wszystkich danych po kliknięciu, a jedynie tych które nie zostały zapisane
 - pole 'województwo' nie jest oznaczone gwiazdką jako obowiązkowe, jednak w momencie gdy chcemy utworzyć raport meczu pojawia się komunikat o konieczności uzupełnienia tego pola
@@ -125,11 +125,11 @@ Zalogowałam się do aplikacji jako użytkownik user01@getnada.com
 #### ***3. Gracze***
 
 
-- po otwarciu sekcji gracze pojawia się komuniakt:
+- po otwarciu sekcji gracze pojawia się komunikat:
 >Params `start` and `limit` are deprecated. Use `_start` and `_limit`”
 - wszystkie informacje są w języku polskim, natomiast przy ikonkach w prawym górnym rogu wyświetlają się napisy po angielsku ‘download’ , ‘print’, ‘view columns’ , ‘filter rate’
 - tak samo po kliknięciu w ‘view columns’ mamy ‘show columns’ i  w ‘filter rate’ mamy ‘filters’, ‘rate’ i ‘age’ a pozostałe pozycje są po polsku
-- po klinięciu w ikonę ‘download CSV’ pobieramy plik, w którym:
+- po kliknięciu w ikonę ‘download CSV’ pobieramy plik, w którym:
    * wiek nie jest wyliczony lecz przedstawiany jako data urodzenia
    * w kolumnach recenzji, meczów i raportów pojawia się : ‘[object]’ zamiast danych liczbowych
    * pobrany plik dotyczy tylko wyświetlanych w oknie wyników (max 10 pozycji), nie ma możliwości pobrania wszystkich danych jednocześnie
@@ -149,10 +149,11 @@ Zalogowałam się do aplikacji jako użytkownik user01@getnada.com
 - general – pozycja w języku angielskim, gdy pozostałe są w języku polskim. Nie wiadomo do czego się odnosi ta rubryka - czy chodzi o uwagi ogólne?
 - w edycji meczu dla gracza na dole mamy listę zdarzeń – w rubryce 'meta dane; pojawiają się komunikaty takie jak np. 'meta._id' ______(zdjęcie poniżej) 
 ![image](https://user-images.githubusercontent.com/122229411/212755904-43fdce05-e532-45a8-a570-3b9f2ae3d2e4.png)
-- rubryka 'meta dane' powinna mieć inną nazwę odnoszaca się do zawartości tej rubryki
+- rubryka 'meta dane' powinna mieć inną nazwę odnoszacą się do zawartości tej rubryki
 - przycisk 'clear' usuwa tylko dane wpisane jako nowe, nie ma funkcji wyczyszczenia wszystkich danych po kliknięciu, a jedynie tych które nie zostały zapisane
 - lista zdarzeń powinna być osobno lub np. jako uzupełnienie raportu meczowego - jest na stronie pod edycją meczu. Jej umiejscowienie nie jest logiczne i można jej nie zauważyć.
 - na liście zdarzeń nie ma podziału na połówki meczu - np. jeśli akcja odbędzie się w 5 sekundzie drugiej połowy jest oznaczana jako 5 sekunda (tak samo jakby odbyła się w 5 sekundzie pierwszej połowy meczu)
+- strona nie dostosowuje się do ekranu smartfona w edycji meczu oraz w tabelach meczów 
 
 ---
 
@@ -162,13 +163,13 @@ Zalogowałam się do aplikacji jako użytkownik user01@getnada.com
 - brak instrukcji, opisu co to jest, jak działa i w jakim celu jest umieszczone (raportowanie danych statystycznych meczu)
 - przyciski funkcji nie posiadają opisów
 - przycisk z obrazkiem kosza nie usuwa wcześniej zapisanych akcji, jedynie nowe
-- jest możliwość wyboru ujemnych wartości oraz powyżej 2 połówek meczu. Brak możliwości zaznaczenia osobno czasu dogrywki i rzutów karnych. W języku angielskim zamiast połówka meczu (half) występuje słowo part - jako kolejna część meczu. W języku polskim możnaby również zastąpić słowo połowa słowem część meczu, aby uwzględnić kolejne etapy jak dogrywnka, rzuty karne. 
+- jest możliwość wyboru ujemnych wartości oraz powyżej 2 połówek meczu. Brak możliwości zaznaczenia osobno czasu dogrywki i rzutów karnych. W języku angielskim zamiast połówka meczu (half) występuje słowo part - jako kolejna część meczu. W języku polskim można by również zastąpić słowo połowa słowem część meczu, aby uwzględnić kolejne etapy jak dogrywka, rzuty karne. 
 - jest możliwość wpisania nierealnych wartości czasu trwania meczu – po wpisaniu bardzo wysokiej wartości pojawiają się liczby ujemne (zdjęcie poniżej)
-![image](https://user-images.githubusercontent.com/122229411/212756455-215af449-d512-474a-829e-6366a3287626.png)
+![image](https://user-images.githubusercontent.com/122229411/212908513-44f29e08-f7bd-432f-8d4a-e33f25a085c3.png)
 - komentarze dopisywane podczas oznaczania danej akcji na planszy nie pojawiają się potem w raporcie – pojawiają się na liście akcji
 - po dodaniu danej akcji na planszy nie można do niej wrócić, zmienić jej, rozróżnić lub usunąć. Trzeba albo usunąć wszystko albo użyć opcji cofnij, która jest oznaczona strzałką
 - można zaznaczać nielogiczne akcje np. jednocześnie: dośrodkowanie po przyjęciu oraz rzut rożny
-- dla bramkarza  - literówka w interwencjach-→  PRZERWANIE PODANIE
+- dla bramkarza  - literówka w interwencjach - PRZERWANIE PODANIE
 - dla bramkarza można dodać akcję 'podanie ręką' a gdy się ją uruchomi do zaznaczenia mamy podanie lewą i prawą NOGĄ (zdjęcie poniżej)
 ![image](https://user-images.githubusercontent.com/122229411/212756584-8e155246-a263-46a4-b629-4cf33e5d0fa6.png)
 
@@ -181,14 +182,12 @@ Zalogowałam się do aplikacji jako użytkownik user01@getnada.com
 
 - po kliknięciu ‘dodaj raport’ odsyła do zakładki mecze – tam trzeba znaleźć odpowiednią ikonkę 'raport'. Dobra byłaby funkcja dodania raportu w zakładce raporty ale umożliwiająca wybór do którego meczu dany raport się odnosi
 - po kliknięciu utwórz raport pojawia się okno tworzenie raportu gracza z danymi ID gracza i ID meczu, które musimy potwierdzić (zdjęcie poniżej). Czy jest to potrzebny krok? Może wystarczające byłoby przekierowanie bezpośrednio do okna tworzenia raportu. 
-
 ![image](https://user-images.githubusercontent.com/122229411/212759422-376b12cb-8849-46c5-9a43-d1d0e16502b1.png)
-
-
 - Przyciski 'submit' i 'clear' są w języku angielskim, gdy cała strona jest w języku polskim.
-- Przyscik 'clear' nie powoduje wyczyszczenia danych z formularza. Dane te są nieedytowalne, więc przycisk clear jest tu zbędny.
+- Przycisk 'clear' nie powoduje wyczyszczenia danych z formularza. Dane te są nieedytowalne, więc przycisk 'clear' jest tu zbędny.
 - można dodać wiele raportów do jednego meczu i nie można ich usunąć
- 
+- strona nie dostosowuje się do ekranu smartfona w tabeli raportów
+
 ---
 
 #### ***7. Raport meczowy***
@@ -201,6 +200,7 @@ Zalogowałam się do aplikacji jako użytkownik user01@getnada.com
 - mentalność – brak kropki po nawiasie: ‘(czerwona kartka/strata gola itp.)’ i brak znaku zapytania w ostatnim zdaniu.
 - recenzja – polecenie brzmi: ‘Wybieramy 1 z poniższych punktów’, natomiast gwiazdki można zaznaczać też jako połówki punktów np. 3,5
 - raportu nie można wydrukować 
+- strona nie dostosowuje się do ekranu smartfona w edycji raportu
 - dane statystyczne:
 
   * Gdy nie mamy danych do danego wykresu, pojawia się nagłówek (jeśli jest), a pod nim same opisy kolumn wykresu oraz komentarz ‘nie odnotowano’. Sam nagłówek wykresu i komentarz ‘nie odnotowano’ byłby bardziej czytelny w przypadku braku danych.
@@ -208,7 +208,7 @@ Zalogowałam się do aplikacji jako użytkownik user01@getnada.com
   * nad trzecim wykresem brakuje nagłówka  np. ‘kierunek podań długich’
   * nad szóstym i dziesiątym wykresem również brak nagłówków
   * brak danych dotyczących dośrodkowania głową (możliwych do zaznaczenia na planszy dla napastnika)
-  * brak danych dotyczących pojedynków 1 na 1 (możliwych do zaznaczania na planszy dla napsatnika) (np.2 graczy, 3 graczy, 4 lub więcej graczy, przejęcie, przerwanie)
+  * brak danych dotyczących pojedynków 1 na 1 (możliwych do zaznaczania na planszy dla napastnika) (np.2 graczy, 3 graczy, 4 lub więcej graczy, przejęcie, przerwanie)
   * brak danych w raporcie odnośnie rzutów karnych i wolnych, które na planszy można zaznaczać wybierając opcję strzały, pojawiają się w liście zdarzeń pod edycją     meczu
   * inne nazwy odbioru na planszy i w raporcie – odbiór ‘głową’ na planszy, ‘w walce o górną piłkę’ na raporcie oraz straty 'holowanie piłki' na planszy i ‘przez przetrzymywanie piłki’ na raporcie
   * w wersji angielskiej mamy dwa razy fouled (zarówno jako 'faulowany' i jako 'faulował')
@@ -216,8 +216,7 @@ Zalogowałam się do aplikacji jako użytkownik user01@getnada.com
 
 ---
 
-#### ***8.Inne uwagi***
-Strona nie dostosowuje się do ekranu smartfona w edycji meczu, edycji raportu oraz w tabelach meczów i raportów
+
 
 
 
