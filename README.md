@@ -30,10 +30,10 @@ Cześć!
 </p>
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;Nazywam się Wika 😁. Bardzo się cieszę, że mogę brać udział w tym projekcie, ponieważ chcę pójść zupełnie nową ścieżką 👩‍🚀🚀, wyjść poza to, co znam i w czym czuję się pewnie i bezpiecznie. Zupełnie nie mam doświadczenia w tej dziedzinie, dlatego czuję się trochę zagubiona 😱, ale z drugiej strony też bardzo pozytywnie nakręcona🥳. Mam nadzieję, że poznawanie nieznanego da mi dużo frajdy, satysfakcji i to fantastyczne uczucie, które się pojawia gdy się coś nowego odkrywa🕵️‍♀️. Bardzo chciałabym się jak najwięcej nauczyć, przygotować się jak najlepiej oraz zrobić wszystkie zadania. W DARE IT macie w sobie super energię i entuzjazm, który naprawdę zaraża🤧 i daje kopa do działania i bardzo sie cieszę że mogę się od Was uczyć.
+&nbsp;&nbsp;&nbsp;&nbsp;Nazywam się Wika 😊. Bardzo się cieszę, że mogę brać udział w tym projekcie, ponieważ chcę pójść zupełnie nową ścieżką 👩‍🚀🚀, wyjść poza to, co znam i w czym czuję się pewnie i bezpiecznie. Zupełnie nie mam doświadczenia w tej dziedzinie, dlatego czuję się trochę zagubiona 😱, ale z drugiej strony też bardzo pozytywnie nakręcona🥳. Mam nadzieję, że poznawanie nieznanego da mi dużo frajdy, satysfakcji i to fantastyczne uczucie, które się pojawia gdy się coś nowego odkrywa🕵️‍♀️. Bardzo chciałabym się jak najwięcej nauczyć, przygotować się jak najlepiej oraz prawidłowo wykonać wszystkie zadania. W DARE IT macie w sobie super energię i entuzjazm, który naprawdę zaraża🤧 i daje kopa do działania i bardzo sie cieszę że mogę się od Was uczyć.
 
 
-PS. Czuję się trochę jak ten Pan na zdjęciu poniżej &darr; - Nie wie czy mu się uda ale przecież MUSI spróbować 🐱‍🐉.
+PS Czuję się trochę jak ten Pan na zdjęciu poniżej &darr; - Nie wie czy mu się uda ale przecież MUSI spróbować 🐱‍🐉.
 </p>
 
 ![](https://i.pinimg.com/originals/47/43/a9/4743a96340c0dc4d46938e6df8f19f65.jpg)
@@ -88,9 +88,9 @@ Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodani
 - przy wchodzeniu na stronę, jeszcze przed zalogowaniem pojawia się kod błędu odpowiedzi HTTP - 404  
 >request URL: https://scouts-test.kolektyw.pl/pl/favicon.ico 
 - pojawiły się informacje o problemie z logowaniem, dlatego sprawdziłam możliwość zalogowania się na kilku przeglądarkach: chrome, edge, firefox i brave – na wszystkich się powiodło
-- przy logowaniu pojawia się informacja dotycząca braku autouzupełniania formularza logowania [DOM] Input elements should have autocomplete attributes (suggested: "current-password")'
+- przy wylogowaniu pojawia się informacja dotycząca braku autouzupełniania formularza logowania '[DOM] Input elements should have autocomplete attributes (suggested: "current-password")'
 - przypomnienie hasła przy logowaniu - pojawia się błąd '550 You are not allowed to send e-mails as the domain strapi.io'
-- na górze strony – literówka -'ilość meczy' zamiast 'ilość meczów'
+- na górze strony głównej – literówka -'ilość meczy' zamiast 'ilość meczów'
 - po prawej w okienku aktywność –literówka- aktywnosć (s) zamiast aktywność (ś)
 - w ‘Scouts panel’ powinna być opcja DODAJ GRACZA, a w ‘linkach pomocniczych’- DEV TEAM CONTACT z adnotacją w języku polskim że chodzi o kontakt/pomoc/helpdesk
 - link DEV TEAM CONTACT odsyła do strony logowania na Slack’u
