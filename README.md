@@ -4,15 +4,15 @@
   * [Subtask 1](#subtask-1)
   * [Subtask 3](#subtask-3)
   * [Subtask 4](#subtask-4)
-    * [Testowana aplikacja](testowana-aplikacja)
-    * [Znalezione błędy](znalezione-błędy)
-      * [1. Strona główna](1.-strona-główna)
-      * [2. Dodaj gracza](2.-dodaj-gracza)
-      * [3. Gracze](3.-gracze)
-      * [4. Dodawanie meczów dla gracza](4.-dodawanie-meczów-dla-gracza)
-      * [5. Funkcja  ROZPOCZNIJ MECZ](5.-funkcja-rozpocznij-mecz)
-      * [6. Dodawanie raportu do meczu](6.-dodawanie-raportu-do-meczu)
-      * [7. Raport meczowy](7.-raport-meczowy)
+    * [Testowana aplikacja](#testowana-aplikacja)
+    * [Znalezione błędy](#znalezione-błędy)
+      - [Strona główna](#strona-główna)
+      - [Dodaj gracza](#dodaj-gracza)
+      - [Gracze](#gracze)
+      - [Dodawanie meczów dla gracza](#dodawanie-meczów-dla-gracza)
+      - [Funkcja ROZPOCZNIJ MECZ](#funkcja-rozpocznij-mecz)
+      - [Dodawanie raportu do meczu](#dodawanie-raportu-do-meczu)
+      - [Raport meczowy](#raport-meczowy)
      
 ---
 
@@ -42,7 +42,7 @@ PS Czuję się trochę jak ten Pan na zdjęciu poniżej &darr; - Nie wie czy mu 
 
 ## *Subtask 4*
 
-### TESTOWANA APLIKACJA
+### Testowana aplikacja
 
 **Platforma skautingowa Futbol kolektyw**
 
@@ -75,7 +75,7 @@ Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodani
 ---
 
 
-### ZNALEZIONE BŁĘDY
+### Znalezione błędy
 
 
 
@@ -83,7 +83,7 @@ Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodani
 
 ---
 
-#### ***1. Strona główna***
+#### ***Strona główna***
 
 - przy wchodzeniu na stronę, jeszcze przed zalogowaniem pojawia się kod błędu odpowiedzi HTTP - 404  
 >request URL: https://scouts-test.kolektyw.pl/pl/favicon.ico 
@@ -106,7 +106,7 @@ Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodani
 
 ---
 
-#### ***2. Dodaj gracza***
+#### ***Dodaj gracza***
 
 
 - przy polach formularza pojawiają się gwiazdki, * do których nie ma odniesienia – na dole strony powinno być odniesienie, że są to pozycje obowiązkowe do wypełnienia w formularzu
@@ -126,7 +126,7 @@ Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodani
 
 ---
 
-#### ***3. Gracze***
+#### ***Gracze***
 
 
 - po otwarciu sekcji gracze pojawia się komunikat:
@@ -142,7 +142,7 @@ Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodani
 
 ---
 
-#### ***4. Dodawanie meczów dla gracza***
+#### ***Dodawanie meczów dla gracza***
 
 
 - '*' gwiazdka przy niektórych polach formularza bez odnośnika z wyjaśnieniem, że chodzi o pola obowiązkowe
@@ -163,7 +163,7 @@ Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodani
 
 ---
 
-#### ***5. Funkcja  ROZPOCZNIJ MECZ*** 
+#### ***Funkcja ROZPOCZNIJ MECZ*** 
 
 - funkcja jest dostępna pod ikoną piłki nożnej w zakładce mecze - mało intuicyjne, może powodować trudności w odnalezieniu
 - brak instrukcji, opisu co to jest, jak działa i w jakim celu jest umieszczone (raportowanie danych statystycznych meczu)
@@ -185,7 +185,7 @@ Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodani
 
 ---
 
-#### ***6. Dodawanie raportu do meczu***
+#### ***Dodawanie raportu do meczu***
 
 
 
@@ -201,7 +201,7 @@ Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodani
 
 ---
 
-#### ***7. Raport meczowy***
+#### ***Raport meczowy***
 
 - przycisk ‘save’ porusza się razem z przewijaniem raportu i może zasłaniać pola ‘dane meczu’ oraz ‘komentarz dodatkowy’ 
 - przycisk ‘save’ w wersji po polsku powinien być w formie ‘zapisz’
