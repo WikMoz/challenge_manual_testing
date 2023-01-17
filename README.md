@@ -69,7 +69,7 @@ PS. Czuję się trochę jak ten Pan na zdjęciu poniżej &darr; - Nie wie czy mu
 
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;Aplikacja ma bardzo prostą i mało atrakcyjną szatę graficzną. Elementy na stronie głównej, która jest wizytówką aplikacji są niedopracowane - nieprawidłowe umiejscowienie linków (helpdesk w panelu głównym i główna funkcja strony czyli dodanie gracza w oknie linki pomocnicze) , literówki (aktywnosć), brak wyrównania tekstu (linki w oknie aktywność). 
+&nbsp;&nbsp;&nbsp;&nbsp;Aplikacja ma bardzo prostą i mało atrakcyjną szatę graficzną. Elementy na stronie głównej, która jest wizytówką aplikacji są niedopracowane- nieprawidłowe umiejscowienie linków (helpdesk w panelu głównym i główna funkcja strony czyli dodanie gracza w oknie linki pomocnicze), literówki (aktywnosć), brak wyrównania tekstu (linki w oknie aktywność). 
 Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodanie meczu dla gracza jest proste, dość intuicyjne. Bardzo mało intuicyjnym elemetem, który może sprawiać problemy jest obsługa opcji graficznego przedstawienia/wprowadzania danych statystycznych z meczu. Brakuje instrukcji, opisu przycisków, możliwości edycji już dodanej akcji. Przechodzi się do tej opcji poprzez małą ikonę umieszczoną na końcu tabeli meczów. Również tworzenie raportu może stanowić problem, ponieważ klikając opcję dodaj raport użytkownik jest przekierowywany do tabeli meczów, gdzie musi odnaleźć małą ikonkę odpowiedzialną za tę funkcję. </p>
 
 ---
@@ -127,7 +127,7 @@ Zalogowałam się do aplikacji jako użytkownik user01@getnada.com
 
 - po otwarciu sekcji gracze pojawia się komunikat:
 >Params `start` and `limit` are deprecated. Use `_start` and `_limit`”
-- wszystkie informacje są w języku polskim, natomiast przy ikonkach w prawym górnym rogu wyświetlają się napisy po angielsku ‘download’ , ‘print’, ‘view columns’ , ‘filter rate’
+- wszystkie informacje są w języku polskim, natomiast przy ikonkach w prawym górnym rogu wyświetlają się napisy po angielsku ‘download’, ‘print’, ‘view columns’, ‘filter rate’
 - tak samo po kliknięciu w ‘view columns’ mamy ‘show columns’ i  w ‘filter rate’ mamy ‘filters’, ‘rate’ i ‘age’ a pozostałe pozycje są po polsku
 - po kliknięciu w ikonę ‘download CSV’ pobieramy plik, w którym:
    * wiek nie jest wyliczony lecz przedstawiany jako data urodzenia
@@ -147,7 +147,7 @@ Zalogowałam się do aplikacji jako użytkownik user01@getnada.com
 - numer – trzeba dopisać, że chodzi o numer na koszulce (taka informacja pojawia się na raporcie meczowym)
 - webmatch – powinno być : link do meczu
 - general – pozycja w języku angielskim, gdy pozostałe są w języku polskim. Nie wiadomo do czego się odnosi ta rubryka - czy chodzi o uwagi ogólne?
-- w edycji meczu dla gracza na dole mamy listę zdarzeń – w rubryce 'meta dane; pojawiają się komunikaty takie jak np. 'meta._id' ______(zdjęcie poniżej) 
+- w edycji meczu dla gracza na dole mamy listę zdarzeń – w rubryce 'meta dane; pojawiają się komunikaty takie jak np. 'meta._id' (zdjęcie poniżej) 
 ![image](https://user-images.githubusercontent.com/122229411/212755904-43fdce05-e532-45a8-a570-3b9f2ae3d2e4.png)
 - rubryka 'meta dane' powinna mieć inną nazwę odnoszacą się do zawartości tej rubryki
 - przycisk 'clear' usuwa tylko dane wpisane jako nowe, nie ma funkcji wyczyszczenia wszystkich danych po kliknięciu, a jedynie tych które nie zostały zapisane
