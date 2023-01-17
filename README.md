@@ -6,21 +6,23 @@
   * [Subtask 4](#subtask-4)
     * [Testowana aplikacja](testowana-aplikacja)
     * [Znalezione błędy](znalezione-błędy)
-
-1. Strona główna
-2. Dodaj gracza
-3. Gracze
-4. Dodawanie meczów dla gracza
-5. Funkcja  ROZPOCZNIJ MECZ
-6. Dodawanie raportu do meczu
-7. Raport meczowy
+      * [1. Strona główna](1.-strona-główna)
+      * [2. Dodaj gracza](2.-dodaj-gracza)
+      * [3. Gracze](3.-gracze)
+      * [4. Dodawanie meczów dla gracza](4.-dodawanie-meczów-dla-gracza)
+      * [5. Funkcja  ROZPOCZNIJ MECZ](5.-funkcja-rozpocznij-mecz)
+      * [6. Dodawanie raportu do meczu](6.-dodawanie-raportu-do-meczu)
+      * [7. Raport meczowy](7.-raport-meczowy)
+      * [8. Inne uwagi](8.-inne-uwagi)
+---
 
 # Task 1
-
+---
 
 ## *Subtask 1*
 **10 punktów** :tada:👩🏼‍🎓
 
+---
 
 ## *Subtask 3*
 <p align="center">
@@ -35,6 +37,8 @@ PS. Czuję się trochę jak ten Pan na zdjęciu poniżej &darr; - Nie wie czy mu
 </p>
 
 ![](https://i.pinimg.com/originals/47/43/a9/4743a96340c0dc4d46938e6df8f19f65.jpg)
+
+---
 
 ## *Subtask 4*
 
@@ -74,13 +78,15 @@ Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodani
 ### ZNALEZIONE BŁĘDY
 
 
+
 Testowanie przeprowadziłam na komputerze z systemem Windows w przeglądarce Edge oraz na telefonie z systemem Android w przeglądarce Google Chrome.
 Zalogowałam się do aplikacji jako użytkownik user01@getnada.com
+
 ---
 
 #### ***1. Strona główna***
 
-- przy wchodzeniu na stronę, jeszcze przed zalogowaniem pojawia się kod błędu odpowiedzi HTTP 404  
+- przy wchodzeniu na stronę, jeszcze przed zalogowaniem pojawia się kod błędu odpowiedzi HTTP - 404  
 >request URL: https://scouts-test.kolektyw.pl/pl/favicon.ico 
 - sprawdziłam logowanie oprócz przeglądarki edge i chrome również na przeglądarkach firefox i brave – na wszystkich się powiodło
 - na górze strony – literówka -'ilość meczy' zamiast 'ilość meczów'
@@ -135,41 +141,37 @@ Zalogowałam się do aplikacji jako użytkownik user01@getnada.com
 #### ***4. Dodawanie meczów dla gracza***
 
 
-- '*' bez odnośnika z wyjaśnieniem, że chodzi o pola obowiązkowe
+- '*' gwiazdka przy niektórych polach formularza bez odnośnika z wyjaśnieniem, że chodzi o pola obowiązkowe
 - jest możliwość ustawienia daty meczu w przyszłości
-- czas gry - brak jednostki czasu w nawiasie (min) oraz brak ograniczeń, przedziału -można wpisać dowolną wartość
-- numer – trzeba dopisać, że chodzi o numer na koszulce
+- czas gry - brak jednostki czasu w nawiasie (min) oraz brak ograniczeń, przedziału - można wpisać dowolną wartość
+- numer – trzeba dopisać, że chodzi o numer na koszulce (taka informacja pojawia się na raporcie meczowym)
 - webmatch – powinno być : link do meczu
-- general – pozycja w języku angielskim gdy pozostałe są w języku polskim. Czy są to uwagi ogólne? Nie wiadomo do czego się odnosi ta rubryka.
-- w edycji meczu dla gracza na dole mamy listę zdarzeń – w rubryce meta dane pojawiają się komunikaty takie jak np. meta._id (zdjęcie poniżej) 
+- general – pozycja w języku angielskim, gdy pozostałe są w języku polskim. Nie wiadomo do czego się odnosi ta rubryka - czy chodzi o uwagi ogólne?
+- w edycji meczu dla gracza na dole mamy listę zdarzeń – w rubryce 'meta dane; pojawiają się komunikaty takie jak np. 'meta._id' ______(zdjęcie poniżej) 
 ![image](https://user-images.githubusercontent.com/122229411/212755904-43fdce05-e532-45a8-a570-3b9f2ae3d2e4.png)
-
-- przycisk 'clear' usuwa tylko dane wpisane jako nowe, nie ma funkcji wyczyszczenia wszystkich danych po kliknięciu a jedynie tych które nie zostały zapisane
-
-- lista zdarzeń powinna być osobno lub np jako uzupełnienie raportu- jest na stronie pod edycją meczu. Jej umiejscowienie nie jest logiczne.
-- na liście zdarzeń nie ma podziału na połówki meczu i np. jeśli akcja odbędzie się w 5 sekundzie drugiej polowy jest po prostu oznaczana jako 5 sekunda
+- rubryka 'meta dane' powinna mieć inną nazwę odnoszaca się do zawartości tej rubryki
+- przycisk 'clear' usuwa tylko dane wpisane jako nowe, nie ma funkcji wyczyszczenia wszystkich danych po kliknięciu, a jedynie tych które nie zostały zapisane
+- lista zdarzeń powinna być osobno lub np. jako uzupełnienie raportu meczowego - jest na stronie pod edycją meczu. Jej umiejscowienie nie jest logiczne i można jej nie zauważyć.
+- na liście zdarzeń nie ma podziału na połówki meczu - np. jeśli akcja odbędzie się w 5 sekundzie drugiej połowy jest oznaczana jako 5 sekunda (tak samo jakby odbyła się w 5 sekundzie pierwszej połowy meczu)
 
 ---
 
 #### ***5. Funkcja  ROZPOCZNIJ MECZ*** 
 
-- funkcja jest dostępna pod ikoną piłki nożnej w zakładce mecze - mało intucyjne
-- brak instrukcji, opisu co to jest (statystyka meczu), jak działa i w jakim celu jest umieszczone (raportowanie danych statystycznych meczu)
-- mało intuicyjne
-- przyciski nie posiadają opisów
+- funkcja jest dostępna pod ikoną piłki nożnej w zakładce mecze - mało intuicyjne, może powodować trudności w odnalezieniu
+- brak instrukcji, opisu co to jest, jak działa i w jakim celu jest umieszczone (raportowanie danych statystycznych meczu)
+- przyciski funkcji nie posiadają opisów
 - przycisk z obrazkiem kosza nie usuwa wcześniej zapisanych akcji, jedynie nowe
-- jest możliwość wyboru ujemnych wartości oraz nielogicznie dużej ilości połówek meczu
-- jest możliwość wpisania nierealnych wartości czasu trwania meczu – po wpisaniu bardzo wysokiej wartości pojawiają się liczby ujemne (poniżej printscreen)
+- jest możliwość wyboru ujemnych wartości oraz powyżej 2 połówek meczu. Brak możliwości zaznaczenia osobno czasu dogrywki i rzutów karnych. W języku angielskim zamiast połówka meczu (half) występuje słowo part - jako kolejna część meczu. W języku polskim możnaby również zastąpić słowo połowa słowem część meczu, aby uwzględnić kolejne etapy jak dogrywnka, rzuty karne. 
+- jest możliwość wpisania nierealnych wartości czasu trwania meczu – po wpisaniu bardzo wysokiej wartości pojawiają się liczby ujemne (zdjęcie poniżej)
 ![image](https://user-images.githubusercontent.com/122229411/212756455-215af449-d512-474a-829e-6366a3287626.png)
-
-
 - komentarze dopisywane podczas oznaczania danej akcji na planszy nie pojawiają się potem w raporcie – pojawiają się na liście akcji
-- po dodaniu danej akcji na planszy nie można do niej wrócić, zmienić jej, rozróżnić lub usunąć. Trzeba albo usunąć wszystko albo użyć opcji cofnij która jest oznaczona strzałką
-- można zaznaczać nielogiczne akcje np. jednocześnie dośrodkowanie po przyjęciu i rzut rożny
-- dla bramkarza można dodać akcję: podanie ręką – gdy się ją uruchomi do zaznaczenia mamy podanie lewą i prawą NOGĄ (poniżej printscreen)
+- po dodaniu danej akcji na planszy nie można do niej wrócić, zmienić jej, rozróżnić lub usunąć. Trzeba albo usunąć wszystko albo użyć opcji cofnij, która jest oznaczona strzałką
+- można zaznaczać nielogiczne akcje np. jednocześnie: dośrodkowanie po przyjęciu oraz rzut rożny
+- dla bramkarza  - literówka w interwencjach-→  PRZERWANIE PODANIE
+- dla bramkarza można dodać akcję 'podanie ręką' a gdy się ją uruchomi do zaznaczenia mamy podanie lewą i prawą NOGĄ (zdjęcie poniżej)
 ![image](https://user-images.githubusercontent.com/122229411/212756584-8e155246-a263-46a4-b629-4cf33e5d0fa6.png)
 
-- dla bramkarza  - literówka w interwencjach-→  PRZERWANIE PODANIE
 
 ---
 
@@ -177,14 +179,14 @@ Zalogowałam się do aplikacji jako użytkownik user01@getnada.com
 
 
 
-- po kliknięciu ‘dodaj raport’ odsyła do zakładki mecze – a tam trzeba sobie znaleźć odpowiednią ikonkę raport – dobra byłaby funkcja dodania raportu w zakładce raporty ale umożliwiająca wybór do którego meczu dany raport się odnosi
-- po kliknięciu utwórz raport pojawia się okno tworzenie raportu gracza z danymi ID gracza i ID meczu, które musimy potwierdzić (poniżej prtintscreen). Czy jest to potrzebny krok? Może wystarczające byłoby przekierowanie bezpośrednio do okna tworzenia raportu. (princreen ponieżej)
+- po kliknięciu ‘dodaj raport’ odsyła do zakładki mecze – tam trzeba znaleźć odpowiednią ikonkę 'raport'. Dobra byłaby funkcja dodania raportu w zakładce raporty ale umożliwiająca wybór do którego meczu dany raport się odnosi
+- po kliknięciu utwórz raport pojawia się okno tworzenie raportu gracza z danymi ID gracza i ID meczu, które musimy potwierdzić (zdjęcie poniżej). Czy jest to potrzebny krok? Może wystarczające byłoby przekierowanie bezpośrednio do okna tworzenia raportu. 
 
 ![image](https://user-images.githubusercontent.com/122229411/212759422-376b12cb-8849-46c5-9a43-d1d0e16502b1.png)
 
 
-- Przyciski 'Submit' i 'Clear' są w języku angielskim gdy cała strona jest w języku polskim.
-- Przyscik 'clear' nie powoduje wyczyszczenia danych z formularza.
+- Przyciski 'submit' i 'clear' są w języku angielskim, gdy cała strona jest w języku polskim.
+- Przyscik 'clear' nie powoduje wyczyszczenia danych z formularza. Dane te są nieedytowalne, więc przycisk clear jest tu zbędny.
 - można dodać wiele raportów do jednego meczu i nie można ich usunąć
  
 ---
@@ -198,30 +200,26 @@ Zalogowałam się do aplikacji jako użytkownik user01@getnada.com
 - inteligencja boiskowa -’Ustawienie na boisku//szukanie wolnej przestrzeni/ruch bez piłki’ – dwa ukośniki i brak kropki na końcu zdania i spacji przed kolejnym.
 - mentalność – brak kropki po nawiasie: ‘(czerwona kartka/strata gola itp.)’ i brak znaku zapytania w ostatnim zdaniu.
 - recenzja – polecenie brzmi: ‘Wybieramy 1 z poniższych punktów’, natomiast gwiazdki można zaznaczać też jako połówki punktów np. 3,5
-- dane statystyczne (testowane dla pozycji napastnika):
+- raportu nie można wydrukować 
+- dane statystyczne:
 
-  * Gdy nie mamy danych do danego wykresu pojawiają się nagłówek a pod nim same opisy kolumn wykresu oraz komentarz ‘nie odnotowano’. Sam nagłówek wykresu i komentarz   ‘nie odnotowano’ byłby bardziej czytelny w przypadku braku danych.
+  * Gdy nie mamy danych do danego wykresu, pojawia się nagłówek (jeśli jest), a pod nim same opisy kolumn wykresu oraz komentarz ‘nie odnotowano’. Sam nagłówek wykresu i komentarz ‘nie odnotowano’ byłby bardziej czytelny w przypadku braku danych.
   * nad drugim wykresem odnoszącym się do podań krótkich jest nagłówek ‘kierunek podań’. Czytelniejszy byłby ‘kierunek podań krótkich’
   * nad trzecim wykresem brakuje nagłówka  np. ‘kierunek podań długich’
   * nad szóstym i dziesiątym wykresem również brak nagłówków
-  * brak danych dotyczących dośrodkowania głową (możliwych do zaznaczenia na planszy)
-  * brak danych dotyczących pojedynków 1 na 1 możliwych do zaznaczania na planszy (np.2 graczy, 3 graczy, 4 lub więcej graczy, przejęcie, przerwanie)
+  * brak danych dotyczących dośrodkowania głową (możliwych do zaznaczenia na planszy dla napastnika)
+  * brak danych dotyczących pojedynków 1 na 1 (możliwych do zaznaczania na planszy dla napsatnika) (np.2 graczy, 3 graczy, 4 lub więcej graczy, przejęcie, przerwanie)
   * brak danych w raporcie odnośnie rzutów karnych i wolnych, które na planszy można zaznaczać wybierając opcję strzały, pojawiają się w liście zdarzeń pod edycją     meczu
-  * inne nazwy odbioru na planszy i w raporcie – odbiór ‘głową’ na planszy, ‘w walce o górną piłkę’ na raporcie oraz straty ‘’holowanie piłki’ na planszy i ‘przez przetrzymywanie piłki’ na raporcie
-  * w wersji angielskiej mamy dwa razy fouled jako faulowany i faulował
-
-
-dla bramkarza – brak wykresów dla podań ręką, interwencji, obron strzału, brak danych o piłce poza polem karnym. Nie pojawiają się raporcie również dane o faulowaniu i byciu faulowanym. Konieczne jest dostosowanie raportu dla każdej pozycji zawodnika.
-
--raportu nie można wydrukować 
+  * inne nazwy odbioru na planszy i w raporcie – odbiór ‘głową’ na planszy, ‘w walce o górną piłkę’ na raporcie oraz straty 'holowanie piłki' na planszy i ‘przez przetrzymywanie piłki’ na raporcie
+  * w wersji angielskiej mamy dwa razy fouled (zarówno jako 'faulowany' i jako 'faulował')
+  * dla bramkarza – brak wykresów dla podań ręką, interwencji, obron strzału, brak danych o piłce poza polem karnym. Nie pojawiają się raporcie również dane o faulowaniu i byciu faulowanym. Konieczne jest dostosowanie raportu dla każdej pozycji zawodnika.
 
 ---
 
 #### ***8.Inne uwagi***
--Strona nie dostosowuje się do ekranu smartfona w edycji meczu, edycji raportu oraz w tabelach meczów i raportów
+Strona nie dostosowuje się do ekranu smartfona w edycji meczu, edycji raportu oraz w tabelach meczów i raportów
 
 
-- pojawia się błąd 12 - Node cannot be found in the current page.
 
 
  
