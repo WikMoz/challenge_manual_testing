@@ -79,8 +79,7 @@ Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodani
 
 
 
-Testowanie przeprowadziłam na komputerze z systemem Windows w przeglądarce Edge oraz na telefonie z systemem Android w przeglądarce Google Chrome.
-Zalogowałam się do aplikacji jako użytkownik user01@getnada.com
+&nbsp;&nbsp;&nbsp;&nbsp;Testowanie przeprowadziłam na komputerze z systemem Windows w przeglądarce Edge oraz na telefonie z systemem Android w przeglądarce Google Chrome.
 
 ---
 
@@ -88,18 +87,21 @@ Zalogowałam się do aplikacji jako użytkownik user01@getnada.com
 
 - przy wchodzeniu na stronę, jeszcze przed zalogowaniem pojawia się kod błędu odpowiedzi HTTP - 404  
 >request URL: https://scouts-test.kolektyw.pl/pl/favicon.ico 
-- pojawiły się informacje o problemie z logowaniem,, dlatego sprawdziłam możliwość zalogowania się na kilku przeglądarkach: chrome, edge, firefox i brave – na wszystkich się powiodło
+- pojawiły się informacje o problemie z logowaniem, dlatego sprawdziłam możliwość zalogowania się na kilku przeglądarkach: chrome, edge, firefox i brave – na wszystkich się powiodło
+- przy logowaniu pojawia się informacja dotycząca braku autouzupełniania formularza logowania [DOM] Input elements should have autocomplete attributes (suggested: "current-password")'
+- przypomnienie hasła przy logowaniu - pojawia się błąd '550 You are not allowed to send e-mails as the domain strapi.io'
 - na górze strony – literówka -'ilość meczy' zamiast 'ilość meczów'
 - po prawej w okienku aktywność –literówka- aktywnosć (s) zamiast aktywność (ś)
 - w ‘Scouts panel’ powinna być opcja DODAJ GRACZA, a w ‘linkach pomocniczych’- DEV TEAM CONTACT z adnotacją w języku polskim że chodzi o kontakt/pomoc/helpdesk
 - link DEV TEAM CONTACT odsyła do strony logowania na Slack’u
 - 'scauts panel' - jest w języku angielskim a cała reszta strony jest przetłumaczona na język polski
-- na telefonie z systemem android na stronie głównej pojawia się dodatkowa rubryka „niezapisany mecz” (oraz dane, którego meczu dotyczy) a pod nim link WRÓĆ DO RAPORTU, który po kliknięciu nie otwiera się. Na komputerze ta rubryka się nie pojawia.
+- w przypadku utraty połączenia z internetem (celowo ustawiony tryb offline), po odzyskaniu połączenia na stronie głównej pojawia się dodatkowa rubryka 'niezapisany mecz' (oraz dane, którego meczu dotyczy) a pod nim link WRÓĆ DO RAPORTU, który po kliknięciu nie otwiera się.
+- Po analizie strony parametr wyjadności jest najniższy, jednak jest na poziomie 87%. Parametry, które mogą obniżać wydajność strony to całkowity czas blokowania i zbiorcze przesunięcie układu (analiza lighthouse w devtools)
 - brak linku do polityki prywatności
 - brak informacji o plikach cookies
 - dane w oknie 'Aktywność' rozjeżdżają się (zdjęcie poniżej), nie są wyrównane do lewej jak nagłówki
-
 ![image](https://user-images.githubusercontent.com/122229411/212754456-276183fb-53fd-4d4e-b33a-01bfd85fac29.png)
+
 
 ---
 
@@ -117,6 +119,7 @@ Zalogowałam się do aplikacji jako użytkownik user01@getnada.com
 - przed polami ‘łączy nas piłka’ ‘90min’ ‘profil facebook’ brak nagłówka –  np. profile w portalach
 - dobrym rozwiązaniem byłaby lista wyboru opcji do ‘główna pozycja’, ‘pozycja alternatywna’, ‘poziom rozgrywek’, szczególnie ważna w przypadku pozycji zawodnika - (bramkarz ma inne opcje do wyboru w statystykach meczów niż np. napastnik i gdy wpisze się pozycję z literówką nie można wprowadzić prawidłowo danych)
 - użytkownicy mogą zmieniać dane wpisane przez innego użytkownika
+- email - w przypadku wpisania adresu email w nieprawidłowej formie nie ma możliwości zapisania gracza, jednak pole email nie podświetla się na czerwono z odpowiednią adnotacją. W devtools pojawia się informacja ["email must be a valid email"]
 - przycisk 'CLEAR' usuwa tylko dane wpisane jako nowe, nie ma funkcji wyczyszczenia wszystkich danych po kliknięciu, a jedynie tych które nie zostały zapisane
 - pole 'województwo' nie jest oznaczone gwiazdką jako obowiązkowe, jednak w momencie gdy chcemy utworzyć raport meczu pojawia się komunikat o konieczności uzupełnienia tego pola
 
