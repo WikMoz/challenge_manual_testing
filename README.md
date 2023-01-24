@@ -13,12 +13,11 @@
       - [Funkcja ROZPOCZNIJ MECZ](#funkcja-rozpocznij-mecz)
       - [Dodawanie raportu do meczu](#dodawanie-raportu-do-meczu)
       - [Raport meczowy](#raport-meczowy)
-      
  * [**Task 2**](#task-2)
-   * [Subtask 1](#subtask-1)
+   * [Subtask 1](#subtask-1-1)
    * [Subtask 2](#subtask-2)
-   * [Subtask 3](#subtask-3)
-   * [Subtask 4](#subtask-4)
+   * [Subtask 3](#subtask-3-1)
+   * [Subtask 4](#subtask-4-1)
      
 ---
 
@@ -232,8 +231,8 @@ Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodani
   * dla bramkarza – brak wykresów dla podań ręką, interwencji, obron strzału, brak danych o piłce poza polem karnym. Nie pojawiają się raporcie również dane o faulowaniu i byciu faulowanym. Konieczne jest dostosowanie raportu dla każdej pozycji zawodnika.
 
 ---
-
 ---
+
 
 # Task 2
 ---
@@ -270,7 +269,7 @@ Test case writting:
 
 ---
 
-## *Subtask 4*
+## Subtask 4  
 
 
 https://docs.google.com/spreadsheets/d/1Z4GQxUTicf-5v0iVSGIMF_72bpZmDYHq/edit?usp=sharing&ouid=117170517202558210113&rtpof=true&sd=true
