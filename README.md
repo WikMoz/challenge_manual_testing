@@ -13,6 +13,11 @@
       - [Funkcja ROZPOCZNIJ MECZ](#funkcja-rozpocznij-mecz)
       - [Dodawanie raportu do meczu](#dodawanie-raportu-do-meczu)
       - [Raport meczowy](#raport-meczowy)
+*[**Task 2**](#task-2)
+  * [Subtask 1](#subtask-1)
+  * [Subtask 2](#subtask-2)
+  * [Subtask 3](#subtask-3)
+  * [Subtask 4](#subtask-4)
      
 ---
 
@@ -227,12 +232,43 @@ Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodani
 
 ---
 
+---
 
+# Task 2
+---
 
+## *Subtask 1*
+**link1**
 
+---
 
+## *Subtask 2*
+**link2**
 
- 
+---
+## *Subtask 3*
+
+**Why we are writting test cases?**
+
+Test case is a set of conditions under which tester will determine whether an application or software system or one of its feature is working as expected.
+
+Test case writting:
+
+- clarify what needs to be done to test the system
+- provide a clear and straightforward testing instuction
+- gives us a steps which we execute in a system
+- gives us the input data values with we enter in the system
+- gives us expected results when we execute a perticular test case
+- helps to expand test coverage
+- are like the checklist to ensure that we are not missing anything that is required
+- helps us to not skip as much as in ad-hoc testing
+
+---
+
+## *Subtask 4*
+**link3**
+
+---
 
 
 
