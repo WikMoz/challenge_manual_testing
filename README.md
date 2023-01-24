@@ -239,15 +239,13 @@ Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodani
 
 ## *Subtask 1*
 
-
-https://drive.google.com/file/d/1op8x7FnKZr7eV47YTVklc7ImlWwyGSZH/view?usp=sharing
+https://docs.google.com/spreadsheets/d/1lodk83NlXzVX2n_N-y8rW2jbiDuHJxqD/edit?usp=sharing&ouid=117170517202558210113&rtpof=true&sd=true
 
 ---
 
 ## *Subtask 2*
 
-
-https://drive.google.com/file/d/1MBD3onvEkljr_HjJlNr4F8yjg4Q5Ahmx/view?usp=sharing
+https://docs.google.com/spreadsheets/d/1YmXbnhtnpeROPaZI6VZ_JnWPs83CFGMd/edit?usp=sharing&ouid=117170517202558210113&rtpof=true&sd=true
 
 ---
 ## *Subtask 3*
