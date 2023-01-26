@@ -13,11 +13,17 @@
       - [Funkcja ROZPOCZNIJ MECZ](#funkcja-rozpocznij-mecz)
       - [Dodawanie raportu do meczu](#dodawanie-raportu-do-meczu)
       - [Raport meczowy](#raport-meczowy)
+      
  * [**Task 2**](#task-2)
    * [Subtask 1](#subtask-1-1)
    * [Subtask 2](#subtask-2)
    * [Subtask 3](#subtask-3-1)
    * [Subtask 4](#subtask-4-1)
+   
+ * [**Task 3**](#task-3)
+   * [Subtask 2](#subtask-2-1)
+   * [Subtask 3](#subtask-3-2)
+   * [Subtask 4](#subtask-4-2)
      
 ---
 
@@ -74,8 +80,8 @@ PS Czuję się trochę jak ten Pan na zdjęciu poniżej &darr; - Nie wie czy mu 
 
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;Aplikacja ma bardzo prostą i mało atrakcyjną szatę graficzną. Elementy na stronie głównej, która jest wizytówką aplikacji są niedopracowane- nieprawidłowe umiejscowienie linków (helpdesk w panelu głównym i główna funkcja strony czyli dodanie gracza w oknie linki pomocnicze), literówki (aktywnosć), brak wyrównania tekstu (linki w oknie aktywność). 
-Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodanie meczu dla gracza jest proste, dość intuicyjne. Bardzo mało intuicyjnym elemetem, który może sprawiać problemy jest obsługa opcji graficznego przedstawienia/wprowadzania danych statystycznych z meczu. Brakuje instrukcji, opisu przycisków, możliwości edycji już dodanej akcji. Przechodzi się do tej opcji poprzez małą ikonę umieszczoną na końcu tabeli meczów. Również tworzenie raportu może stanowić problem, ponieważ klikając opcję dodaj raport użytkownik jest przekierowywany do tabeli meczów, gdzie musi odnaleźć małą ikonkę odpowiedzialną za tę funkcję. </p>
+&nbsp;&nbsp;&nbsp;&nbsp;Aplikacja ma bardzo prostą i mało atrakcyjną szatę graficzną. Elementy na stronie głównej, która jest wizytówką aplikacji są niedopracowane- nieprawidłowe umiejscowienie linków (helpdesk w panelu głównym i główna funkcja strony czyli dodanie gracza w oknie linki pomocnicze), literówki (aktywnosć, zaaktualizowane), brak wyrównania tekstu (linki w oknie aktywność). 
+Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodanie meczu dla gracza jest proste, dość intuicyjne. Mało intuicyjnym elemetem, który może sprawiać problemy jest obsługa opcji graficznego przedstawienia/wprowadzania danych statystycznych z meczu. Brakuje instrukcji, opisu przycisków, możliwości edycji już dodanej akcji. Przechodzi się do tej opcji poprzez małą ikonę umieszczoną na końcu tabeli meczów. Również tworzenie raportu może stanowić problem, ponieważ klikając opcję dodaj raport użytkownik jest przekierowywany do tabeli meczów, gdzie musi odnaleźć małą ikonkę odpowiedzialną za tę funkcję. </p>
 
 ---
 
@@ -84,24 +90,25 @@ Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodani
 
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;Testowanie przeprowadziłam na komputerze z systemem Windows w przeglądarce Edge oraz na telefonie z systemem Android w przeglądarce Google Chrome.
+&nbsp;&nbsp;&nbsp;&nbsp;Testowanie przeprowadziłam na komputerze z systemem Windows Home 10 w przeglądarce Microsoft Edge oraz na telefonie z systemem Android w przeglądarce Google Chrome.
 
 ---
 
 #### ***Strona główna***
 
-- przy wchodzeniu na stronę, jeszcze przed zalogowaniem pojawia się kod błędu odpowiedzi HTTP - 404  
+- przy wchodzeniu na stronę, jeszcze przed zalogowaniem pojawia się kod błędu odpowiedzi HTTP - 404- strona https://scouts-test.kolektyw.pl/pl/favicon.ico nie została odnazleziona 
 >request URL: https://scouts-test.kolektyw.pl/pl/favicon.ico 
 - pojawiły się informacje o problemie z logowaniem, dlatego sprawdziłam możliwość zalogowania się na kilku przeglądarkach: chrome, edge, firefox i brave – na wszystkich się powiodło
 - przy wylogowaniu pojawia się informacja dotycząca braku autouzupełniania formularza logowania '[DOM] Input elements should have autocomplete attributes (suggested: "current-password")'
 - przypomnienie hasła przy logowaniu - pojawia się błąd '550 You are not allowed to send e-mails as the domain strapi.io'
 - na górze strony głównej – literówka -'ilość meczy' zamiast 'ilość meczów'
 - po prawej w okienku aktywność –literówka- aktywnosć (s) zamiast aktywność (ś)
+- po lewej stronie - literówki - zaaktualizowany (2 razy 'a') zamiast zaktualizowany - błąd pojawia się 3 razy: zaktualizowany gracz, mecz i raport
 - w ‘Scouts panel’ powinna być opcja DODAJ GRACZA, a w ‘linkach pomocniczych’- DEV TEAM CONTACT z adnotacją w języku polskim że chodzi o kontakt/pomoc/helpdesk
 - link DEV TEAM CONTACT odsyła do strony logowania na Slack’u
-- 'scauts panel' - jest w języku angielskim a cała reszta strony jest przetłumaczona na język polski
+- 'scauts panel' - jest w języku angielskim a cała reszta strony jest przetłumaczona na język polski (panel skautingowy)
 - w przypadku utraty połączenia z internetem (celowo ustawiony tryb offline), po odzyskaniu połączenia na stronie głównej pojawia się dodatkowa rubryka 'niezapisany mecz' (oraz dane, którego meczu dotyczy) a pod nim link WRÓĆ DO RAPORTU, który po kliknięciu nie otwiera się.
-- Po analizie strony parametr wyjadności jest najniższy, jednak jest na poziomie 87%. Parametry, które mogą obniżać wydajność strony to całkowity czas blokowania i zbiorcze przesunięcie układu (analiza lighthouse w devtools)
+- Po analizie strony parametr wydajności jest najniższy spośród wszystkich badanych, jednak jest na wysokim poziomie 87%. Parametry, które mogą obniżać wydajność strony to całkowity czas blokowania i zbiorcze przesunięcie układu (analiza lighthouse w devtools)
 - brak linku do polityki prywatności
 - brak informacji o plikach cookies
 - dane w oknie 'Aktywność' rozjeżdżają się (zdjęcie poniżej), nie są wyrównane do lewej jak nagłówki
@@ -272,7 +279,26 @@ Test case writting:
 
 https://docs.google.com/spreadsheets/d/1Z4GQxUTicf-5v0iVSGIMF_72bpZmDYHq/edit?usp=sharing&ouid=117170517202558210113&rtpof=true&sd=true
 
+
 ---
+---
+
+
+# Task 3
+---
+
+## *Subtask 2*
+
+link
+
+---
+
+## *Subtask 3*
+
+link
+
+---
+## *Subtask 4*
 
 
 
