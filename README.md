@@ -21,7 +21,7 @@
    * [Subtask 4](#subtask-4-1)
    
  * [**Task 3**](#task-3)
-   * [Subtask 2](#subtask-2-1)
+   * [Subtask 1 & 2](#subtask-1-&-2)
    * [Subtask 3](#subtask-3-2)
    * [Subtask 4](#subtask-4-2)
      
@@ -287,9 +287,9 @@ https://docs.google.com/spreadsheets/d/1Z4GQxUTicf-5v0iVSGIMF_72bpZmDYHq/edit?us
 # Task 3
 ---
 
-## *Subtask 2*
+## *Subtask 1 & 2*
 
-link
+https://docs.google.com/spreadsheets/d/1yNjSEN-VvtSfSd5MfSlgpfMwzW0bd1FGTANk7rX8lcE/edit?usp=sharing
 
 ---
 
