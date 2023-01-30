@@ -21,7 +21,7 @@
    * [Subtask 4](#subtask-4-1)
    
  * [**Task 3**](#task-3)
-   * [Subtask 1 & 2](#subtask-1-&-2)
+   * [Subtask 1 & 2](#subtask-1--2)
    * [Subtask 3](#subtask-3-2)
    * [Subtask 4](#subtask-4-2)
      
