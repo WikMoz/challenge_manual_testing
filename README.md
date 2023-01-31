@@ -295,7 +295,7 @@ https://docs.google.com/spreadsheets/d/1yNjSEN-VvtSfSd5MfSlgpfMwzW0bd1FGTANk7rX8
 
 ## *Subtask 3*
 
-link
+https://docs.google.com/spreadsheets/d/1IvBLQX9O88la2VP2aUuf9GlSBBfTlNkv5cXqbucVlKc/edit?usp=sharing 
 
 ---
 ## *Subtask 4*
