@@ -31,7 +31,8 @@
 ---
 
 ## *Subtask 1*
-**10 punktów** :tada:👩🏼‍🎓
+**10 punktów** :tada:👩🏼‍🎓![image](https://user-images.githubusercontent.com/122229411/215879441-df2a4968-a97c-400b-a9f8-49d0e1ddf7bc.png)
+
 
 ---
 
