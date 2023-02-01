@@ -247,13 +247,14 @@ Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodani
 
 ## *Subtask 1*
 
-https://docs.google.com/spreadsheets/d/1lodk83NlXzVX2n_N-y8rW2jbiDuHJxqD/edit?usp=sharing&ouid=117170517202558210113&rtpof=true&sd=true
+[Subtask 1 - test cases for user stories](https://docs.google.com/spreadsheets/d/1lodk83NlXzVX2n_N-y8rW2jbiDuHJxqD/edit?usp=sharing&ouid=117170517202558210113&rtpof=true&sd=true)
 
 ---
 
 ## *Subtask 2*
 
-https://docs.google.com/spreadsheets/d/1YmXbnhtnpeROPaZI6VZ_JnWPs83CFGMd/edit?usp=sharing&ouid=117170517202558210113&rtpof=true&sd=true
+[Subtask 2 - test cases](https://docs.google.com/spreadsheets/d/1YmXbnhtnpeROPaZI6VZ_JnWPs83CFGMd/edit?usp=sharing&ouid=117170517202558210113&rtpof=true&sd=true)
+
 
 ---
 ## *Subtask 3*
@@ -267,7 +268,7 @@ Test case writting:
 - clarify what needs to be done to test the system
 - provide a clear and straightforward testing instuction
 - gives us a steps which we execute in a system
-- gives us the input data values with we enter in the system
+- gives us the input data values which we enter in the system
 - gives us expected results when we execute a perticular test case
 - helps to expand test coverage
 - are like the checklist to ensure that we are not missing anything that is required
@@ -278,7 +279,9 @@ Test case writting:
 ## Subtask 4  
 
 
-https://docs.google.com/spreadsheets/d/1Z4GQxUTicf-5v0iVSGIMF_72bpZmDYHq/edit?usp=sharing&ouid=117170517202558210113&rtpof=true&sd=true
+[Subtask 4 - test cases for pick.eat.up app](https://docs.google.com/spreadsheets/d/1Z4GQxUTicf-5v0iVSGIMF_72bpZmDYHq/edit?usp=sharing&ouid=117170517202558210113&rtpof=true&sd=true) 
+
+![image](https://user-images.githubusercontent.com/122229411/216087729-a6a76f30-e267-4b39-804c-e36a9d012ed2.png)
 
 
 ---
@@ -288,18 +291,26 @@ https://docs.google.com/spreadsheets/d/1Z4GQxUTicf-5v0iVSGIMF_72bpZmDYHq/edit?us
 # Task 3
 ---
 
-## *Subtask 1 & 2*
+## *Subtask 1 & 2* 
 
-https://docs.google.com/spreadsheets/d/1yNjSEN-VvtSfSd5MfSlgpfMwzW0bd1FGTANk7rX8lcE/edit?usp=sharing
+[Subtask 1 & 2 - bug report](https://docs.google.com/spreadsheets/d/1yNjSEN-VvtSfSd5MfSlgpfMwzW0bd1FGTANk7rX8lcE/edit?usp=sharing)  
+
+![image](https://user-images.githubusercontent.com/122229411/216088152-1b175371-6e0f-4707-84fa-1ed97f5faa8d.png)
+
 
 ---
 
 ## *Subtask 3*
 
-https://docs.google.com/spreadsheets/d/1IvBLQX9O88la2VP2aUuf9GlSBBfTlNkv5cXqbucVlKc/edit?usp=sharing 
+[Subtask 3 - test report](https://docs.google.com/spreadsheets/d/1IvBLQX9O88la2VP2aUuf9GlSBBfTlNkv5cXqbucVlKc/edit?usp=sharing) 
+
+![image](https://user-images.githubusercontent.com/122229411/216088312-035e083e-f56f-40c8-a90b-17d008375ce1.png)
+
 
 ---
 ## *Subtask 4*
 
-https://docs.google.com/spreadsheets/d/1TrnbCMN6Ii4YK9mdQORSYsZ59pRR7AjU5uM4_7y8bEg/edit?usp=share_link
+[Subtask 4 - explorative testing - tour](https://docs.google.com/spreadsheets/d/1TrnbCMN6Ii4YK9mdQORSYsZ59pRR7AjU5uM4_7y8bEg/edit?usp=share_link) 
+
+![image](https://user-images.githubusercontent.com/122229411/216087970-2eb30d9e-994e-4daf-8dd0-0409c71f1a28.png)
 
