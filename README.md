@@ -25,6 +25,10 @@
    * [Subtask 3](#subtask-3-2)
    * [Subtask 4](#subtask-4-2)
      
+ * [**Task 4**](#task-4)
+   * [Subtask 1 & 2](#subtask-1--2-1)
+   * [Subtask 3](#subtask-3-3)
+   * [Subtask 4](#subtask-4-3)
 ---
 
 # Task 1
@@ -313,4 +317,60 @@ Test case writting:
 [Subtask 4 - explorative testing - tour](https://docs.google.com/spreadsheets/d/1TrnbCMN6Ii4YK9mdQORSYsZ59pRR7AjU5uM4_7y8bEg/edit?usp=share_link) 
 
 ![image](https://user-images.githubusercontent.com/122229411/216087970-2eb30d9e-994e-4daf-8dd0-0409c71f1a28.png)
+
+
+---
+---
+
+
+# Task 4
+---
+
+## *Subtask 1 & 2* 
+
+🐛[Subtask 1 & 2 - bug report](https://docs.google.com/spreadsheets/d/1psyvC75DrlCn2q9qnlad02WGcFH9bQkzEdPt1OVgCuA/edit?usp=share_link)
+
+
+---
+
+## *Subtask 3*
+
+*Aplikacja natywna OLX*
+![image](https://user-images.githubusercontent.com/122229411/216633952-e635b138-7ad0-47c9-9b23-1d99e464422b.png)
+
+*1. Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?*
+
+Aplkacja olx służy do:
+
+- kupna/sprzedaży/wymiany: nowych i używanych produktów, nieruchomości czy usług,
+- poszukiwania/publikowania ofert pracy.
+
+Uzytkownicy mogą:
+
+- wyszukiwać, przeglądać, wybierać, zapisywać oferty,
+- obserwować zdefiniowane przez siebie wyszukiwania, sprzedających lub konkretne oferty
+- dodawać własne oferty wraz ze zdjęciami 
+- nawiązywać kontakt ze sprzedającym/kupującym poprzez podany formularz lub podając swój numer telefonu jako sprzedający
+- skorzystać z opcji przesyłki olx
+- dokonywać płatności za pośrednictwem aplikacji
+
+*2. Kto ma być użytkownikiem końcowym aplikacji?*
+
+Uzytkownikiem końcowym aplikacji są osoby sprzedające/ kupujące/ wymieniające produkty, nieruchomości, usługi. 
+
+*3. Czy według Ciebie aplikacja jest user friendly?*
+
+Aplikacja jest intuicyjna, łatwa w obsłudze i dostępna dla wszystkich. Po pierwszym uruchomieniu aplikacji użytkownikowi wyświetlają się podpowiedzi/instrukcje jak poruszać się po aplikacji. Nawigacja po aplkacji jest łatwa i logiczna, pozwala na szybkie zapoznanie się z zawartością kluczowych części. Jest dostępne centrum pomocy a w nim wyszukiwarka z podziałem na kategorie, FAQ, porady, przydatne wskazówki, opcja 'sprawdż link do "odbioru wypłaty". Nie ma jednak możliwości bezpośredniego kontaktu w celu uzyskania pomocy lub możliwość ta nie jest w czytelny sposób komunikowana użytkownikowi. Czasami aplikacja zawiesza się podczas użytkowania, ładownie zdjęć jest spowolnione. Zdarza się, że dodani do ulubionych sprzedawcy pokazują się z opóźnieniem w sekcji 'Obserwujesz'. Aplikacja nie posiada trybu oszczędzania energii. Dane zapisane w aplikacji synchronizują się z tymi ze strony internetowej olx - można łatwo zarządzać dostępem do konta użytkownika na róznych urządzeniach. Aplikacja ma możliwość wyświetlania personalizowanych powiadomień push. Uzytkownik ma zapewnioną mozliwość wyboru co spowoduje pojawienie się powiadomienia np. pojawienie się nowego ogłoszenia pasującego do tego co obserwuje dany użytkownik. 
+
+
+*4. Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność?*
+
+*5. Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?*
+
+
+
+---
+## *Subtask 4*
+
+
 
