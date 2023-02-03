@@ -338,12 +338,13 @@ Test case writting:
 *Aplikacja natywna OLX*
 ![image](https://user-images.githubusercontent.com/122229411/216633952-e635b138-7ad0-47c9-9b23-1d99e464422b.png)
 
-*1. Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?*
+**1. Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?**
 
 Aplkacja olx służy do:
 
-- kupna/sprzedaży/wymiany: nowych i używanych produktów, nieruchomości czy usług,
-- poszukiwania/publikowania ofert pracy.
+- kupna/sprzedaży/wymiany lub oddawania za darmo: nowych i używanych produktów, nieruchomości czy usług,
+- poszukiwania/publikowania ofert pracy,
+- poszukaiwania nowego domu dla zwierząt.
 
 Uzytkownicy mogą:
 
@@ -354,19 +355,55 @@ Uzytkownicy mogą:
 - skorzystać z opcji przesyłki olx
 - dokonywać płatności za pośrednictwem aplikacji
 
-*2. Kto ma być użytkownikiem końcowym aplikacji?*
+**2. Kto ma być użytkownikiem końcowym aplikacji?**
 
-Uzytkownikiem końcowym aplikacji są osoby sprzedające/ kupujące/ wymieniające produkty, nieruchomości, usługi. 
+Uzytkownikiem końcowym aplikacji są osoby sprzedające/ kupujące/ wymieniające/ oddające z darmo produkty, nieruchomości, usługi jak również szuakjące nowego domu dla zwierząt
 
-*3. Czy według Ciebie aplikacja jest user friendly?*
+**3. Czy według Ciebie aplikacja jest user friendly?**
 
-Aplikacja jest intuicyjna, łatwa w obsłudze i dostępna dla wszystkich. Po pierwszym uruchomieniu aplikacji użytkownikowi wyświetlają się podpowiedzi/instrukcje jak poruszać się po aplikacji. Nawigacja po aplkacji jest łatwa i logiczna, pozwala na szybkie zapoznanie się z zawartością kluczowych części. Jest dostępne centrum pomocy a w nim wyszukiwarka z podziałem na kategorie, FAQ, porady, przydatne wskazówki, opcja 'sprawdż link do "odbioru wypłaty". Nie ma jednak możliwości bezpośredniego kontaktu w celu uzyskania pomocy lub możliwość ta nie jest w czytelny sposób komunikowana użytkownikowi. Czasami aplikacja zawiesza się podczas użytkowania, ładownie zdjęć jest spowolnione. Zdarza się, że dodani do ulubionych sprzedawcy pokazują się z opóźnieniem w sekcji 'Obserwujesz'. Aplikacja nie posiada trybu oszczędzania energii. Dane zapisane w aplikacji synchronizują się z tymi ze strony internetowej olx - można łatwo zarządzać dostępem do konta użytkownika na róznych urządzeniach. Aplikacja ma możliwość wyświetlania personalizowanych powiadomień push. Uzytkownik ma zapewnioną mozliwość wyboru co spowoduje pojawienie się powiadomienia np. pojawienie się nowego ogłoszenia pasującego do tego co obserwuje dany użytkownik. 
+1) Aplikacja jest intuicyjna, łatwa w obsłudze i dostępna dla wszystkich.
+2) Po pierwszym uruchomieniu aplikacji użytkownikowi wyświetlają się podpowiedzi/instrukcje jak poruszać się po aplikacji. Nawigacja po aplkacji jest łatwa i logiczna, pozwala na szybkie zapoznanie się z zawartością kluczowych części.
+3) Jest dostępne centrum pomocy a w nim wyszukiwarka z podziałem na kategorie, FAQ, porady, przydatne wskazówki, opcja 'sprawdż link do "odbioru wypłaty". Istnieje możliwość bezpośredniego kontaktu w celu uzyskania pomocy - formularz kontaktowy jest zamieszczony pod artykułami dotyczącymi konkretnych zapytań w centrum pomocy. Fromularz ten mógłby być również umieszczony w miejscu łatwiej dostępnym dla użytkownika. 
+4) Czasami aplikacja zawiesza się podczas użytkowania, ładownie zdjęć jest spowolnione. Zdarza się, że dodani do ulubionych sprzedawcy pokazują się z opóźnieniem w sekcji 'Obserwujesz'. 
+5) Aplikacja nie posiada trybu oszczędzania energii. 
+6) Dane zapisane w aplikacji synchronizują się z tymi ze strony internetowej olx - można łatwo zarządzać dostępem do konta użytkownika na róznych urządzeniach. 
+7) Aplikacja ma możliwość wyświetlania personalizowanych powiadomień push. Uzytkownik ma zapewnioną mozliwość wyboru co spowoduje pojawienie się powiadomienia np. pojawienie się nowego ogłoszenia pasującego do tego co obserwuje dany użytkownik.
+8) Występuje dwuczynnikowa weryfikacja - podczas próby dodania oferty użytkownik musi być zalogowany a następnie proszony jest o podanie numeru telefonu, na który wysyłany jest kod weryfikujący. 
+70 Aplikacja posiada tryb jasny i ciemny umożliwiający użytkownikowi wybór bardziej przyjaznego w odbiorze ekranu aplikacji
 
 
-*4. Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność?*
+**4. Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność?**
 
-*5. Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?*
+- Dodanie trybu oszczędzania energii
+- Szybszy, łatwiejszy dostęp do formularza kontaktowego w celu uzyskania pomocy
+- Krótki film instuktarzowy na początku dla nowych użytkowników (i możliwy do pominięcia) (np. szczególnie dla osób starszych mniej zaznajomionych z tego typu aplikacjami)
+- Bardziej zaawansowana wyszukiwarka noclegów: noclegi do zaznaczenia z kalendarzem przyjazdu i wyjazdu oraz widoczne na mapce z cenami (np. jak na booking.com)
+- Usługi, wypozyczenia również mogłyby mieć opcje dodania kalendarza dostępności 
+- Produkty dla dzieci mogłyby mieć filtrowanie z kategorią wiekową
+- Możliwość dodania opinii o kupującym z komentarzem
+- Możliwość dodania opinii o sprzedajacym z komentarzem
+- Możliwość wsparcia Wielkiej Orkiestry Świątecznej Pomocy/ Organizacji charytatywnej (np. złotówka przy zakupie)
+- Możliwość automatycznego skierowania prośby do wysyłającego o opakowanie bardziej ekologiczne (np. mniej plastiku) - np. opcja do zaznaczenia przy wybieraniu formy dostawy
 
+
+**5. Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?**
+ 
+ Testowanie aplikacji natywnej vs internetowej
+ 
+ W aplikacja natywnej w odróżnieniu do aplikacji internetowej należy sprawdzić:
+ 
+- Dodatkowe połączenia z urządzeniami do których aplikacja ma dostęp jak geolokacja, czujniki światła, powiadomienia push, kamera itp. 
+- Wpływ zmiany orientacji obrazu na zachowanie, dostosowywanie się aplikacji (landscape/portrait mode)
+- Czy aplikacja działa również w trybie offline jęsli jest do tego dedykowana
+- Jak bardzo energochłonne jest używanie aplikacji na telefonie
+- Responsywność - działanie aplikacji na różnych modelach smartfonów, na róznych systemach operacyjnych Android, iOS
+- Czy umiejscowanie nawigacji jest wygodne w uzytkowaniu na telefonie - czy jest nisko przy kciuku
+
+W aplikacji internetowej w odróżnieniu od natywnej:
+- Można do testowania użyć devtools dzięki czemu można zobaczyć jakiego rodzaju błąd się pojawia w systemie gdy jakaś funkcja nie działa prawidłowo
+- Należy zbadać responsywność w odniesieniu do używania aplikacji zarówno na komputerze jak i na różnych modelach smartfonów 
+- Obserwuje się prędkość wczytywania strony
+- Bada się funkcjonowanie aplikacji na róznych przeglądarkach
 
 
 ---
