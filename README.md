@@ -418,11 +418,13 @@ Uzytkownikiem końcowym aplikacji są osoby sprzedające/ kupujące/ wymieniają
 - SCREENSHOT/ SCREENCAST:	
 [CPP-2](https://user-images.githubusercontent.com/122229411/216847250-a513ca26-e12c-41da-864d-a2dba5616a9e.mp4)
 
+
 *2) CPP-3	After adding new like ('polub') - the total number of likes doesn’t change*
 - AUTHOR: Wiktoria Mozalewska
 - [CPP-3.pdf](https://github.com/WikMoz/challenge_portfolio_Wiktoria/files/10614000/CPP-3.pdf)
 - SCREENSHOT/ SCREENCAST:
 [CPP-3](https://user-images.githubusercontent.com/122229411/216847701-300ed0ba-5723-4497-9161-75d6f979d810.mp4)
+
 
 *3) CPP-4 The quick flash of previous article before opening the new, chosen one*
 - AUTHOR: Wiktoria Mozalewska
@@ -430,21 +432,26 @@ Uzytkownikiem końcowym aplikacji są osoby sprzedające/ kupujące/ wymieniają
 - SCREENSHOT/ SCREENCAST:
 [CPP-4](https://user-images.githubusercontent.com/122229411/216848500-90ff042e-636a-4212-984f-4ae05ceee7c8.mp4)
 
+
 *4) CPP-5 No possibility to add comment to the article*
 - AUTHOR: Wiktoria Mozalewska
 - [CPP-5.pdf](https://github.com/WikMoz/challenge_portfolio_Wiktoria/files/10613982/CPP-5.pdf)
 - SCREENSHOT/ SCREENCAST:
 [CPP-5](https://drive.google.com/file/d/1Hk4CA7y46jmeFjd4jy2x-7m2uVLGanS4/view?usp=share_link)
 
+
 *5) CPP-6 Name of the author overlaps the icons*
 - AUTHOR: Wiktoria Mozalewska
 - [CPP-6.pdf](https://github.com/WikMoz/challenge_portfolio_Wiktoria/files/10613965/CPP-6.pdf)
 - SCREENSHOT/ SCREENCAST:
+
 [CPP-6](https://drive.google.com/file/d/1lOVSLKrvoZg3jJ-e3gnJUDC9dj4ZoO_Z/view?usp=share_link)
 
 Zadanie robiłam w grupie z :
 - Sonią Topolewską
 - Iwoną Mierzejewską
 - Adrianem Pachowskim
+
+
 
 
