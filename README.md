@@ -344,9 +344,9 @@ Test case writting:
 
 *Aplikacja OLX służy do:*
 
-- kupna/sprzedaży/wymiany lub oddawania za darmo: nowych i używanych produktów, nieruchomości czy usług,
-- poszukiwania/publikowania ofert pracy,
-- poszukiwania nowego domu dla zwierząt.
+- kupna/sprzedaży/wymiany lub oddawania za darmo: nowych i używanych produktów👕🏀, nieruchomości🏡 czy usług👨🏼‍🔧💅🏼🚀,
+- poszukiwania/publikowania ofert pracy, 👨🏼‍💼
+- poszukiwania nowego domu dla zwierząt. 🐕🐈🐠
 
 *Uzytkownicy mogą:*
 
@@ -359,34 +359,34 @@ Test case writting:
 ---
 ### 2. Kto ma być użytkownikiem końcowym aplikacji?
 
-Uzytkownikiem końcowym aplikacji są osoby sprzedające/ kupujące/ wymieniające/ oddające z darmo produkty, nieruchomości, usługi jak również szuakjące nowego domu dla zwierząt
+Uzytkownikiem końcowym aplikacji są osoby sprzedające/ kupujące/ wymieniające/ oddające z darmo produkty, nieruchomości, usługi jak również szukające nowego domu dla zwierząt
 
 ---
 ### 3. Czy według Ciebie aplikacja jest user friendly?
 
-1) Aplikacja jest intuicyjna, łatwa w obsłudze i dostępna dla wszystkich.
-2) Po pierwszym uruchomieniu aplikacji użytkownikowi wyświetlają się podpowiedzi/instrukcje jak poruszać się po aplikacji. Nawigacja po aplkacji jest łatwa i logiczna, pozwala na szybkie zapoznanie się z zawartością kluczowych części.
-3) Jest dostępne centrum pomocy a w nim wyszukiwarka z podziałem na kategorie, FAQ, porady, przydatne wskazówki, opcja 'sprawdż link do "odbioru wypłaty". Istnieje możliwość bezpośredniego kontaktu w celu uzyskania pomocy - formularz kontaktowy jest zamieszczony pod artykułami dotyczącymi konkretnych zapytań w centrum pomocy. Fromularz ten mógłby być również umieszczony w miejscu łatwiej dostępnym dla użytkownika. 
-4) Czasami aplikacja zawiesza się podczas użytkowania, ładownie zdjęć jest spowolnione. Zdarza się, że dodani do ulubionych sprzedawcy pokazują się z opóźnieniem w sekcji 'Obserwujesz'. 
-5) Aplikacja nie posiada trybu oszczędzania energii. 
-6) Dane zapisane w aplikacji synchronizują się z tymi ze strony internetowej olx - można łatwo zarządzać dostępem do konta użytkownika na róznych urządzeniach. 
-7) Aplikacja ma możliwość wyświetlania personalizowanych powiadomień push. Uzytkownik ma zapewnioną mozliwość wyboru co spowoduje pojawienie się powiadomienia np. pojawienie się nowego ogłoszenia pasującego do tego co obserwuje dany użytkownik.
-8) Występuje dwuczynnikowa weryfikacja - podczas próby dodania oferty użytkownik musi być zalogowany a następnie proszony jest o podanie numeru telefonu, na który wysyłany jest kod weryfikujący. 
-70 Aplikacja posiada tryb jasny i ciemny umożliwiający użytkownikowi wybór bardziej przyjaznego w odbiorze ekranu aplikacji
+1) ❤ Aplikacja jest intuicyjna, łatwa w obsłudze i dostępna dla wszystkich.
+2) ❤ Po pierwszym uruchomieniu aplikacji użytkownikowi wyświetlają się podpowiedzi/instrukcje jak poruszać się po aplikacji. Nawigacja po aplkacji jest łatwa i logiczna, pozwala na szybkie zapoznanie się z zawartością kluczowych części.
+3) ❤ Jest dostępne centrum pomocy a w nim wyszukiwarka z podziałem na kategorie, FAQ, porady, przydatne wskazówki, opcja 'sprawdż link do "odbioru wypłaty". Istnieje możliwość bezpośredniego kontaktu w celu uzyskania pomocy - formularz kontaktowy jest zamieszczony pod artykułami dotyczącymi konkretnych zapytań w centrum pomocy.  💔 Formularz ten mógłby być również umieszczony w miejscu łatwiej dostępnym dla użytkownika. 
+4) 💔 Czasami aplikacja zawiesza się podczas użytkowania, ładownie zdjęć jest spowolnione. Zdarza się, że dodani do ulubionych sprzedawcy pokazują się z opóźnieniem w sekcji 'Obserwujesz'. 
+5) 💔 Aplikacja nie posiada trybu oszczędzania energii. 
+6) ❤ Dane zapisane w aplikacji synchronizują się z tymi ze strony internetowej olx - można łatwo zarządzać dostępem do konta użytkownika na róznych urządzeniach. 
+7) ❤ Aplikacja ma możliwość wyświetlania personalizowanych powiadomień push. Uzytkownik ma zapewnioną mozliwość wyboru co spowoduje pojawienie się powiadomienia np. pojawienie się nowego ogłoszenia pasującego do tego co obserwuje dany użytkownik.
+8) ❤ Występuje dwuczynnikowa weryfikacja - podczas próby dodania oferty użytkownik musi być zalogowany a następnie proszony jest o podanie numeru telefonu, na który wysyłany jest kod weryfikujący. 
+9) ❤ Aplikacja posiada tryb jasny i ciemny umożliwiający użytkownikowi wybór bardziej przyjaznego w odbiorze ekranu aplikacji
 
 ---
-### 4. Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność?***
+### 4. Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność?
 
-- Dodanie trybu oszczędzania energii
-- Szybszy, łatwiejszy dostęp do formularza kontaktowego w celu uzyskania pomocy
-- Krótki film instuktarzowy na początku dla nowych użytkowników (i możliwy do pominięcia) (np. szczególnie dla osób starszych mniej zaznajomionych z tego typu aplikacjami)
-- Bardziej zaawansowana wyszukiwarka noclegów: noclegi do zaznaczenia z kalendarzem przyjazdu i wyjazdu oraz widoczne na mapce z cenami (np. jak na booking.com)
-- Usługi, wypożyczenia również mogłyby mieć opcje dodania kalendarza dostępności 
-- Produkty dla dzieci mogłyby mieć filtrowanie z kategorią wiekową
-- Możliwość dodania opinii o kupującym z komentarzem
-- Możliwość dodania opinii o sprzedajacym z komentarzem
-- Możliwość wsparcia Wielkiej Orkiestry Świątecznej Pomocy/ Organizacji charytatywnej (np. złotówka przy zakupie)
-- Możliwość automatycznego skierowania prośby do wysyłającego o opakowanie bardziej ekologiczne (np. mniej plastiku) - np. opcja do zaznaczenia przy wybieraniu formy dostawy
+- Dodanie trybu oszczędzania energii 🔋
+- Szybszy, łatwiejszy dostęp do formularza kontaktowego w celu uzyskania pomocy 🧯🔥
+- Krótki film instuktarzowy na początku dla nowych użytkowników (i możliwy do pominięcia) (np. szczególnie dla osób starszych mniej zaznajomionych z tego typu aplikacjami) 🎬
+- Bardziej zaawansowana wyszukiwarka noclegów: noclegi do zaznaczenia z kalendarzem przyjazdu i wyjazdu oraz widoczne na mapce z cenami (np. jak na booking.com)🗺
+- Usługi, wypożyczenia również mogłyby mieć opcje dodania kalendarza dostępności 🗓
+- Produkty dla dzieci mogłyby mieć filtrowanie z kategorią wiekową 👶🏼
+- Możliwość dodania opinii o kupującym z komentarzem 📜
+- Możliwość dodania opinii o sprzedajacym z komentarzem 📜
+- Możliwość wsparcia Wielkiej Orkiestry Świątecznej Pomocy/ Organizacji charytatywnej (np. złotówka przy zakupie) 🦽
+- Możliwość automatycznego skierowania prośby do wysyłającego o opakowanie bardziej ekologiczne (np. mniej plastiku) - np. opcja do zaznaczenia przy wybieraniu formy dostawy🌍
 
 ---
 ### 5. Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?
@@ -412,5 +412,39 @@ Uzytkownikiem końcowym aplikacji są osoby sprzedające/ kupujące/ wymieniają
 ---
 ## *Subtask 4*
 
+*1) CPP-2 The registration window is cropped*
+- AUTHOR: Wiktoria Mozalewska
+- [CPP-2.pdf](https://github.com/WikMoz/challenge_portfolio_Wiktoria/files/10614016/CPP-2.pdf)
+- SCREENSHOT/ SCREENCAST:	
+[CPP-2](https://user-images.githubusercontent.com/122229411/216847250-a513ca26-e12c-41da-864d-a2dba5616a9e.mp4)
+
+*2) CPP-3	After adding new like ('polub') - the total number of likes doesn’t change*
+- AUTHOR: Wiktoria Mozalewska
+- [CPP-3.pdf](https://github.com/WikMoz/challenge_portfolio_Wiktoria/files/10614000/CPP-3.pdf)
+- SCREENSHOT/ SCREENCAST:
+[CPP-3](https://user-images.githubusercontent.com/122229411/216847701-300ed0ba-5723-4497-9161-75d6f979d810.mp4)
+
+*3) CPP-4 The quick flash of previous article before opening the new, chosen one*
+- AUTHOR: Wiktoria Mozalewska
+- [CPP-4.pdf](https://github.com/WikMoz/challenge_portfolio_Wiktoria/files/10613994/CPP-4.pdf)
+- SCREENSHOT/ SCREENCAST:
+[CPP-4](https://user-images.githubusercontent.com/122229411/216848500-90ff042e-636a-4212-984f-4ae05ceee7c8.mp4)
+
+*4) CPP-5 No possibility to add comment to the article*
+- AUTHOR: Wiktoria Mozalewska
+- [CPP-5.pdf](https://github.com/WikMoz/challenge_portfolio_Wiktoria/files/10613982/CPP-5.pdf)
+- SCREENSHOT/ SCREENCAST:
+[CPP-5](https://drive.google.com/file/d/1Hk4CA7y46jmeFjd4jy2x-7m2uVLGanS4/view?usp=share_link)
+
+*5) CPP-6 Name of the author overlaps the icons*
+- AUTHOR: Wiktoria Mozalewska
+- [CPP-6.pdf](https://github.com/WikMoz/challenge_portfolio_Wiktoria/files/10613965/CPP-6.pdf)
+- SCREENSHOT/ SCREENCAST:
+[CPP-6](https://drive.google.com/file/d/1lOVSLKrvoZg3jJ-e3gnJUDC9dj4ZoO_Z/view?usp=share_link)
+
+Zadanie robiłam w grupie z :
+- Sonią Topolewską
+- Iwoną Mierzejewską
+- Adrianem Pachowskim
 
 
