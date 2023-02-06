@@ -412,6 +412,10 @@ Uzytkownikiem końcowym aplikacji są osoby sprzedające/ kupujące/ wymieniają
 ---
 ## *Subtask 4*
 
+
+
+https://sirtester.atlassian.net/browse/CPP
+
 *1) CPP-2 The registration window is cropped*
 - AUTHOR: Wiktoria Mozalewska
 - [CPP-2.pdf](https://github.com/WikMoz/challenge_portfolio_Wiktoria/files/10614016/CPP-2.pdf)
