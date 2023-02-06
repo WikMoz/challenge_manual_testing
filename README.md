@@ -413,7 +413,6 @@ Uzytkownikiem końcowym aplikacji są osoby sprzedające/ kupujące/ wymieniają
 ## *Subtask 4*
 
 
-
 https://sirtester.atlassian.net/browse/CPP
 
 *1) CPP-2 The registration window is cropped*
