@@ -448,7 +448,6 @@ https://sirtester.atlassian.net/browse/CPP
 - AUTHOR: Wiktoria Mozalewska
 - [CPP-6.pdf](https://github.com/WikMoz/challenge_portfolio_Wiktoria/files/10613965/CPP-6.pdf)
 - SCREENSHOT/ SCREENCAST:
-
 [CPP-6](https://drive.google.com/file/d/1lOVSLKrvoZg3jJ-e3gnJUDC9dj4ZoO_Z/view?usp=share_link)
 
 Zadanie robiłam w grupie z :
