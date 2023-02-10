@@ -471,7 +471,9 @@ Zadanie robiłam w grupie z :
 
 ### Wymień operatory/zapytania, których się nauczyłeś:
 
-####1. Pierwsze zapytania
+---
+
+#### 1. Pierwsze zapytania
 
 - `USE AdventureWorks2014` - zmiana kontekstu bazy danych na AdventureWorks2014 (przełącz się na bazę danych AdventureWorks2014)
 
@@ -481,135 +483,189 @@ Zadanie robiłam w grupie z :
 
 - `SELECT * FROM [HumanResources].[Job Candidate]` - jeśli chcemy napisać nazwę tabeli ze spacją w zapytaniu - konieczne jest użycie []
 
-#### 2. Sortowanie danych
-
-- `SELECT ProductID, Name, Color, Size FROM Production.Product` - chcemy wyświetlić wykrany zestaw kolum: ProductID, Name, Color, Size z tabeli Production.Product
+- `SELECT ProductID, Name, Color, Size FROM Production.Product` - chcemy wyświetlić wybrany zestaw kolumn: ProductID, Name, Color, Size z tabeli Production.Product
 
 - `SELECT ProductID AS ID, Name AS Nazwa, Color AS Kolor, Size AS Rozmiar FROM Production.Product` - aliasy - można dodać po nazwie kolumny (np.Name) słowo 'AS' i dalej nazwa kolumny, która ma nam się wyświetlić zamiast tej istniejącej (np. 'Nazwa') - nie zmienia się struktura tej kolumny, nie wprowadzamy zmian w tabeli- jedynie zmienia się nazwa w wyniku (np. z 'Name' na 'Nazwa')
 
-- `SELECT * FROM Production.Product
-ORDER BY Name` - wiersze posortowane są ROSNĄCO wg zawartości kolumny Name
+--- 
 
-- `SELECT * FROM Production.Product
-ORDER BY Name ASC` - wiersze posortowane są ROSNĄCO wg zawartości kolumny Name
+#### 2. Sortowanie danych
 
-- `SELECT * FROM Production.Product
-ORDER BY Name DESC` - wiersze posortowane są MALEJĄCO wg zawartości kolumny Name
+- `SELECT * FROM Production.Product` :
 
-- `SELECT * FROM Production.Product
-ORDER BY Color, Name` - wiersze posortowane wg koloru ROSNĄCO, a te które mają ten sam kolor - wg nazwy ROSNĄCO
-
-- `SELECT * FROM Production.Product
-ORDER BY Color DESC, Name` - MALEJĄCO wg koloru i ROSNĄCO wg nazwy
+    - `ORDER BY Name` - wiersze posortowane są ROSNĄCO wg zawartości kolumny Name
+    - `ORDER BY Name ASC` - wiersze posortowane są ROSNĄCO wg zawartości kolumny Name
+    - `ORDER BY Name DESC` - wiersze posortowane są MALEJĄCO wg zawartości kolumny Name
+    - `ORDER BY Color, Name` - wiersze posortowane wg koloru ROSNĄCO, a te które mają ten sam kolor - wg nazwy ROSNĄCO
+    - `ORDER BY Color DESC, Name` - wiersze posortowane MALEJĄCO wg koloru i ROSNĄCO wg nazwy
+    
+---
 
 #### 3. Filtrowanie danych
-`SELECT ProductID, Name, Color, Size`
 
-`FROM Production.Product` :
+- `SELECT * FROM Production.Product` :
 
-- `WHERE ProductID = 707` - wyszukuje produkt o wybranym identyfikatorze 707
-- `WHERE ProductID > 100` - > -wyszukuje produkty o identyfikatorze większym niż 100
-- `WHERE ProductID BETWEEN 14 AND 290` - BETWEEN..AND.. - wyszukuje produkty o identyfikatorze pomiędzy 14 a 290
+   - `WHERE ProductID = 707` - wyszukuje produkt o wybranym identyfikatorze 707
+   - `WHERE ProductID > 100` - > -wyszukuje produkty o identyfikatorze większym niż 100
+   - `WHERE ProductID BETWEEN 14 AND 290` - BETWEEN..AND.. - wyszukuje produkty o identyfikatorze pomiędzy 14 a 290
+   - `WHERE Color = 'Red'`- wyszukuje produkty o kolorze Red. Wartości tekstowe zapisujemy w pojedynczych apostrofach
+   - `WHERE Color <> 'Red'`- wyszukuje produkty o kolorze innym niż Red
+   - `WHERE Color != 'Red'`- wyszukuje produkty o kolorze innym niż Red.
+   - `WHERE Size = 'M'` -wyszukuje produkty w rozmiarze M
+   - `WHERE Name LIKE 'B%'` - Operator LIKE - wyszukuje produkty zaczynające się na literę B. % oznacza dowolony znak w dowolnej liczbie występujący po tej literze B ( z samym B włącznie)
+   - `WHERE Name LIKE '%Bike%'` - wyszukuje produkty, które gdzieś w nazwie mają Bike obojętne czy na początku czy na końcu
+   - `WHERE Name = 'Bike'` - wyszukuje produkty które nazywają się dokładnie 'Bike'
+   - `WHERE Name LIKE 'Bike Socks, _'` - (_ dowolny pojedynczy znak) wyszukuje proukty, w którch po 'Bike Socks' występuje przecinek, spacja i jakiś pojedynczy znak np. Bike Socks, M (ale Bike Socks, XL już nie zostanie wyświetlone)
+   - `WHERE Color = 'Black' AND Size = 'M'` - (operator AND) wyszukuje produkty koloru czarnego, o rozmiarze M
+   - `WHERE Color = 'Black' OR Color = 'Silver' OR Color = 'Blue'` - (operator OR) - produkty koloru czarnego, srebrnego i niebieskiego
+   - `WHERE Color IS NULL` - (zamiast niepoprawnego ~WHERE Color = NULL~) - wyszukuje wszytskie produkty które nie mają zdefiniowanego koloru - kolor nie jest określony w tabeli
+   - `WHERE Color IS NOT NULL` - wyszukuje wszystkie produkty, które mają określony kolor (nie wyszukuje pozycji z kolorem oznaczonym jako NULL)
+   - `WHERE Name LIKE '%Bike%' AND Color = 'White'` - wyszukuje wszystkie które gdzieś w nazwie mają Bike i są w kolorze białym
+   - `WHERE Color = 'Black' AND Size IS NOT NULL AND Name LIKE '%Frame%' - wyszukuje produkty w kolorze czarnym, jakimś określonym rozmiarze i które gdzieś w nazwie mają Frame
+   - `WHERE (Color = 'Black' AND Size = 'M') OR (Color = 'Red' AND Name LIKE '%Road%')` - (nawiasy) - wyszukuje produkty koloru czarnego i w rozmiarze M LUB czerwone produkty, które gdzieś w nazwie mają 'Road'
+   - `WHERE Color = 'Black' OR Color = 'Red'` lub `WHERE Color IN ('Black', 'Red')` - wyszukje produkty czarne i czerwone, zamiast niepoprawnego:~`WHERE Color = 'Black' AND Color = 'Red'`~ gdzie warunki się wykluczają: produkty i czarne i czerwone jednocześnie
+   
+---
+#### 4. Logiczna kolejność wykonywania zapytania
 
+Kolejność wykonywania instrukcji SELECT
 
--- wartości tekstowe - w pojedynczych apostrofach
-SELECT ProductID, Name, Color, Size 
-FROM Production.Product
-WHERE Color = 'Red'
+2. `SELECT ProductID, Name, Color AS Kolor, Size`	
+1. `FROM Production.Product`						
+3. `ORDER BY Kolor`	
 
-SELECT ProductID, Name, Color, Size 
-FROM Production.Product
-WHERE Size = 'M'
+odwołanie się do aliastu kolumny w ORDER BY - jest OK
 
+`SELECT ProductID, Name, Color AS Kolor, Size` 
 
+`FROM Production.Product`
 
+`ORDER BY Kolor`
 
--- Operator LIKE
-SELECT * FROM Production.Product 
-WHERE Name LIKE 'B%'
+Kolejność wykonywania instrukcji SELECT
 
--- % - dowolony znak w dowolnej liczbie
-SELECT * FROM Production.Product 
-WHERE Name LIKE '%Bike%'
+3. `SELECT ProductID, Name, Color AS Kolor, Size`	
+1. `FROM Production.Product`					
+2. `WHERE Kolor = 'Red'`
 
--- _ dowolny pojedynczy znak
-SELECT * FROM Production.Product
-WHERE Name LIKE 'Mountain Bike Socks, _'
+odwołanie się do aliasu kolumny w WHERE nie zadziała
 
---! = zamiast LIKE
-SELECT * FROM Production.Product 
-WHERE Name = '%Bike%'
+~`SELECT ProductID, Name, Color AS Kolor, Size`~
 
+~`FROM Production.Product`~
 
-
-
-
--- Operatory AND OR
-
--- produkty koloru czarnego, o rozmiarze M
-SELECT ProductID, Name, Color, Size 
-FROM Production.Product
-WHERE Color = 'Black' AND Size = 'M'
-
--- produkty koloru czarnego, srebrnego i niebieskiego
-SELECT ProductID, Name, Color, Size 
-FROM Production.Product
-WHERE Color = 'Black' OR Color = 'Silver' OR Color = 'Blue'
-
--- łączymy razem...
-SELECT * FROM Production.Product 
-WHERE Name LIKE '%Bike%' AND Color = 'White'
-
-
-
--- NULL
-
--- na początku w kolumnie kolor wartości nieokreślone
-SELECT * FROM Production.Product
-ORDER BY Color
-
---! czy na pewno nie ma takich wierszy
-SELECT * FROM Production.Product
-WHERE Color = NULL
-
-
-SELECT * FROM Production.Product
-WHERE Color IS NULL
-
-SELECT * FROM Production.Product
-WHERE Color IS NOT NULL
-
-
--- łączymy razem...
-SELECT * FROM Production.Product 
-WHERE Color = 'Black' AND Size IS NOT NULL AND Name LIKE '%Frame%'
-
-
--- nawiasy...
--- produkty koloru czarnego i rozmiarze M LUB czerwone produkty związane z szosą
-SELECT * FROM Production.Product 
-WHERE (Color = 'Black' AND Size = 'M') OR (Color = 'Red' AND Name LIKE '%Road%')
-
---! uwaga na warunki wykluczające się
-SELECT * FROM Production.Product 
-WHERE Color = 'Black' AND Color = 'Red'
-
--- zamiast tego...
-SELECT * FROM Production.Product 
-WHERE Color = 'Black' OR Color = 'Red'
-
-
--- zamiast tego...
-SELECT * FROM Production.Product 
-WHERE Color = 'Black' OR Color = 'Red'
-
-SELECT * FROM Production.Product 
-WHERE Color IN ('Black', 'Red')
-
-
-
+~`WHERE Kolor = 'Red'`~
 
 ---
+
+#### 5. Funkcje 
+
+1. SKALARNE
+
+- `SELECT GETDATE()` - zwraca bieżącą datę i czas. funkcja ta nie przyjmuje argumentów
+- `SELECT GETDATE() AS CurrentDateTime`
+- `SELECT UPPER('Bardzo ładny rower')` - operuje na tekście - zamienia wszystkie litery w tekście podanym w nawiasie n
+
+
+-- godziny/ miesiace/ lata.... , OD KIEDY, DO KIEDY
+- `SELECT DATEDIFF(HOUR, '20190801 12:15', '20190801 15:15')`
+
+- `SELECT DATEDIFF(MONTH, '20190801', '20201201')`
+
+- `SELECT DATEDIFF(YEAR, '20190801', '20201201')`
+
+
+
+- `SELECT DATEDIFF(YEAR, GETDATE(), '20401201')`
+
+- `SELECT DATEDIFF(DAY, GETDATE(), '20401201')`
+- `SELECT DATEDIFF(HOUR, GETDATE(), '20401201')`
+
+
+-- nazwy produktów wielkimi literami
+- `SELECT ProductID, UPPER(Name) AS Name, Color AS Kolor, Size 
+FROM Production.Product`
+
+
+-- ile dni upłynęło od początku sprzedaży
+- `SELECT ProductID, Name, Color AS Kolor, Size, DATEDIFF(DAY, SellStartDate, GETDATE()) 
+FROM Production.Product`
+
+
+
+2. FUNKCJE AGREGUJĄCE
+SELECT COUNT(*) AS FnCount FROM Production.Product
+
+SELECT SUM(ListPrice) AS FnSum FROM Production.Product
+
+SELECT MIN(ListPrice) AS FnMIN FROM Production.Product
+
+8. Grupowanie danych
+*/
+
+SELECT COUNT(*) AS Cnt FROM Production.Product
+
+-- liczba produktów koloru czerwonego
+SELECT COUNT(*) AS Cnt FROM Production.Product
+WHERE Color = 'Red'
+
+-- liczba produktów poszczególnych kolorów
+SELECT Color, COUNT(*) AS Cnt 
+FROM Production.Product
+GROUP BY Color
+
+--! nie możemy wyświetlać kolumn, po których nie pogrupowaliśmy 
+SELECT Color, Size, COUNT(*) AS Cnt 
+FROM Production.Product
+GROUP BY Color
+
+
+-- ... chyba, że po nich również pogrupujemy
+SELECT Color, Size, COUNT(*) AS Cnt 
+FROM Production.Product
+GROUP BY Color, Size
+
+
+/*
+	9. Łączenie tabel
+*/
+
+
+SELECT * FROM Production.Product
+
+
+SELECT * FROM Production.ProductSubcategory
+
+
+
+SELECT * 
+FROM Production.Product
+JOIN Production.ProductSubcategory
+ON Production.Product.ProductSubcategoryID = Production.ProductSubcategory.ProductSubcategoryID
+
+--! obie tabele zawierają kolumnę Name
+SELECT ProductID, Name, Color, Size, Name
+FROM Production.Product
+JOIN Production.ProductSubcategory
+ON Production.Product.ProductSubcategoryID = Production.ProductSubcategory.ProductSubcategoryID
+
+
+SELECT ProductID, Production.Product.Name, Color, Size, Production.ProductSubcategory.Name
+FROM Production.Product
+JOIN Production.ProductSubcategory
+ON Production.Product.ProductSubcategoryID = Production.ProductSubcategory.ProductSubcategoryID
+
+
+-- aliasy tabel
+SELECT ProductID, p.Name, Color, Size, ps.Name, p.ProductSubcategoryID, ps.ProductSubcategoryID
+FROM Production.Product AS p
+JOIN Production.ProductSubcategory AS ps
+ON p.ProductSubcategoryID = ps.ProductSubcategoryID
+
+
+
+
+
 
 ## *Subtask 2*
 
