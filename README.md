@@ -1,34 +1,40 @@
 # Spis treści
 
-* [**Task 1**](#task-1)
-  * [Subtask 1](#subtask-1)
-  * [Subtask 3](#subtask-3)
-  * [Subtask 4](#subtask-4)
-    * [Testowana aplikacja](#testowana-aplikacja)
-    * [Znalezione błędy](#znalezione-błędy)
-      - [Strona główna](#strona-główna)
-      - [Dodaj gracza](#dodaj-gracza)
-      - [Gracze](#gracze)
-      - [Dodawanie meczów dla gracza](#dodawanie-meczów-dla-gracza)
-      - [Funkcja ROZPOCZNIJ MECZ](#funkcja-rozpocznij-mecz)
-      - [Dodawanie raportu do meczu](#dodawanie-raportu-do-meczu)
-      - [Raport meczowy](#raport-meczowy)
+ * ## [**Task 1**](#task-1)
+   * [Subtask 1](#subtask-1)
+   * [Subtask 3](#subtask-3)
+   * [Subtask 4](#subtask-4)
+     * [Testowana aplikacja](#testowana-aplikacja)
+     * [Znalezione błędy](#znalezione-błędy)
+       1) [Strona główna](#strona-główna)
+       2) [Dodaj gracza](#dodaj-gracza)
+       3) [Gracze](#gracze)
+       4) [Dodawanie meczów dla gracza](#dodawanie-meczów-dla-gracza)
+       5) [Funkcja ROZPOCZNIJ MECZ](#funkcja-rozpocznij-mecz)
+       6) [Dodawanie raportu do meczu](#dodawanie-raportu-do-meczu)
+       7) [Raport meczowy](#raport-meczowy)
       
- * [**Task 2**](#task-2)
+ * ## [**Task 2**](#task-2)
    * [Subtask 1](#subtask-1-1)
    * [Subtask 2](#subtask-2)
    * [Subtask 3](#subtask-3-1)
    * [Subtask 4](#subtask-4-1)
    
- * [**Task 3**](#task-3)
+ * ## [**Task 3**](#task-3)
    * [Subtask 1 & 2](#subtask-1--2)
    * [Subtask 3](#subtask-3-2)
    * [Subtask 4](#subtask-4-2)
      
- * [**Task 4**](#task-4)
+ * ## [**Task 4**](#task-4)
    * [Subtask 1 & 2](#subtask-1--2-1)
    * [Subtask 3](#subtask-3-3)
    * [Subtask 4](#subtask-4-3)
+   
+ * ## [**Task 5**](#task-5)
+   * [Subtask 1](#subtask-1-2)
+   * [Subtask 2](#subtask-2-1)
+   * [Subtask 3](#subtask-3-4)
+  
 ---
 
 # Task 1
@@ -364,15 +370,16 @@ Uzytkownikiem końcowym aplikacji są osoby sprzedające/ kupujące/ wymieniają
 ---
 ### 3. Czy według Ciebie aplikacja jest user friendly?
 
-1) ❤ Aplikacja jest intuicyjna, łatwa w obsłudze i dostępna dla wszystkich.
-2) ❤ Po pierwszym uruchomieniu aplikacji użytkownikowi wyświetlają się podpowiedzi/instrukcje jak poruszać się po aplikacji. Nawigacja po aplkacji jest łatwa i logiczna, pozwala na szybkie zapoznanie się z zawartością kluczowych części.
-3) ❤ Jest dostępne centrum pomocy a w nim wyszukiwarka z podziałem na kategorie, FAQ, porady, przydatne wskazówki, opcja 'sprawdż link do "odbioru wypłaty". Istnieje możliwość bezpośredniego kontaktu w celu uzyskania pomocy - formularz kontaktowy jest zamieszczony pod artykułami dotyczącymi konkretnych zapytań w centrum pomocy.  💔 Formularz ten mógłby być również umieszczony w miejscu łatwiej dostępnym dla użytkownika. 
-4) 💔 Czasami aplikacja zawiesza się podczas użytkowania, ładownie zdjęć jest spowolnione. Zdarza się, że dodani do ulubionych sprzedawcy pokazują się z opóźnieniem w sekcji 'Obserwujesz'. 
-5) 💔 Aplikacja nie posiada trybu oszczędzania energii. 
-6) ❤ Dane zapisane w aplikacji synchronizują się z tymi ze strony internetowej olx - można łatwo zarządzać dostępem do konta użytkownika na róznych urządzeniach. 
-7) ❤ Aplikacja ma możliwość wyświetlania personalizowanych powiadomień push. Uzytkownik ma zapewnioną mozliwość wyboru co spowoduje pojawienie się powiadomienia np. pojawienie się nowego ogłoszenia pasującego do tego co obserwuje dany użytkownik.
-8) ❤ Występuje dwuczynnikowa weryfikacja - podczas próby dodania oferty użytkownik musi być zalogowany a następnie proszony jest o podanie numeru telefonu, na który wysyłany jest kod weryfikujący. 
-9) ❤ Aplikacja posiada tryb jasny i ciemny umożliwiający użytkownikowi wybór bardziej przyjaznego w odbiorze ekranu aplikacji
+1. ❤ Aplikacja jest intuicyjna, łatwa w obsłudze i dostępna dla wszystkich.
+2. ❤ Po pierwszym uruchomieniu aplikacji użytkownikowi wyświetlają się podpowiedzi/instrukcje jak poruszać się po aplikacji. Nawigacja po aplkacji jest łatwa i logiczna, pozwala na szybkie zapoznanie się z zawartością kluczowych części.
+3. ❤ Jest dostępne centrum pomocy a w nim wyszukiwarka z podziałem na kategorie, FAQ, porady, przydatne wskazówki, opcja 'sprawdż link do "odbioru wypłaty". Istnieje możliwość bezpośredniego kontaktu w celu uzyskania pomocy - formularz kontaktowy jest zamieszczony pod artykułami dotyczącymi konkretnych zapytań w centrum pomocy.  
+4. 💔 Formularz ten mógłby być również umieszczony w miejscu łatwiej dostępnym dla użytkownika. 
+5. 💔 Czasami aplikacja zawiesza się podczas użytkowania, ładownie zdjęć jest spowolnione. Zdarza się, że dodani do ulubionych sprzedawcy pokazują się z opóźnieniem w sekcji 'Obserwujesz'. 
+6. 💔 Aplikacja nie posiada trybu oszczędzania energii. 
+7. ❤ Dane zapisane w aplikacji synchronizują się z tymi ze strony internetowej olx - można łatwo zarządzać dostępem do konta użytkownika na róznych urządzeniach. 
+8. ❤ Aplikacja ma możliwość wyświetlania personalizowanych powiadomień push. Uzytkownik ma zapewnioną mozliwość wyboru co spowoduje pojawienie się powiadomienia np. pojawienie się nowego ogłoszenia pasującego do tego co obserwuje dany użytkownik.
+9. ❤ Występuje dwuczynnikowa weryfikacja - podczas próby dodania oferty użytkownik musi być zalogowany a następnie proszony jest o podanie numeru telefonu, na który wysyłany jest kod weryfikujący. 
+10. ❤ Aplikacja posiada tryb jasny i ciemny umożliwiający użytkownikowi wybór bardziej przyjaznego w odbiorze ekranu aplikacji
 
 ---
 ### 4. Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność?
@@ -454,6 +461,29 @@ Zadanie robiłam w grupie z :
 - Iwoną Mierzejewską
 - Adrianem Pachowskim
 
+---
+---
+
+# Task 5
+---
+
+## *Subtask 1*
+
+### Wymień operatory/zapytania, których się nauczyłeś:
+
+- `USE AdventureWorks2014` - zmiana kontekstu bazy danych na AdventureWorks2014 (przełącz się na bazę danych AdventureWorks2014)
+- `SELECT * FROM Productionn.Product` - polecenie, które wyświetla zawartość tabeli (*-pokaż zawartość wszystkich kolumn) z tabeli Production.Product (gdzie: Production to nazwa schematu, która umożliwia grupowanie tabel aby ułatwić nadawanie uprawnień i Product to nazwa tabeli) 
+- `GO`- dzieli nam zapyania (albo wsady - czyli jakiś szereg instrukcji) na osobne zapytania- przyspieszy to wykonanie skryptu
+- `SELECT * FROM [HumanResources].[Job Candidate]` - jeśli chcemy napisać nazwę tabeli ze spacją w zapytaniu - konieczne jest użycie []
+- `SELECT ProductID, Name, Color, Size FROM Production.Product` -
 
 
+---
+
+## *Subtask 2*
+
+---
+## *Subtask 3*
+
+ 
 
