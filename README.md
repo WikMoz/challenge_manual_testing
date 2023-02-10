@@ -471,11 +471,142 @@ Zadanie robiłam w grupie z :
 
 ### Wymień operatory/zapytania, których się nauczyłeś:
 
+####1. Pierwsze zapytania
+
 - `USE AdventureWorks2014` - zmiana kontekstu bazy danych na AdventureWorks2014 (przełącz się na bazę danych AdventureWorks2014)
-- `SELECT * FROM Productionn.Product` - polecenie, które wyświetla zawartość tabeli (*-pokaż zawartość wszystkich kolumn) z tabeli Production.Product (gdzie: Production to nazwa schematu, która umożliwia grupowanie tabel aby ułatwić nadawanie uprawnień i Product to nazwa tabeli) 
-- `GO`- dzieli nam zapyania (albo wsady - czyli jakiś szereg instrukcji) na osobne zapytania- przyspieszy to wykonanie skryptu
+
+- `SELECT * FROM Productionn.Product` - polecenie, które wyświetla zawartość tabeli (* - pokaż zawartość wszystkich kolumn) z tabeli Production.Product (gdzie: Production to nazwa schematu, która umożliwia grupowanie tabel aby ułatwić nadawanie uprawnień i Product to nazwa tabeli) 
+
+- `GO`- dzieli nam zapytania (albo wsady - czyli jakiś szereg instrukcji) na osobne zapytania- przyspieszy to wykonanie skryptu
+
 - `SELECT * FROM [HumanResources].[Job Candidate]` - jeśli chcemy napisać nazwę tabeli ze spacją w zapytaniu - konieczne jest użycie []
-- `SELECT ProductID, Name, Color, Size FROM Production.Product` -
+
+#### 2. Sortowanie danych
+
+- `SELECT ProductID, Name, Color, Size FROM Production.Product` - chcemy wyświetlić wykrany zestaw kolum: ProductID, Name, Color, Size z tabeli Production.Product
+
+- `SELECT ProductID AS ID, Name AS Nazwa, Color AS Kolor, Size AS Rozmiar FROM Production.Product` - aliasy - można dodać po nazwie kolumny (np.Name) słowo 'AS' i dalej nazwa kolumny, która ma nam się wyświetlić zamiast tej istniejącej (np. 'Nazwa') - nie zmienia się struktura tej kolumny, nie wprowadzamy zmian w tabeli- jedynie zmienia się nazwa w wyniku (np. z 'Name' na 'Nazwa')
+
+- `SELECT * FROM Production.Product
+ORDER BY Name` - wiersze posortowane są ROSNĄCO wg zawartości kolumny Name
+
+- `SELECT * FROM Production.Product
+ORDER BY Name ASC` - wiersze posortowane są ROSNĄCO wg zawartości kolumny Name
+
+- `SELECT * FROM Production.Product
+ORDER BY Name DESC` - wiersze posortowane są MALEJĄCO wg zawartości kolumny Name
+
+- `SELECT * FROM Production.Product
+ORDER BY Color, Name` - wiersze posortowane wg koloru ROSNĄCO, a te które mają ten sam kolor - wg nazwy ROSNĄCO
+
+- `SELECT * FROM Production.Product
+ORDER BY Color DESC, Name` - MALEJĄCO wg koloru i ROSNĄCO wg nazwy
+
+#### 3. Filtrowanie danych
+`SELECT ProductID, Name, Color, Size`
+
+`FROM Production.Product` :
+
+- `WHERE ProductID = 707` - wyszukuje produkt o wybranym identyfikatorze 707
+- `WHERE ProductID > 100` - > -wyszukuje produkty o identyfikatorze większym niż 100
+- `WHERE ProductID BETWEEN 14 AND 290` - BETWEEN..AND.. - wyszukuje produkty o identyfikatorze pomiędzy 14 a 290
+
+
+-- wartości tekstowe - w pojedynczych apostrofach
+SELECT ProductID, Name, Color, Size 
+FROM Production.Product
+WHERE Color = 'Red'
+
+SELECT ProductID, Name, Color, Size 
+FROM Production.Product
+WHERE Size = 'M'
+
+
+
+
+-- Operator LIKE
+SELECT * FROM Production.Product 
+WHERE Name LIKE 'B%'
+
+-- % - dowolony znak w dowolnej liczbie
+SELECT * FROM Production.Product 
+WHERE Name LIKE '%Bike%'
+
+-- _ dowolny pojedynczy znak
+SELECT * FROM Production.Product
+WHERE Name LIKE 'Mountain Bike Socks, _'
+
+--! = zamiast LIKE
+SELECT * FROM Production.Product 
+WHERE Name = '%Bike%'
+
+
+
+
+
+-- Operatory AND OR
+
+-- produkty koloru czarnego, o rozmiarze M
+SELECT ProductID, Name, Color, Size 
+FROM Production.Product
+WHERE Color = 'Black' AND Size = 'M'
+
+-- produkty koloru czarnego, srebrnego i niebieskiego
+SELECT ProductID, Name, Color, Size 
+FROM Production.Product
+WHERE Color = 'Black' OR Color = 'Silver' OR Color = 'Blue'
+
+-- łączymy razem...
+SELECT * FROM Production.Product 
+WHERE Name LIKE '%Bike%' AND Color = 'White'
+
+
+
+-- NULL
+
+-- na początku w kolumnie kolor wartości nieokreślone
+SELECT * FROM Production.Product
+ORDER BY Color
+
+--! czy na pewno nie ma takich wierszy
+SELECT * FROM Production.Product
+WHERE Color = NULL
+
+
+SELECT * FROM Production.Product
+WHERE Color IS NULL
+
+SELECT * FROM Production.Product
+WHERE Color IS NOT NULL
+
+
+-- łączymy razem...
+SELECT * FROM Production.Product 
+WHERE Color = 'Black' AND Size IS NOT NULL AND Name LIKE '%Frame%'
+
+
+-- nawiasy...
+-- produkty koloru czarnego i rozmiarze M LUB czerwone produkty związane z szosą
+SELECT * FROM Production.Product 
+WHERE (Color = 'Black' AND Size = 'M') OR (Color = 'Red' AND Name LIKE '%Road%')
+
+--! uwaga na warunki wykluczające się
+SELECT * FROM Production.Product 
+WHERE Color = 'Black' AND Color = 'Red'
+
+-- zamiast tego...
+SELECT * FROM Production.Product 
+WHERE Color = 'Black' OR Color = 'Red'
+
+
+-- zamiast tego...
+SELECT * FROM Production.Product 
+WHERE Color = 'Black' OR Color = 'Red'
+
+SELECT * FROM Production.Product 
+WHERE Color IN ('Black', 'Red')
+
+
 
 
 ---
