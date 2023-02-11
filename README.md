@@ -560,111 +560,143 @@ odwołanie się do aliasu kolumny w WHERE nie zadziała
 
 #### 5. Funkcje 
 
-1. SKALARNE
+**1. SKALARNE**
 
-- `SELECT GETDATE()` - zwraca bieżącą datę i czas. funkcja ta nie przyjmuje argumentów
-- `SELECT GETDATE() AS CurrentDateTime`
-- `SELECT UPPER('Bardzo ładny rower')` - operuje na tekście - zamienia wszystkie litery w tekście podanym w nawiasie n
+- `SELECT GETDATE()` - zwraca bieżącą datę i czas. Funkcja ta nie przyjmuje argumentów
+
+- `SELECT GETDATE() AS CurrentDateTime` - aby w nazwie kolumny uzyskać CurrentDateTime
+
+- `SELECT UPPER('Bardzo ładny rower')` - przyjmuje argument tekstowy, operuje na tekście - zamienia wszystkie litery w tekście podanym w nawiasie na wielkie
+
+- `SELECT LOWER('Bardzo ładny rower')` - zamienia wszystkie litery małe
+
+(F1 (kliknąć na nazwę funkcji i F1) - aby doczytać o tej funkcji)
+
+*godziny/ miesiace/ lata.... , OD KIEDY, DO KIEDY*
+
+- `SELECT DATEDIFF(HOUR, '20190801 12:15', '20190801 15:15')` - oblicza różnicę między dwoma datami korzystając ze wskazanej jednostki czasu - tu data poczatkowa i końcowa, zwraca różnicę w godzinach
+
+- `SELECT DATEDIFF(MONTH, '20190801', '20201201')`- zwraca różnicę w miesiącach
+
+- `SELECT DATEDIFF(YEAR, '20190801', '20201201')` - zwraca różnicę w latach
+
+*zagnieżdżenie funkcji GETDATE() w DATEDIFF():*
+
+- `SELECT DATEDIFF(YEAR, GETDATE(), '20401201')` - zwraca różnicę w latach między datą bieżącą a podaną
+
+- `SELECT DATEDIFF(DAY, GETDATE(), '20401201')` - zwraca różnicę w dniach między datą bieżącą a podaną
+
+- `SELECT DATEDIFF(HOUR, GETDATE(), '20401201')`- zwraca różnicę w godzinach między datą bieżącą a podaną
 
 
--- godziny/ miesiace/ lata.... , OD KIEDY, DO KIEDY
-- `SELECT DATEDIFF(HOUR, '20190801 12:15', '20190801 15:15')`
 
-- `SELECT DATEDIFF(MONTH, '20190801', '20201201')`
+*nazwy produktów wielkimi literami*
 
-- `SELECT DATEDIFF(YEAR, '20190801', '20201201')`
-
-
-
-- `SELECT DATEDIFF(YEAR, GETDATE(), '20401201')`
-
-- `SELECT DATEDIFF(DAY, GETDATE(), '20401201')`
-- `SELECT DATEDIFF(HOUR, GETDATE(), '20401201')`
-
-
--- nazwy produktów wielkimi literami
 - `SELECT ProductID, UPPER(Name) AS Name, Color AS Kolor, Size 
-FROM Production.Product`
+FROM Production.Product` - używamy funkcji w ramach zapytań. 
+UPPER(Name) AS Name = wyświetli nam w kolumnie Name wszytskie wyniki (nazwy produktów) WIELKIMI literami
 
 
--- ile dni upłynęło od początku sprzedaży
+*ile dni upłynęło od początku sprzedaży*
+
 - `SELECT ProductID, Name, Color AS Kolor, Size, DATEDIFF(DAY, SellStartDate, GETDATE()) 
-FROM Production.Product`
+FROM Production.Product` - wylicza ile dni upłyneło pomiędzy datą w kolumnie SellStrtDate dla danego produktu a datą bieżącą
 
 
 
-2. FUNKCJE AGREGUJĄCE
-SELECT COUNT(*) AS FnCount FROM Production.Product
+**2. FUNKCJE AGREGUJĄCE - pozwalają na wykonywanie obliczeń na wielu wierszach**
 
-SELECT SUM(ListPrice) AS FnSum FROM Production.Product
+- `SELECT COUNT(*) AS FnCount FROM Production.Product` - zlicza wiersze, wszystkie wiersze i zwraca jeden wynik, zaagregowany wynik - tyle ile jest wierszy w tabeli Production.Product. FnCount to nadana nazwa kolumny nad wynikiem
 
-SELECT MIN(ListPrice) AS FnMIN FROM Production.Product
+- `SELECT SUM(ListPrice) AS FnSum FROM Production.Product` - sumowanie cen (ListPrice) wszytskich produktów w tabeli Production.Product
 
-8. Grupowanie danych
-*/
+- `SELECT MIN(ListPrice) AS FnMIN FROM Production.Product` - zwraca najmniejszą cenę
+- `SELECT MIN(ListPrice) AS FnMIN FROM Production.Product WHERE Color='Black'` - zwraca najniższą cenę dla produktów w kolorze czarnym
 
-SELECT COUNT(*) AS Cnt FROM Production.Product
+- `SELECT DATEDIFF (day,`
+`(SELECT MIN(OrderDate) FROM Sale.SalesOrderHeader),`
+`(SELECT MAX(OrderDate) FROM Sale.SalesOrderHeader))` - zwraca różnicę między najwcześniejsza datą w jakiej zostało złożone zamówienie a najpóźniejszą (najbardziej aktualną) datą złożenia zamówienia w tabeli Sale.SalesOrderHeader
 
--- liczba produktów koloru czerwonego
-SELECT COUNT(*) AS Cnt FROM Production.Product
-WHERE Color = 'Red'
+---
 
--- liczba produktów poszczególnych kolorów
-SELECT Color, COUNT(*) AS Cnt 
-FROM Production.Product
-GROUP BY Color
+#### 6. Grupowanie danych
 
---! nie możemy wyświetlać kolumn, po których nie pogrupowaliśmy 
-SELECT Color, Size, COUNT(*) AS Cnt 
-FROM Production.Product
-GROUP BY Color
+*liczba produktów poszczególnych kolorów*
 
+`SELECT Color, COUNT(*) AS Cnt` 
 
--- ... chyba, że po nich również pogrupujemy
-SELECT Color, Size, COUNT(*) AS Cnt 
-FROM Production.Product
-GROUP BY Color, Size
+`FROM Production.Product`
 
+`GROUP BY Color` - pokazuje tabelkę z wyliczoną ilością produktów danego koloru
 
-/*
-	9. Łączenie tabel
-*/
+*! nie możemy wyświetlać kolumn, po których nie pogrupowaliśmy* 
+
+`SELECT Color, ~Size~, COUNT(*) AS Cnt`
+
+`FROM Production.Product`
+
+`GROUP BY Color` - w części SELECT nie możemy dodać kolumny, której nie ma w GROUP BY ( program najpierw grupuje a później wykonuje czynności z SELECT)
 
 
-SELECT * FROM Production.Product
+*... chyba, że po nich również pogrupujemy*
+
+`SELECT Color, Size, COUNT(*) AS Cnt`
+
+`FROM Production.Product`
+
+`GROUP BY Color, Size` - pogrupowanie po dwóch kolumnach Color i Size (ile mamy czarnych w rozmiarze M, ile zielonych w rozmiarze S itd.)
+
+---
+
+#### 7. Łączenie tabel
 
 
-SELECT * FROM Production.ProductSubcategory
+- `SELECT * FROM Production.Product` - tabela 1, którą chcemy połączyć z tabelą 2
+
+- `SELECT * FROM Production.ProductSubcategory` - tabela 2, którą chcemy połączyć z tabelą 1
+
+*łączymy obie tabele 1 i 2:*
+
+`SELECT * `
+
+`FROM Production.Product` - tabela 1
+
+`JOIN Production.ProductSubcategory` - tabela 2
+
+`ON Production.Product.ProductSubcategoryID = Production.ProductSubcategory.ProductSubcategoryID` - ta kolumna która jest wpsólna - występuje zarówno 1 tabeli 1 jak i tabeli 2
+
+*dalej - chcemy wybrać kolumny ale obie tabele zawierają kolumnę o nazwie 'Name'*
+
+~`SELECT ProductID, Name, Color, Size, Name`~ - 2 razy występuje 'Name' - polecenie jest niepoprawne
+
+`FROM Production.Product`
+
+`JOIN Production.ProductSubcategory`
+
+`ON Production.Product.ProductSubcategoryID = Production.ProductSubcategory.ProductSubcategoryID`
+
+*więc musimy określić skąd to 'Name' pochodzi:*
+
+`SELECT ProductID, Production.Product.Name, Color, Size, Production.ProductSubcategory.Name`
+
+`FROM Production.Product`
+
+`JOIN Production.ProductSubcategory`
+
+`ON Production.Product.ProductSubcategoryID = Production.ProductSubcategory.ProductSubcategoryID`
 
 
+*ale możemy to ułatwić, skrócić dodając aliasy całych tabel w częściach FROM i JOIN i używać ich w części SELECT i ON*
 
-SELECT * 
-FROM Production.Product
-JOIN Production.ProductSubcategory
-ON Production.Product.ProductSubcategoryID = Production.ProductSubcategory.ProductSubcategoryID
+`SELECT p.ProductID, p.Name, p.Color, p.Size, ps.Name, p.ProductSubcategoryID, ps.ProductSubcategoryID`
 
---! obie tabele zawierają kolumnę Name
-SELECT ProductID, Name, Color, Size, Name
-FROM Production.Product
-JOIN Production.ProductSubcategory
-ON Production.Product.ProductSubcategoryID = Production.ProductSubcategory.ProductSubcategoryID
+`FROM Production.Product AS p` - od teraz Production.Product będzie występować jako p
 
+`JOIN Production.ProductSubcategory AS ps`- od teraz Production.ProductSubcategory jako ps
 
-SELECT ProductID, Production.Product.Name, Color, Size, Production.ProductSubcategory.Name
-FROM Production.Product
-JOIN Production.ProductSubcategory
-ON Production.Product.ProductSubcategoryID = Production.ProductSubcategory.ProductSubcategoryID
+`ON p.ProductSubcategoryID = ps.ProductSubcategoryID`
 
-
--- aliasy tabel
-SELECT ProductID, p.Name, Color, Size, ps.Name, p.ProductSubcategoryID, ps.ProductSubcategoryID
-FROM Production.Product AS p
-JOIN Production.ProductSubcategory AS ps
-ON p.ProductSubcategoryID = ps.ProductSubcategoryID
-
-
-
-
+ZADANIA PODSUMIWUJĄCE: [plik.sql](https://drive.google.com/file/d/14rrnqmprZv3FGgG02IqRLosO4tMbxIsm/view?usp=share_link)
 
 
 ## *Subtask 2*
