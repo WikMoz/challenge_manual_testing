@@ -32,7 +32,6 @@
    
  * ## [**Task 5**](#task-5)
    * [Subtask 1](#subtask-1-2)
-   * [Subtask 2](#subtask-2-1)
    * [Subtask 3](#subtask-3-4)
   
 ---
@@ -698,11 +697,46 @@ FROM Production.Product` - wylicza ile dni upłyneło pomiędzy datą w kolumnie
 
 ZADANIA PODSUMIWUJĄCE: [plik.sql](https://drive.google.com/file/d/14rrnqmprZv3FGgG02IqRLosO4tMbxIsm/view?usp=share_link)
 
-
-## *Subtask 2*
-
 ---
+
 ## *Subtask 3*
 
  
+![2023-02-11_20h01_24](https://user-images.githubusercontent.com/122229411/218276428-0acd1535-e88c-42cc-9ea2-8928b24e2fbd.png)
+
+---
+
+![2023-02-11_20h01_43](https://user-images.githubusercontent.com/122229411/218276430-7ca5ca35-e01e-4857-98a1-7a35643f8adb.png)
+
+ --- 
+ 
+![2023-02-11_20h01_56](https://user-images.githubusercontent.com/122229411/218276434-1eb89693-1ce7-44c8-a206-573f981280fc.png)
+
+---
+
+![2023-02-11_20h02_19](https://user-images.githubusercontent.com/122229411/218276436-5d3adc49-8499-47ba-906b-9f05d178228a.png)
+
+---
+
+![2023-02-11_20h02_34](https://user-images.githubusercontent.com/122229411/218276440-83c9eb16-2534-4476-a37d-b003656f0aae.png)
+
+---
+
+![2023-02-11_20h02_44](https://user-images.githubusercontent.com/122229411/218276444-a22aa04a-2003-4d0d-9b70-704805b35839.png)
+
+---
+
+![2023-02-11_20h02_50](https://user-images.githubusercontent.com/122229411/218276450-fa3fc4ae-3ba4-4154-9000-b12dc0a6a5e7.png)
+
+---
+
+![2023-02-11_20h02_59](https://user-images.githubusercontent.com/122229411/218276453-6758833e-9ba1-48bf-b4a3-1bb2e6bc1756.png)
+
+---
+
+![2023-02-11_20h03_07](https://user-images.githubusercontent.com/122229411/218276456-fc34a11a-b6b2-4ff8-a55f-4357e226b5db.png)
+
+---
+
+![2023-02-11_20h03_15](https://user-images.githubusercontent.com/122229411/218276458-61f87330-ba84-4c40-a3ab-2f73082678c8.png)
 
