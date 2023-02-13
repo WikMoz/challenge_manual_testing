@@ -529,9 +529,11 @@ Zadanie robiłam w grupie z :
 
 Kolejność wykonywania instrukcji SELECT
 
-2. `SELECT ProductID, Name, Color AS Kolor, Size`	
-1. `FROM Production.Product`						
-3. `ORDER BY Kolor`	
+2 - `SELECT ProductID, Name, Color AS Kolor, Size`	
+
+1 - `FROM Production.Product`	
+
+3 - `ORDER BY Kolor`	
 
 odwołanie się do aliastu kolumny w ORDER BY - jest OK
 
@@ -543,9 +545,11 @@ odwołanie się do aliastu kolumny w ORDER BY - jest OK
 
 Kolejność wykonywania instrukcji SELECT
 
-3. `SELECT ProductID, Name, Color AS Kolor, Size`	
-1. `FROM Production.Product`					
-2. `WHERE Kolor = 'Red'`
+3 - `SELECT ProductID, Name, Color AS Kolor, Size`
+
+1 - `FROM Production.Product`	
+
+2 - `WHERE Kolor = 'Red'`
 
 odwołanie się do aliasu kolumny w WHERE nie zadziała
 
