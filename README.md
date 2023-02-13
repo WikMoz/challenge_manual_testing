@@ -718,7 +718,7 @@ ZADANIA PODSUMIWUJĄCE: [plik.sql](https://drive.google.com/file/d/14rrnqmprZv3F
 
 ---
 
-![2023-02-11_20h02_34](https://user-images.githubusercontent.com/122229411/218276440-83c9eb16-2534-4476-a37d-b003656f0aae.png)
+![2023-02-13_10h53_50](https://user-images.githubusercontent.com/122229411/218427207-2d81f6f5-44db-488a-b2f4-48c9a3f96187.png)
 
 ---
 
@@ -726,15 +726,15 @@ ZADANIA PODSUMIWUJĄCE: [plik.sql](https://drive.google.com/file/d/14rrnqmprZv3F
 
 ---
 
-![2023-02-11_20h02_50](https://user-images.githubusercontent.com/122229411/218276450-fa3fc4ae-3ba4-4154-9000-b12dc0a6a5e7.png)
+![2023-02-13_10h55_18](https://user-images.githubusercontent.com/122229411/218427497-ba8ab7b5-a1d6-463f-a831-45fede7e58f2.png)
 
 ---
 
-![2023-02-11_20h02_59](https://user-images.githubusercontent.com/122229411/218276453-6758833e-9ba1-48bf-b4a3-1bb2e6bc1756.png)
+![2023-02-13_10h55_48](https://user-images.githubusercontent.com/122229411/218427509-03ae7f94-619f-4f82-b4ff-b4be85a3ccfb.png)
 
 ---
 
-![2023-02-11_20h03_07](https://user-images.githubusercontent.com/122229411/218276456-fc34a11a-b6b2-4ff8-a55f-4357e226b5db.png)
+![2023-02-13_10h56_24](https://user-images.githubusercontent.com/122229411/218427520-b533d660-0fd4-465d-9728-e3376129e5f0.png)
 
 ---
 
