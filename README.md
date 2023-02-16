@@ -33,7 +33,11 @@
  * ## [**Task 5**](#task-5)
    * [Subtask 1](#subtask-1-2)
    * [Subtask 3](#subtask-3-4)
-  
+   
+ * ## [**Task 6**](#task-6)
+   * [Subtask 1](#subtask-1-3)
+   * [Subtask 2](#subtask-2-1)
+   * [Subtask 3](#subtask-3-5)
 ---
 
 # Task 1
@@ -743,4 +747,118 @@ ZADANIA PODSUMIWUJĄCE: [plik.sql](https://drive.google.com/file/d/14rrnqmprZv3F
 ---
 
 ![2023-02-11_20h03_15](https://user-images.githubusercontent.com/122229411/218276458-61f87330-ba84-4c40-a3ab-2f73082678c8.png)
+
+
+
+---
+---
+
+# Task 6
+
+---
+
+## *Subtask 1*
+
+11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈
+
+
+![2023-02-16_13h14_18](https://user-images.githubusercontent.com/122229411/219363786-79dea344-a7c5-4406-93ce-de1cadfee894.png)
+
+
+![2023-02-16_13h14_57](https://user-images.githubusercontent.com/122229411/219363796-6c6b96df-75e2-4f39-833a-8531192d1e20.png)
+
+
+12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.
+
+
+![2023-02-16_13h54_31](https://user-images.githubusercontent.com/122229411/219370546-89afc374-4d7d-442e-8879-75459b8bac89.png)
+
+
+lub bez użycia funkcji JOIN:
+
+
+![2023-02-16_13h48_56](https://user-images.githubusercontent.com/122229411/219369365-d887cb77-a15c-40bb-a56b-77f27b5a6005.png)
+
+
+![2023-02-16_13h49_20](https://user-images.githubusercontent.com/122229411/219369374-019082ca-2038-4cbb-a21a-aa733ed42e06.png)
+
+
+13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com
+
+
+![2023-02-16_14h11_12](https://user-images.githubusercontent.com/122229411/219374105-375d6ed7-61c5-4a07-9957-c54b020a06a9.png)
+
+
+![2023-02-16_14h11_33](https://user-images.githubusercontent.com/122229411/219374118-2a806403-abc4-4e3f-a3d8-bdf10413067c.png)
+
+
+14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).
+
+
+![2023-02-16_14h47_04](https://user-images.githubusercontent.com/122229411/219382067-fb7655d0-73ca-42c9-b038-21cb364fe7e1.png)
+
+
+![2023-02-16_14h47_35](https://user-images.githubusercontent.com/122229411/219382087-b70793a6-0472-4898-af73-7d697925f3f2.png)
+
+
+15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling - Nag
+
+
+![2023-02-16_15h21_35](https://user-images.githubusercontent.com/122229411/219390648-dccc9ae6-8018-4db4-a2bb-7822767264f7.png)
+
+
+![2023-02-16_15h22_04](https://user-images.githubusercontent.com/122229411/219390658-d4d52258-2749-4159-a43a-c5c5ab4cc006.png)
+
+
+16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
+
+
+![2023-02-16_15h38_59](https://user-images.githubusercontent.com/122229411/219395160-8f218cd0-a028-4048-bb35-d337f5c0ebab.png)
+
+
+![2023-02-16_15h39_20](https://user-images.githubusercontent.com/122229411/219395175-a81e1324-7ae0-4fa9-b838-505e7e9b53ee.png)
+
+
+17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)
+
+
+![2023-02-16_15h47_51](https://user-images.githubusercontent.com/122229411/219397623-4581933e-04f0-44ae-a766-938272fdc831.png)
+
+
+![2023-02-16_15h48_28](https://user-images.githubusercontent.com/122229411/219397642-ffbf249a-1941-443b-8c2a-ab590f829a64.png)
+
+
+18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).
+
+
+![2023-02-16_15h53_06](https://user-images.githubusercontent.com/122229411/219399128-cf38c2f8-1ade-4f6f-8f5e-6ea35bb505c3.png)
+
+
+![2023-02-16_15h54_42](https://user-images.githubusercontent.com/122229411/219399145-ea43de6b-1fc8-41f9-add0-e8de07c3aa8d.png)
+
+
+19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał
+
+
+![2023-02-16_16h01_35](https://user-images.githubusercontent.com/122229411/219401444-8bb5907f-564a-4aa0-a552-a07cee5c31a4.png)
+
+
+![2023-02-16_16h02_01](https://user-images.githubusercontent.com/122229411/219401458-7ceaf5a9-a9bd-44b6-b56e-b5fb39be388a.png)
+
+
+20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa
+
+
+![2023-02-16_16h50_20](https://user-images.githubusercontent.com/122229411/219417608-5959f46e-f136-4e08-8423-506ab89d036f.png)
+
+
+![2023-02-16_16h50_44](https://user-images.githubusercontent.com/122229411/219417620-3be289a8-44c8-43e6-ad59-cc4e526f8181.png)
+
+---
+
+## *Subtask 2*
+
+---
+
+## *Subtask 3*
 
