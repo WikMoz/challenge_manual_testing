@@ -74,10 +74,11 @@ PS Czuję się trochę jak ten Pan na zdjęciu poniżej &darr; - Nie wie czy mu 
 ```diff
 Platforma skautingowa Futbol kolektyw
 ```
+![image](https://user-images.githubusercontent.com/122229411/219496053-f0130440-1f80-4f75-a617-647c1c449294.png)
 
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;Aplikacja służy do zapisywania i zarządzania danymi o wybranych piłkarzach oraz o meczach, w jakich brali udział. Służy do tworzenia szczegółowych oberwacji meczowych  - wprowadzania statystyk meczu z opcją notowania również w trakcie jego trwania. Daje możliwość tworzenia raportów dotyczących danego, obserwowanego zawodnika. </p>
+&nbsp;&nbsp;&nbsp;&nbsp;Aplikacja służy do zapisywania i zarządzania danymi o wybranych piłkarzach oraz o meczach, w jakich brali udział. Służy do tworzenia szczegółowych oberwacji meczowych  - wprowadzania statystyk meczu z opcją notowania również w trakcie jego trwania. Daje możliwość tworzenia raportów dotyczących danego, obserwowanego zawodnika. Funkcją biznesową aplikacji jest zarabianie poprzez tworzenie bazy danych przydatnej w tranferach graczy. </p>
 
 ***Funkcjonalości:***
 
@@ -98,7 +99,7 @@ Platforma skautingowa Futbol kolektyw
 
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;Aplikacja ma bardzo prostą i mało atrakcyjną szatę graficzną. Elementy na stronie głównej, która jest wizytówką aplikacji są niedopracowane- nieprawidłowe umiejscowienie linków (helpdesk w panelu głównym i główna funkcja strony czyli dodanie gracza w oknie linki pomocnicze), literówki (aktywnosć, zaaktualizowane), brak wyrównania tekstu (linki w oknie aktywność). 
+&nbsp;&nbsp;&nbsp;&nbsp;Aplikacja ma bardzo prostą i dość mało atrakcyjną szatę graficzną. Elementy na stronie głównej, która jest wizytówką aplikacji są niedopracowane- nieprawidłowe umiejscowienie linków (helpdesk w panelu głównym i główna funkcja strony czyli dodanie gracza w oknie linki pomocnicze), literówki (aktywnosć, zaaktualizowane), brak wyrównania tekstu (linki w oknie aktywność). 
 Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodanie meczu dla gracza jest proste, dość intuicyjne. Mało intuicyjnym elemetem, który może sprawiać problemy jest obsługa opcji graficznego przedstawienia/wprowadzania danych statystycznych z meczu. Brakuje instrukcji, opisu przycisków, możliwości edycji już dodanej akcji. Przechodzi się do tej opcji poprzez małą ikonę umieszczoną na końcu tabeli meczów. Również tworzenie raportu może stanowić problem, ponieważ klikając opcję dodaj raport użytkownik jest przekierowywany do tabeli meczów, gdzie musi odnaleźć małą ikonkę odpowiedzialną za tę funkcję. </p>
 
 ---
@@ -426,10 +427,7 @@ Uzytkownikiem końcowym aplikacji są osoby sprzedające/ kupujące/ wymieniają
 
 ---
 ## *Subtask 4*
-LINK DO JIRY: 
-
-
-[![2023-02-16_21h55_20](https://user-images.githubusercontent.com/122229411/219484791-65ba3a11-ecf4-467d-b305-4cad4c19c207.png)](https://sirtester.atlassian.net/browse/CPP)
+LINK DO JIRY: [![2023-02-16_21h55_20](https://user-images.githubusercontent.com/122229411/219484791-65ba3a11-ecf4-467d-b305-4cad4c19c207.png)](https://sirtester.atlassian.net/browse/CPP)
 
 |Id |Title                                                                       | BUG |Screencast|
 |:-:|:--------------------------------------------------------------------------:|:---:|:--------:|
