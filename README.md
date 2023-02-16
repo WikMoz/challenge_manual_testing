@@ -858,7 +858,7 @@ lub bez użycia funkcji JOIN:
 
 ## *Subtask 2*
 ![2023-02-16_17h05_50](https://user-images.githubusercontent.com/122229411/219421784-35aefee5-7d42-49d9-a2b7-ed138a0ec4d5.png)
-
+ ale 3 zagadnienia doczytałam w trakcie rozwiązywania testu, bo nie znałam odpowiedzi
 ---
 
 ## *Subtask 3*
