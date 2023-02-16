@@ -1,11 +1,12 @@
+
 # Spis treści
 
  * ## [**Task 1**](#task-1)
    * [Subtask 1](#subtask-1)
    * [Subtask 3](#subtask-3)
    * [Subtask 4](#subtask-4)
-     * [Testowana aplikacja](#testowana-aplikacja)
-     * [Znalezione błędy](#znalezione-błędy)
+     * [1. Testowana aplikacja](#1-testowana-aplikacja)
+     * [2. Znalezione błędy](#2-znalezione-błędy)
        1) [Strona główna](#strona-główna)
        2) [Dodaj gracza](#dodaj-gracza)
        3) [Gracze](#gracze)
@@ -37,7 +38,8 @@
  * ## [**Task 6**](#task-6)
    * [Subtask 1](#subtask-1-3)
    * [Subtask 2](#subtask-2-1)
-   * [Subtask 3](#subtask-3-5)
+   * [Subtask 3](#subtask-3-5) 
+
 ---
 
 # Task 1
@@ -67,9 +69,11 @@ PS Czuję się trochę jak ten Pan na zdjęciu poniżej &darr; - Nie wie czy mu 
 
 ## *Subtask 4*
 
-### Testowana aplikacja
+### 1. Testowana aplikacja
 
-**Platforma skautingowa Futbol kolektyw**
+```diff
+Platforma skautingowa Futbol kolektyw
+```
 
 
 <p align="justify">
@@ -100,7 +104,7 @@ Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodani
 ---
 
 
-### Znalezione błędy
+### 2. Znalezione błędy
 
 
 
@@ -109,6 +113,7 @@ Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodani
 ---
 
 #### ***Strona główna***
+
 
 - przy wchodzeniu na stronę, jeszcze przed zalogowaniem pojawia się kod błędu odpowiedzi HTTP - 404- strona https://scouts-test.kolektyw.pl/pl/favicon.ico nie została odnazleziona 
 >request URL: https://scouts-test.kolektyw.pl/pl/favicon.ico 
@@ -421,48 +426,23 @@ Uzytkownikiem końcowym aplikacji są osoby sprzedające/ kupujące/ wymieniają
 
 ---
 ## *Subtask 4*
+LINK DO JIRY: 
 
 
-https://sirtester.atlassian.net/browse/CPP
+[![2023-02-16_21h55_20](https://user-images.githubusercontent.com/122229411/219484791-65ba3a11-ecf4-467d-b305-4cad4c19c207.png)](https://sirtester.atlassian.net/browse/CPP)
 
-*1) CPP-2 The registration window is cropped*
-- AUTHOR: Wiktoria Mozalewska
-- [CPP-2.pdf](https://github.com/WikMoz/challenge_portfolio_Wiktoria/files/10614016/CPP-2.pdf)
-- SCREENSHOT/ SCREENCAST:	
-[CPP-2](https://user-images.githubusercontent.com/122229411/216847250-a513ca26-e12c-41da-864d-a2dba5616a9e.mp4)
+|Id |Title                                                                       | BUG |Screencast|
+|:-:|:--------------------------------------------------------------------------:|:---:|:--------:|
+|1  |The registration window is cropped|[BUG1](https://github.com/WikMoz/challenge_portfolio_Wiktoria/files/10614016/CPP-2.pdf)|[Screencast](https://user-images.githubusercontent.com/122229411/216847250-a513ca26-e12c-41da-864d-a2dba5616a9e.mp4)|
+|2  |After adding new like ('polub') - the total number of likes doesn’t change  |[BUG2](https://github.com/WikMoz/challenge_portfolio_Wiktoria/files/10614000/CPP-3.pdf)|[Screencast](https://user-images.githubusercontent.com/122229411/216847701-300ed0ba-5723-4497-9161-75d6f979d810.mp4)|
+|3  |The quick flash of previous article before opening the new, chosen one |[BUG3](https://github.com/WikMoz/challenge_portfolio_Wiktoria/files/10613994/CPP-4.pdf)|[Screencast](https://user-images.githubusercontent.com/122229411/216848500-90ff042e-636a-4212-984f-4ae05ceee7c8.mp4)|
+|4  |No possibility to add comment to the article|[BUG4](https://github.com/WikMoz/challenge_portfolio_Wiktoria/files/10613982/CPP-5.pdf)|[Screencast](https://drive.google.com/file/d/1Hk4CA7y46jmeFjd4jy2x-7m2uVLGanS4/view?usp=share_link)|
+|5  |Name of the author overlaps the icons|[BUG5](https://github.com/WikMoz/challenge_portfolio_Wiktoria/files/10613965/CPP-6.pdf)|[Screencast](https://drive.google.com/file/d/1lOVSLKrvoZg3jJ-e3gnJUDC9dj4ZoO_Z/view?usp=share_link)|
 
-
-*2) CPP-3	After adding new like ('polub') - the total number of likes doesn’t change*
-- AUTHOR: Wiktoria Mozalewska
-- [CPP-3.pdf](https://github.com/WikMoz/challenge_portfolio_Wiktoria/files/10614000/CPP-3.pdf)
-- SCREENSHOT/ SCREENCAST:
-[CPP-3](https://user-images.githubusercontent.com/122229411/216847701-300ed0ba-5723-4497-9161-75d6f979d810.mp4)
-
-
-*3) CPP-4 The quick flash of previous article before opening the new, chosen one*
-- AUTHOR: Wiktoria Mozalewska
-- [CPP-4.pdf](https://github.com/WikMoz/challenge_portfolio_Wiktoria/files/10613994/CPP-4.pdf)
-- SCREENSHOT/ SCREENCAST:
-[CPP-4](https://user-images.githubusercontent.com/122229411/216848500-90ff042e-636a-4212-984f-4ae05ceee7c8.mp4)
-
-
-*4) CPP-5 No possibility to add comment to the article*
-- AUTHOR: Wiktoria Mozalewska
-- [CPP-5.pdf](https://github.com/WikMoz/challenge_portfolio_Wiktoria/files/10613982/CPP-5.pdf)
-- SCREENSHOT/ SCREENCAST:
-[CPP-5](https://drive.google.com/file/d/1Hk4CA7y46jmeFjd4jy2x-7m2uVLGanS4/view?usp=share_link)
-
-
-*5) CPP-6 Name of the author overlaps the icons*
-- AUTHOR: Wiktoria Mozalewska
-- [CPP-6.pdf](https://github.com/WikMoz/challenge_portfolio_Wiktoria/files/10613965/CPP-6.pdf)
-- SCREENSHOT/ SCREENCAST:
-[CPP-6](https://drive.google.com/file/d/1lOVSLKrvoZg3jJ-e3gnJUDC9dj4ZoO_Z/view?usp=share_link)
-
-Zadanie robiłam w grupie z :
-- Sonią Topolewską
-- Iwoną Mierzejewską
-- Adrianem Pachowskim
+Zadanie robiłam w mojej ❤ grupie SirTester, w składzie:
+- Sonia Topolewska 😀
+- Iwona Mierzejewska 😀
+- Adrian Pachowski 😀
 
 ---
 ---
@@ -858,8 +838,16 @@ lub bez użycia funkcji JOIN:
 
 ## *Subtask 2*
 ![2023-02-16_17h05_50](https://user-images.githubusercontent.com/122229411/219421784-35aefee5-7d42-49d9-a2b7-ed138a0ec4d5.png)
- ale 3 zagadnienia doczytałam w trakcie rozwiązywania testu, bo nie znałam odpowiedzi
+ 
+
+ale na 3 zagadnienia nie znałam odpowiedzi i musiałam doczytać w trakcie rozwiązywania testu
+
 ---
 
 ## *Subtask 3*
+[![image](https://user-images.githubusercontent.com/122229411/219489501-83b4e385-c76b-4e5f-8b3b-4858467a3d31.png)](link)
 
+
+---
+---
+[powrót do spisu treści](#spis-treści)
