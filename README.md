@@ -74,8 +74,8 @@ PS Czuję się trochę jak ten Pan na zdjęciu poniżej &darr; - Nie wie czy mu 
 ```diff
 Platforma skautingowa Futbol kolektyw
 ```
-![image](https://user-images.githubusercontent.com/122229411/219496053-f0130440-1f80-4f75-a617-647c1c449294.png)
 
+![image](https://user-images.githubusercontent.com/122229411/219715991-096da1d4-4813-4d0b-b8f0-7c1ac39a66f9.png)
 
 <p align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;Aplikacja służy do zapisywania i zarządzania danymi o wybranych piłkarzach oraz o meczach, w jakich brali udział. Służy do tworzenia szczegółowych oberwacji meczowych  - wprowadzania statystyk meczu z opcją notowania również w trakcie jego trwania. Daje możliwość tworzenia raportów dotyczących danego, obserwowanego zawodnika. Funkcją biznesową aplikacji jest zarabianie poprzez tworzenie bazy danych przydatnej w tranferach graczy. </p>
