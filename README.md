@@ -577,9 +577,14 @@ odwołanie się do aliasu kolumny w WHERE nie zadziała
 
 *nazwy produktów wielkimi literami*
 
-- `SELECT ProductID, UPPER(Name) AS Name, Color AS Kolor, Size 
+```
+SELECT ProductID, UPPER(Name) AS Name, Color AS Kolor, Size 
 FROM Production.Product` - używamy funkcji w ramach zapytań. 
-UPPER(Name) AS Name = wyświetli nam w kolumnie Name wszytskie wyniki (nazwy produktów) WIELKIMI literami
+UPPER(Name) AS Name
+```
+
+
+UPPER (name) = wyświetli nam w kolumnie Name wszytskie wyniki (nazwy produktów) WIELKIMI literami
 
 
 *ile dni upłynęło od początku sprzedaży*
@@ -608,28 +613,37 @@ FROM Production.Product` - wylicza ile dni upłyneło pomiędzy datą w kolumnie
 
 *liczba produktów poszczególnych kolorów*
 
-`SELECT Color, COUNT(*) AS Cnt` 
+```
+SELECT Color, COUNT(*) AS Cnt` 
+FROM Production.Product`
+GROUP BY Color
+```
 
-`FROM Production.Product`
 
-`GROUP BY Color` - pokazuje tabelkę z wyliczoną ilością produktów danego koloru
+pokazuje tabelkę z wyliczoną ilością produktów danego koloru
 
 *! nie możemy wyświetlać kolumn, po których nie pogrupowaliśmy* 
 
-`SELECT Color, ~Size~, COUNT(*) AS Cnt`
+```
+SELECT Color, ~Size~, COUNT(*) AS Cnt
+FROM Production.Product`
+GROUP BY Color
+```
 
-`FROM Production.Product`
 
-`GROUP BY Color` - w części SELECT nie możemy dodać kolumny, której nie ma w GROUP BY ( program najpierw grupuje a później wykonuje czynności z SELECT)
+w części SELECT nie możemy dodać kolumny, której nie ma w GROUP BY ( program najpierw grupuje a później wykonuje czynności z SELECT)
 
 
 *... chyba, że po nich również pogrupujemy*
 
-`SELECT Color, Size, COUNT(*) AS Cnt`
+```
+SELECT Color, Size, COUNT(*) AS Cnt
+FROM Production.Product
+GROUP BY Color, Size
+```
 
-`FROM Production.Product`
 
-`GROUP BY Color, Size` - pogrupowanie po dwóch kolumnach Color i Size (ile mamy czarnych w rozmiarze M, ile zielonych w rozmiarze S itd.)
+pogrupowanie po dwóch kolumnach Color i Size = ile mamy czarnych w rozmiarze M, ile zielonych w rozmiarze S itd.
 
 ---
 
@@ -648,40 +662,40 @@ FROM Production.Product` - wylicza ile dni upłyneło pomiędzy datą w kolumnie
 
 `JOIN Production.ProductSubcategory` - tabela 2
 
-`ON Production.Product.ProductSubcategoryID = Production.ProductSubcategory.ProductSubcategoryID` - ta kolumna która jest wpsólna - występuje zarówno 1 tabeli 1 jak i tabeli 2
+`ON Production.Product.ProductSubcategoryID = Production.ProductSubcategory.ProductSubcategoryID` - ta kolumna która jest wspólna - występuje zarówno 1 tabeli 1 jak i tabeli 2
 
 *dalej - chcemy wybrać kolumny ale obie tabele zawierają kolumnę o nazwie 'Name'*
 
-~`SELECT ProductID, Name, Color, Size, Name`~ - 2 razy występuje 'Name' - polecenie jest niepoprawne
 
-`FROM Production.Product`
+*polecenie jest niepoprawne:*
 
-`JOIN Production.ProductSubcategory`
-
-`ON Production.Product.ProductSubcategoryID = Production.ProductSubcategory.ProductSubcategoryID`
+```
+SELECT ProductID, Name, Color, Size, Name`
+FROM Production.Product
+JOIN Production.ProductSubcategory
+ON Production.Product.ProductSubcategoryID = Production.ProductSubcategory.ProductSubcategoryID
+```
 
 *więc musimy określić skąd to 'Name' pochodzi:*
 
-`SELECT ProductID, Production.Product.Name, Color, Size, Production.ProductSubcategory.Name`
-
-`FROM Production.Product`
-
-`JOIN Production.ProductSubcategory`
-
-`ON Production.Product.ProductSubcategoryID = Production.ProductSubcategory.ProductSubcategoryID`
+```
+SELECT ProductID, Production.Product.Name, Color, Size, Production.ProductSubcategory.Name
+FROM Production.Product
+JOIN Production.ProductSubcategory
+ON Production.Product.ProductSubcategoryID = Production.ProductSubcategory.ProductSubcategoryID
+```
 
 
 *ale możemy to ułatwić, skrócić dodając aliasy całych tabel w częściach FROM i JOIN i używać ich w części SELECT i ON*
 
-`SELECT p.ProductID, p.Name, p.Color, p.Size, ps.Name, p.ProductSubcategoryID, ps.ProductSubcategoryID`
+```
+SELECT p.ProductID, p.Name, p.Color, p.Size, ps.Name, p.ProductSubcategoryID, ps.ProductSubcategoryID
+FROM Production.Product AS p
+JOIN Production.ProductSubcategory AS ps
+ON p.ProductSubcategoryID = ps.ProductSubcategoryID
+```
 
-`FROM Production.Product AS p` - od teraz Production.Product będzie występować jako p
-
-`JOIN Production.ProductSubcategory AS ps`- od teraz Production.ProductSubcategory jako ps
-
-`ON p.ProductSubcategoryID = ps.ProductSubcategoryID`
-
-ZADANIA PODSUMIWUJĄCE: [plik.sql](https://drive.google.com/file/d/14rrnqmprZv3FGgG02IqRLosO4tMbxIsm/view?usp=share_link)
+ZADANIA PODSUMOWUJĄCE: [plik.sql](https://drive.google.com/file/d/14rrnqmprZv3FGgG02IqRLosO4tMbxIsm/view?usp=share_link)
 
 ---
 
@@ -843,7 +857,7 @@ ale na 3 zagadnienia nie znałam odpowiedzi i musiałam doczytać w trakcie rozw
 ---
 
 ## *Subtask 3*
-[![image](https://user-images.githubusercontent.com/122229411/219489501-83b4e385-c76b-4e5f-8b3b-4858467a3d31.png)](link)
+[![image](https://user-images.githubusercontent.com/122229411/219489501-83b4e385-c76b-4e5f-8b3b-4858467a3d31.png)](https://github.com/WikMoz/Portfolio)
 
 
 ---
