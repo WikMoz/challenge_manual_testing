@@ -57,7 +57,7 @@ Cześć!
 </p>
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;Nazywam się Wika 😊. Bardzo się cieszę, że mogę brać udział w tym projekcie, ponieważ chcę pójść zupełnie nową ścieżką 👩‍🚀🚀, wyjść poza to, co znam i w czym czuję się pewnie i bezpiecznie. Zupełnie nie mam doświadczenia w tej dziedzinie, dlatego czuję się trochę zagubiona 😱, ale z drugiej strony też bardzo pozytywnie nakręcona🥳. Mam nadzieję, że poznawanie nieznanego da mi dużo frajdy, satysfakcji i to fantastyczne uczucie, które się pojawia gdy się coś nowego odkrywa🕵️‍♀️. Bardzo chciałabym się jak najwięcej nauczyć, przygotować się jak najlepiej oraz prawidłowo wykonać wszystkie zadania. W DARE IT macie w sobie super energię i entuzjazm, który naprawdę zaraża🤧 i daje kopa do działania i bardzo sie cieszę że mogę się od Was uczyć.
+&nbsp;&nbsp;&nbsp;&nbsp;Nazywam się Wika 😊. Bardzo się cieszę, że mogę brać udział w tym projekcie, ponieważ chcę pójść zupełnie nową ścieżką 👩‍🚀🚀, wyjść poza to, co znam i w czym czuję się pewnie i bezpiecznie. Jeszcze nie mam doświadczenia w tej dziedzinie, dlatego czuję się trochę niezbyt pewnie 😱, ale z drugiej strony jestem też bardzo pozytywnie nakręcona🥳. Mam nadzieję, że poznawanie nieznanego da mi dużo frajdy, satysfakcji i to fantastyczne uczucie, które się pojawia gdy się coś nowego odkrywa🕵️‍♀️. Bardzo chciałabym się jak najwięcej nauczyć, przygotować się jak najlepiej oraz prawidłowo wykonać wszystkie zadania. W DARE IT macie w sobie super energię i entuzjazm, który naprawdę zaraża🤧 i daje kopa do działania i bardzo sie cieszę, że mogę się od Was uczyć.
 
 
 PS Czuję się trochę jak ten Pan na zdjęciu poniżej &darr; - Nie wie czy mu się uda ale przecież MUSI spróbować 🐱‍🐉.
@@ -68,12 +68,21 @@ PS Czuję się trochę jak ten Pan na zdjęciu poniżej &darr; - Nie wie czy mu 
 ---
 
 ## *Subtask 4*
+Testowanie eksploracyjne 
+
+Aplikację, którą będziemy testować, jest: https://scouts-test.futbolkolektyw.pl/pl
+- Na czym polega ta aplikacja? Do czego służy?
+- Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a? (Nie bój się wyrażać opinię!)
+- Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?
+- Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).
+- Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem? Zapisz swoje przemyślenia w pliku. 
+
 
 ### 1. Testowana aplikacja
 
-```diff
-Platforma skautingowa Futbol kolektyw
-```
+
+[Platforma skautingowa Futbol kolektyw](https://scouts-test.futbolkolektyw.pl/pl)
+
 
 ![image](https://user-images.githubusercontent.com/122229411/219715991-096da1d4-4813-4d0b-b8f0-7c1ac39a66f9.png)
 
@@ -265,12 +274,53 @@ Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodani
 ---
 
 ## *Subtask 1*
+Pisanie przypadków testowych na podstawie User Story
+
+
+Na podstawie poniższych dwóch User Story stwórz po trzy test case’y dla [platformy skautingowej Futbol kolektyw](https://scouts-test.futbolkolektyw.pl/pl)
+
+
+### US_01 
+As a Football Scout, I would like to have a login platform to be able to log into the system.
+Users need a login page with a Login field, Password field (Login and password are given by the site administrator to avoid bots). The website should also contain a remind password button, a dropdown with the option of choosing the language - English or Polish, as well as a Sing button.
+
+#### Acceptance Criteria
+- Login field,
+- Password field,
+- After entering the correct login and password, the user should be able to log into the system (after clicking sign in button),
+- After entering an Invalid login or password, the validation "Identifier or password invalid" should be displayed,
+- After you try to log into the system without providing your login or password, the validation "Please provide your username or your e-mail." should be displayed,
+- After clicking remind password - the user should be redirected to the remind password page,
+- Choosing one of the language options, the website should be translated into Polish or English. 
+
+### US_02 
+As a Football Scout, I would like to add a new player to be able to trade it in the future.
+After logging in to the system, the user must have easy access to the form for adding a new player. It will be the "Add player" button on the tile named "Shortcuts".
+After clicking the add player button, the user is redirected to the player-adding form.
+
+#### Acceptance Criteria
+- Add player button must redirect to the player-adding form,
+- The form should contain fields such as E-mail, name, surname, phone, weight (kg), height (cm), age, leg, club, level, main position, second position, district, achievements, Łączy nas piłka, 90 minutes, Facebook.
+- The required fields are Name, Surname, Age, and Main position.
+- The form should contain buttons such as Add language, add a link to youtube, submit, and clear.
+- After clicking Add language - a field should appear with the option to enter the language used by the player. A trash can icon should appear on the right so you can easily delete the item.
+- After clicking Add link to youtube - a field should appear with the option to enter the link to youtube. A trash can icon should appear on the right so you can easily delete the item.
+- After clicking the Clear button, the entire form should be cleared immediately.
+- After clicking the Submit button, the player should be added to the system * as long as all mandatory fields have been filled in.
+- If any of the required fields have not been filled in, a bubble should appear with the words "Fill in this field", and after clicking somewhere next, the field should turn red with the validation "required"
+
 
 [Subtask 1 - test cases for user stories](https://docs.google.com/spreadsheets/d/1lodk83NlXzVX2n_N-y8rW2jbiDuHJxqD/edit?usp=sharing&ouid=117170517202558210113&rtpof=true&sd=true)
 
 ---
 
 ## *Subtask 2*
+
+Pisanie przypadków testowych na podstawie własnych doświadczeń
+
+
+Napisz 20 (lub więcej) dowolnych test case’ów na podstawie własnych doświdczeń dla [platformy skautingowej Futbol kolektyw](https://scouts-test.futbolkolektyw.pl/pl)
+
 
 [Subtask 2 - test cases](https://docs.google.com/spreadsheets/d/1YmXbnhtnpeROPaZI6VZ_JnWPs83CFGMd/edit?usp=sharing&ouid=117170517202558210113&rtpof=true&sd=true)
 
@@ -296,7 +346,14 @@ Test case writting:
 ---
 
 ## Subtask 4  
+Zadanie dla chętnych w grupach
 
+Pisanie przypadków testowych na podstawie własnych doświadczeń.
+
+Możecie pracować samodzielnie lub w grupie
+
+Waszym zadaniem będzie pobranie ze sklepu google/istore aplikacji Pick Eat Up https://pickeatup.io/
+Każdy z Was niech napisze po 5 test casów, do Waszego wspólnego dokumentu. UWAGA! Test case’y nie mogą się powtarzać.
 
 [Subtask 4 - test cases for pick.eat.up app](https://docs.google.com/spreadsheets/d/1Z4GQxUTicf-5v0iVSGIMF_72bpZmDYHq/edit?usp=sharing&ouid=117170517202558210113&rtpof=true&sd=true) 
 
