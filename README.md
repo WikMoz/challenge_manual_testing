@@ -1,7 +1,7 @@
 
 # Spis treści
 
- * ## [**Task 1**](#task-1)
+ * ## [**Task 1 - Testy eksploracyjne**](#task-1)
    * [Subtask 1](#subtask-1)
    * [Subtask 3](#subtask-3)
    * [Subtask 4](#subtask-4)
@@ -15,27 +15,27 @@
        6) [Dodawanie raportu do meczu](#dodawanie-raportu-do-meczu)
        7) [Raport meczowy](#raport-meczowy)
       
- * ## [**Task 2**](#task-2)
+ * ## [**Task 2 - Przypadki testowe (test cases)**](#task-2)
    * [Subtask 1](#subtask-1-1)
    * [Subtask 2](#subtask-2)
    * [Subtask 3](#subtask-3-1)
    * [Subtask 4](#subtask-4-1)
    
- * ## [**Task 3**](#task-3)
+ * ## [**Task 3 - Raportowanie błędów**](#task-3)
    * [Subtask 1 & 2](#subtask-1--2)
    * [Subtask 3](#subtask-3-2)
    * [Subtask 4](#subtask-4-2)
      
- * ## [**Task 4**](#task-4)
+ * ## [**Task 4 - Testowanie aplikacji mobilnych**](#task-4)
    * [Subtask 1 & 2](#subtask-1--2-1)
    * [Subtask 3](#subtask-3-3)
    * [Subtask 4](#subtask-4-3)
    
- * ## [**Task 5**](#task-5)
+ * ## [**Task 5 - SQL 1/2**](#task-5)
    * [Subtask 1](#subtask-1-2)
    * [Subtask 3](#subtask-3-4)
    
- * ## [**Task 6**](#task-6)
+ * ## [**Task 6 - SQL 2/2 i tworzenie portfolio**](#task-6)
    * [Subtask 1](#subtask-1-3)
    * [Subtask 2](#subtask-2-1)
    * [Subtask 3](#subtask-3-5) 
@@ -46,6 +46,10 @@
 ---
 
 ## *Subtask 1*
+
+*Test podsumowujący wiedzę, którą powinniście przyswoić przed przystąpieniem do kursu*
+
+Wynik
 **10 punktów** ![image](https://user-images.githubusercontent.com/122229411/215879441-df2a4968-a97c-400b-a9f8-49d0e1ddf7bc.png)
 
 
@@ -127,7 +131,6 @@ Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodani
 
 - przy wchodzeniu na stronę, jeszcze przed zalogowaniem pojawia się kod błędu odpowiedzi HTTP - 404- strona https://scouts-test.kolektyw.pl/pl/favicon.ico nie została odnazleziona 
 >request URL: https://scouts-test.kolektyw.pl/pl/favicon.ico 
-- pojawiły się informacje o problemie z logowaniem, dlatego sprawdziłam możliwość zalogowania się na kilku przeglądarkach: chrome, edge, firefox i brave – na wszystkich się powiodło
 - przy wylogowaniu pojawia się informacja dotycząca braku autouzupełniania formularza logowania '[DOM] Input elements should have autocomplete attributes (suggested: "current-password")'
 - przypomnienie hasła przy logowaniu - pojawia się błąd '550 You are not allowed to send e-mails as the domain strapi.io'
 - na górze strony głównej – literówka -'ilość meczy' zamiast 'ilość meczów'
@@ -274,7 +277,7 @@ Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodani
 ---
 
 ## *Subtask 1*
-Pisanie przypadków testowych na podstawie User Story
+*Pisanie przypadków testowych na podstawie User Story*
 
 
 Na podstawie poniższych dwóch User Story stwórz po trzy test case’y dla [platformy skautingowej Futbol kolektyw](https://scouts-test.futbolkolektyw.pl/pl)
@@ -316,7 +319,7 @@ After clicking the add player button, the user is redirected to the player-addin
 
 ## *Subtask 2*
 
-Pisanie przypadków testowych na podstawie własnych doświadczeń
+*Pisanie przypadków testowych na podstawie własnych doświadczeń*
 
 
 Napisz 20 (lub więcej) dowolnych test case’ów na podstawie własnych doświdczeń dla [platformy skautingowej Futbol kolektyw](https://scouts-test.futbolkolektyw.pl/pl)
@@ -328,7 +331,7 @@ Napisz 20 (lub więcej) dowolnych test case’ów na podstawie własnych doświd
 ---
 ## *Subtask 3*
 
-**Why we are writting test cases?**
+*Why we are writting test cases?*
 
 Test case is a set of conditions under which tester will determine whether an application or software system or one of its feature is working as expected.
 
@@ -348,12 +351,9 @@ Test case writting:
 ## Subtask 4  
 Zadanie dla chętnych w grupach
 
-Pisanie przypadków testowych na podstawie własnych doświadczeń.
+*Pisanie przypadków testowych na podstawie własnych doświadczeń* 
 
-Możecie pracować samodzielnie lub w grupie
-
-Waszym zadaniem będzie pobranie ze sklepu google/istore aplikacji Pick Eat Up https://pickeatup.io/
-Każdy z Was niech napisze po 5 test casów, do Waszego wspólnego dokumentu. UWAGA! Test case’y nie mogą się powtarzać.
+Waszym zadaniem będzie pobranie ze sklepu google/istore aplikacji Pick Eat Up https://pickeatup.io/. Każdy z Was niech napisze po 5 test casów, do Waszego wspólnego dokumentu. UWAGA! Test case’y nie mogą się powtarzać.
 
 [Subtask 4 - test cases for pick.eat.up app](https://docs.google.com/spreadsheets/d/1Z4GQxUTicf-5v0iVSGIMF_72bpZmDYHq/edit?usp=sharing&ouid=117170517202558210113&rtpof=true&sd=true) 
 
@@ -369,6 +369,10 @@ Każdy z Was niech napisze po 5 test casów, do Waszego wspólnego dokumentu. UW
 
 ## *Subtask 1 & 2* 
 
+*Testowanie według planów testów i raportowanie błędów*
+
+Czas na wykonywanie i na odpalenie naszych TC, Testy będziemy wykonywać na produkcyjnym środowisku https://scouts.futbolkolektyw.pl/ . Jest to środowisko specjalnie przygotowane dla Ciebie- zawiera dużo błędów i pułapek
+
 [Subtask 1 & 2 - bug report](https://docs.google.com/spreadsheets/d/1yNjSEN-VvtSfSd5MfSlgpfMwzW0bd1FGTANk7rX8lcE/edit?usp=sharing)  
 
 ![image](https://user-images.githubusercontent.com/122229411/216088152-1b175371-6e0f-4707-84fa-1ed97f5faa8d.png)
@@ -378,6 +382,19 @@ Każdy z Was niech napisze po 5 test casów, do Waszego wspólnego dokumentu. UW
 
 ## *Subtask 3*
 
+*Raport z wykonanych testów*
+
+Utwórz nowy dokument w folderze Dysk Google. Napisz bardzo krótki raport z testu. Uwzględnij w raporcie:
+- tytuł raportu,
+- data wykonania testu,
+- imię i nazwisko testera,
+- cel testów (np. regresja aplikacji na środowisko sceniczne),
+- napisz w jakiej przeglądarce, w jakim systemie operacyjnym,
+- wymień tytuły tc, które zostały wykonane,
+- wypisz wszystkie znalezione błędy (napisz, co jest błędem, możesz dodać screen),
+- zapisz jaki procent testów przeszedł, nie powiódł się, zablokował,
+- napisz krótkie podsumowanie.
+
 [Subtask 3 - test report](https://docs.google.com/spreadsheets/d/1IvBLQX9O88la2VP2aUuf9GlSBBfTlNkv5cXqbucVlKc/edit?usp=sharing) 
 
 ![image](https://user-images.githubusercontent.com/122229411/216088312-035e083e-f56f-40c8-a90b-17d008375ce1.png)
@@ -385,6 +402,15 @@ Każdy z Was niech napisze po 5 test casów, do Waszego wspólnego dokumentu. UW
 
 ---
 ## *Subtask 4*
+
+*Testy eksploracyjne*
+
+- **Guidebook tour** - Twoim zadaniem jest przetestowanie oprogramowania według “reklamowanej funkcjonalności”, tak jak niektórzy turyści, którzy podróżują tylko zgodnie z przewodnikiemi. Przeczytaj przewodnik/instrukcje obsługi i postępuj zgodnie z nimi. Szukaj również błędów gramatycznych i ortograficznych, niezręczne sformułowania.
+- **Intellectual Tour** - Twoim zadaniem jest zadanie programowi trudnych pytań. Przetestuj granice wytrzymałości oprogramowania. Używaj np. znaków specjalnych ä, ö, ü, ą, ę, ś, czy ogromne fragmenty tekstu wypełniając pola formularza. szukaj błędów typu poprawność (np. jeżeli jest limit 30 znaków, to czy da się wpisać 31 znaków),błędy w layoucie (układzie)(np. wpisanie długiego tekstu w imieniu może spowodować, że w polu edycji, czy gdzieś indziej będzie źle się wyświetlać).
+- **Obsessive-Compulsive Tour** - Klikaj jak porąbany po przyciskach. Serio. Zapisujesz jakiś formularz? Kliknij 5 razy przycisk zanim zdąży Ci się strona odświeżyć. Edytuj zawodnika z 5 razy. Klikaj szybko i intensywnie. Dodaj zawodnikowi 5 nagrań YT, a później przy edycji usuń.
+- **Landmark Tour** - Wybierz zestaw punktów orientacyjnych (tak jakbyś był turystą, który chodzi tylko i wyłącznie po największych atrakcjach zwiedzanego miasta). Przechodź od punktu do punktu orientacyjnego, dopóki nie odwiedzisz wszystkich, które masz na liście. Exploruj wszystkie ścieżki (path’y).Zmień język na angielski i zwróć uwagę, czy wszystko jest tłumaczone.
+- **Anti social tour** - Wykonuj wszystkie testy na przekór, wykonuj najmniej prawdopodobne wydarzenia czynności. (Np. podawaj negatywne dane wejściowe i zobacz jaki będzie rezultat). Wykonuj NIELEGALNE działania. Jeżeli system prosi Cię, żebyś podał liczby Ty na przekór podaj litery i znaki specjalne.Szukaj luk w zabezpieczeniach czy problemy z użytecznością.
+- **Money Tour** - Czyli testowanie głównych funkcjonalności, które są “reklamowane”. Uruchom oprogramowanie tak jakbyś demonstrował je swojemu klientowi. Może głównym funkcjonalnościom brakuje opisanych “w broszurach” atrakcji (funkcjonalności).A może aplikacja ma problemy funkcjonalne, które wpływają na jej demonstrację przed klientem?
 
 [Subtask 4 - explorative testing - tour](https://docs.google.com/spreadsheets/d/1TrnbCMN6Ii4YK9mdQORSYsZ59pRR7AjU5uM4_7y8bEg/edit?usp=share_link) 
 
@@ -399,6 +425,10 @@ Każdy z Was niech napisze po 5 test casów, do Waszego wspólnego dokumentu. UW
 ---
 
 ## *Subtask 1 & 2* 
+
+*Testowanie eksploracyjne i raportowanie błędów*
+
+Wykonaj testy eksploracyjne aplikacji mobilnej OLX. Wszystkie znalezione błędy zamieść w odpowiednio przygotowanej formatce. Pamiętaj o dodaniu screenshotów lub screencastów.
 
 🐛[Subtask 1 & 2 - bug report](https://docs.google.com/spreadsheets/d/1psyvC75DrlCn2q9qnlad02WGcFH9bQkzEdPt1OVgCuA/edit?usp=share_link)
 
@@ -484,6 +514,14 @@ Uzytkownikiem końcowym aplikacji są osoby sprzedające/ kupujące/ wymieniają
 
 ---
 ## *Subtask 4*
+Dla grupy i chętnych.
+
+*Testy aplikacji mobilnej i webowej*
+
+Pamiętacie jak przy pierwszym zadaniu zakładaliście w grupie projekt w jirze? Teraz nam się przyda. Chciałabym, żebyście w ramach grupy przetestowali aplikację swipe to https://swipeto.pl/. I aplikację internetową i natywną. W zespole podzielcie się np. dwie osoby niech testują aplikację internetową, a dwie osoby aplikację natywną.
+Odnotujcie każdego buga i każdą niedogodność. Wszystkie błędy chciałabym, żebyście zgłosili do projektu w jirze.
+
+
 LINK DO JIRY: [![2023-02-16_21h55_20](https://user-images.githubusercontent.com/122229411/219484791-65ba3a11-ecf4-467d-b305-4cad4c19c207.png)](https://sirtester.atlassian.net/browse/CPP)
 
 |Id |Title                                                                       | BUG |Screencast|
@@ -506,6 +544,8 @@ Zadanie robiłam w mojej ❤ grupie SirTester, w składzie:
 ---
 
 ## *Subtask 1*
+
+*Krótki kurs podstaw SQL*
 
 ### Wymień operatory/zapytania, których się nauczyłeś:
 
@@ -758,6 +798,7 @@ ZADANIA PODSUMOWUJĄCE: [plik.sql](https://drive.google.com/file/d/14rrnqmprZv3F
 
 ## *Subtask 3*
 
+*Zadania SQL do wykonania na bazie danych*
  
 ![2023-02-11_20h01_24](https://user-images.githubusercontent.com/122229411/218276428-0acd1535-e88c-42cc-9ea2-8928b24e2fbd.png)
 
@@ -807,6 +848,8 @@ ZADANIA PODSUMOWUJĄCE: [plik.sql](https://drive.google.com/file/d/14rrnqmprZv3F
 ---
 
 ## *Subtask 1*
+
+*Kontunuacja zadań na bazie danych*
 
 11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈
 
@@ -914,6 +957,9 @@ ale na 3 zagadnienia nie znałam odpowiedzi i musiałam doczytać w trakcie rozw
 ---
 
 ## *Subtask 3*
+
+*Portfolio*
+
 [![image](https://user-images.githubusercontent.com/122229411/219489501-83b4e385-c76b-4e5f-8b3b-4858467a3d31.png)](https://github.com/WikMoz/Portfolio)
 
 
