@@ -1,4 +1,6 @@
-
+# Dare IT challenge - Zostań testerem manualnym
+---
+---
 # Spis treści
 
  * ## [**Task 1 - Testy eksploracyjne**](#task-1)
@@ -174,7 +176,7 @@ Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodani
 
 
 - po otwarciu sekcji gracze pojawia się komunikat:
->Params `start` and `limit` are deprecated. Use `_start` and `_limit`”
+>Params `start` and `limit` are deprecated. Use `_start` and `_limit`
 - wszystkie informacje są w języku polskim, natomiast przy ikonkach w prawym górnym rogu wyświetlają się napisy po angielsku ‘download’, ‘print’, ‘view columns’, ‘filter rate’
 - tak samo po kliknięciu w ‘view columns’ mamy ‘show columns’ i  w ‘filter rate’ mamy ‘filters’, ‘rate’ i ‘age’ a pozostałe pozycje są po polsku
 - po kliknięciu w ikonę ‘download CSV’ pobieramy plik, w którym:
@@ -182,7 +184,7 @@ Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodani
    * w kolumnach recenzji, meczów i raportów pojawia się : ‘[object]’ zamiast danych liczbowych
    * pobrany plik dotyczy tylko wyświetlanych w oknie wyników (max 10 pozycji), nie ma możliwości pobrania wszystkich danych jednocześnie
 - nie można przefiltrować wyników pod kątem ilości raportów, meczów, recenzji
-- po wybraniu drukowania – raport drukuje się bez marginesów ale może to celowe. Tabela jest odwrócona – inny układ tabeli niż na stronie i nie możliwości zmiany tego układu.
+- po wybraniu drukowania – raport drukuje się bez marginesów ale może to celowe. Tabela jest odwrócona – inny układ tabeli niż na stronie i nie ma możliwości zmiany tego układu.
 
 ---
 
@@ -195,7 +197,7 @@ Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodani
 - numer – trzeba dopisać, że chodzi o numer na koszulce (taka informacja pojawia się na raporcie meczowym)
 - webmatch – powinno być : link do meczu
 - general – pozycja w języku angielskim, gdy pozostałe są w języku polskim. Nie wiadomo do czego się odnosi ta rubryka - czy chodzi o uwagi ogólne?
-- w edycji meczu dla gracza na dole mamy listę zdarzeń – w rubryce 'meta dane; pojawiają się komunikaty takie jak np. 'meta._id' (zdjęcie poniżej) 
+- w edycji meczu dla gracza na dole mamy listę zdarzeń – w rubryce 'meta dane' pojawiają się komunikaty takie jak np. 'meta._id' (zdjęcie poniżej) 
 
 ![image](https://user-images.githubusercontent.com/122229411/212755904-43fdce05-e532-45a8-a570-3b9f2ae3d2e4.png)
 
@@ -221,7 +223,7 @@ Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodani
 - komentarze dopisywane podczas oznaczania danej akcji na planszy nie pojawiają się potem w raporcie – pojawiają się na liście akcji
 - po dodaniu danej akcji na planszy nie można do niej wrócić, zmienić jej, rozróżnić lub usunąć. Trzeba albo usunąć wszystko albo użyć opcji cofnij, która jest oznaczona strzałką
 - można zaznaczać nielogiczne akcje np. jednocześnie: dośrodkowanie po przyjęciu oraz rzut rożny
-- dla bramkarza  - literówka w interwencjach - PRZERWANIE PODANIE
+- dla bramkarza  - literówka w interwencjach - 'PRZERWANIE PODANIE'
 - dla bramkarza można dodać akcję 'podanie ręką' a gdy się ją uruchomi do zaznaczenia mamy podanie lewą i prawą NOGĄ (zdjęcie poniżej)
 
 ![image](https://user-images.githubusercontent.com/122229411/212756584-8e155246-a263-46a4-b629-4cf33e5d0fa6.png)
@@ -353,7 +355,7 @@ Zadanie dla chętnych w grupach
 
 *Pisanie przypadków testowych na podstawie własnych doświadczeń* 
 
-Waszym zadaniem będzie pobranie ze sklepu google/istore aplikacji Pick Eat Up https://pickeatup.io/. Każdy z Was niech napisze po 5 test casów, do Waszego wspólnego dokumentu. UWAGA! Test case’y nie mogą się powtarzać.
+Waszym zadaniem będzie pobranie ze sklepu google/istore aplikacji Pick Eat Up https://pickeatup.io/. Każdy z Was niech napisze po 5 test casów do Waszego wspólnego dokumentu. UWAGA! Test case’y nie mogą się powtarzać.
 
 [Subtask 4 - test cases for pick.eat.up app](https://docs.google.com/spreadsheets/d/1Z4GQxUTicf-5v0iVSGIMF_72bpZmDYHq/edit?usp=sharing&ouid=117170517202558210113&rtpof=true&sd=true) 
 
@@ -371,7 +373,7 @@ Waszym zadaniem będzie pobranie ze sklepu google/istore aplikacji Pick Eat Up h
 
 *Testowanie według planów testów i raportowanie błędów*
 
-Czas na wykonywanie i na odpalenie naszych TC, Testy będziemy wykonywać na produkcyjnym środowisku https://scouts.futbolkolektyw.pl/ . Jest to środowisko specjalnie przygotowane dla Ciebie- zawiera dużo błędów i pułapek
+Czas na wykonywanie i na odpalenie naszych TC. Testy będziemy wykonywać na produkcyjnym środowisku https://scouts.futbolkolektyw.pl/. Jest to środowisko specjalnie przygotowane dla Ciebie- zawiera dużo błędów i pułapek.
 
 [Subtask 1 & 2 - bug report](https://docs.google.com/spreadsheets/d/1yNjSEN-VvtSfSd5MfSlgpfMwzW0bd1FGTANk7rX8lcE/edit?usp=sharing)  
 
@@ -405,12 +407,12 @@ Utwórz nowy dokument w folderze Dysk Google. Napisz bardzo krótki raport z tes
 
 *Testy eksploracyjne*
 
-- **Guidebook tour** - Twoim zadaniem jest przetestowanie oprogramowania według “reklamowanej funkcjonalności”, tak jak niektórzy turyści, którzy podróżują tylko zgodnie z przewodnikiemi. Przeczytaj przewodnik/instrukcje obsługi i postępuj zgodnie z nimi. Szukaj również błędów gramatycznych i ortograficznych, niezręczne sformułowania.
-- **Intellectual Tour** - Twoim zadaniem jest zadanie programowi trudnych pytań. Przetestuj granice wytrzymałości oprogramowania. Używaj np. znaków specjalnych ä, ö, ü, ą, ę, ś, czy ogromne fragmenty tekstu wypełniając pola formularza. szukaj błędów typu poprawność (np. jeżeli jest limit 30 znaków, to czy da się wpisać 31 znaków),błędy w layoucie (układzie)(np. wpisanie długiego tekstu w imieniu może spowodować, że w polu edycji, czy gdzieś indziej będzie źle się wyświetlać).
+- **Guidebook tour** - Twoim zadaniem jest przetestowanie oprogramowania według “reklamowanej funkcjonalności”, tak jak niektórzy turyści, którzy podróżują tylko zgodnie z przewodnikiemi. Przeczytaj przewodnik/instrukcje obsługi i postępuj zgodnie z nimi. Szukaj również błędów gramatycznych i ortograficznych, niezręcznych sformułowań.
+- **Intellectual Tour** - Twoim zadaniem jest zadanie programowi trudnych pytań. Przetestuj granice wytrzymałości oprogramowania. Używaj np. znaków specjalnych ä, ö, ü, ą, ę, ś, czy ogromne fragmenty tekstu wypełniając pola formularza. szukaj błędów typu poprawność (np. jeżeli jest limit 30 znaków, to czy da się wpisać 31 znaków), błędy w layoucie (układzie)(np. wpisanie długiego tekstu w imieniu może spowodować, że w polu edycji, czy gdzieś indziej będzie źle się wyświetlać).
 - **Obsessive-Compulsive Tour** - Klikaj jak porąbany po przyciskach. Serio. Zapisujesz jakiś formularz? Kliknij 5 razy przycisk zanim zdąży Ci się strona odświeżyć. Edytuj zawodnika z 5 razy. Klikaj szybko i intensywnie. Dodaj zawodnikowi 5 nagrań YT, a później przy edycji usuń.
 - **Landmark Tour** - Wybierz zestaw punktów orientacyjnych (tak jakbyś był turystą, który chodzi tylko i wyłącznie po największych atrakcjach zwiedzanego miasta). Przechodź od punktu do punktu orientacyjnego, dopóki nie odwiedzisz wszystkich, które masz na liście. Exploruj wszystkie ścieżki (path’y).Zmień język na angielski i zwróć uwagę, czy wszystko jest tłumaczone.
-- **Anti social tour** - Wykonuj wszystkie testy na przekór, wykonuj najmniej prawdopodobne wydarzenia czynności. (Np. podawaj negatywne dane wejściowe i zobacz jaki będzie rezultat). Wykonuj NIELEGALNE działania. Jeżeli system prosi Cię, żebyś podał liczby Ty na przekór podaj litery i znaki specjalne.Szukaj luk w zabezpieczeniach czy problemy z użytecznością.
-- **Money Tour** - Czyli testowanie głównych funkcjonalności, które są “reklamowane”. Uruchom oprogramowanie tak jakbyś demonstrował je swojemu klientowi. Może głównym funkcjonalnościom brakuje opisanych “w broszurach” atrakcji (funkcjonalności).A może aplikacja ma problemy funkcjonalne, które wpływają na jej demonstrację przed klientem?
+- **Anti social tour** - Wykonuj wszystkie testy na przekór, wykonuj najmniej prawdopodobne wydarzenia czynności. (Np. podawaj negatywne dane wejściowe i zobacz jaki będzie rezultat). Wykonuj NIELEGALNE działania. Jeżeli system prosi Cię, żebyś podał liczby Ty na przekór podaj litery i znaki specjalne. Szukaj luk w zabezpieczeniach czy problemów z użytecznością.
+- **Money Tour** - Czyli testowanie głównych funkcjonalności, które są “reklamowane”. Uruchom oprogramowanie tak jakbyś demonstrował je swojemu klientowi. Może głównym funkcjonalnościom brakuje opisanych “w broszurach” atrakcji (funkcjonalności). A może aplikacja ma problemy funkcjonalne, które wpływają na jej demonstrację przed klientem?
 
 [Subtask 4 - explorative testing - tour](https://docs.google.com/spreadsheets/d/1TrnbCMN6Ii4YK9mdQORSYsZ59pRR7AjU5uM4_7y8bEg/edit?usp=share_link) 
 
@@ -893,7 +895,7 @@ lub bez użycia funkcji JOIN:
 ![2023-02-16_14h47_35](https://user-images.githubusercontent.com/122229411/219382087-b70793a6-0472-4898-af73-7d697925f3f2.png)
 
 
-15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling - Nag
+15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer. Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling - Nag
 
 
 ![2023-02-16_15h21_35](https://user-images.githubusercontent.com/122229411/219390648-dccc9ae6-8018-4db4-a2bb-7822767264f7.png)
@@ -958,7 +960,6 @@ ale na 3 zagadnienia nie znałam odpowiedzi i musiałam doczytać w trakcie rozw
 
 ## *Subtask 3*
 
-*Portfolio*
 
 [![image](https://user-images.githubusercontent.com/122229411/219489501-83b4e385-c76b-4e5f-8b3b-4858467a3d31.png)](https://github.com/WikMoz/Portfolio)
 
