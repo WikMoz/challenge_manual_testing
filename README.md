@@ -63,7 +63,7 @@ Cześć!
 </p>
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;Nazywam się Wika 😊. Bardzo się cieszę, że mogę brać udział w tym projekcie, ponieważ chcę pójść zupełnie nową ścieżką 👩‍🚀🚀, wyjść poza to, co znam i w czym czuję się pewnie i bezpiecznie. Jeszcze nie mam doświadczenia w tej dziedzinie, dlatego czuję się trochę niezbyt pewnie 😱, ale z drugiej strony jestem też bardzo pozytywnie nakręcona🥳. Mam nadzieję, że poznawanie nieznanego da mi dużo frajdy, satysfakcji i to fantastyczne uczucie, które się pojawia gdy się coś nowego odkrywa🕵️‍♀️. Bardzo chciałabym się jak najwięcej nauczyć, przygotować się jak najlepiej oraz prawidłowo wykonać wszystkie zadania. W DARE IT macie w sobie super energię i entuzjazm, który naprawdę zaraża🤧 i daje kopa do działania i bardzo sie cieszę, że mogę się od Was uczyć.
+&nbsp;&nbsp;&nbsp;&nbsp;Nazywam się Wika 😊. Bardzo się cieszę, że mogę brać udział w tym projekcie, ponieważ chcę pójść zupełnie nową ścieżką 👩‍🚀🚀, wyjść poza to, co znam i w czym czuję się bezpiecznie. Jeszcze nie mam doświadczenia w tej dziedzinie, dlatego czuję się trochę niezbyt pewnie 😱, ale z drugiej strony jestem też bardzo pozytywnie nakręcona🥳. Mam nadzieję, że poznawanie nieznanego da mi dużo frajdy, satysfakcji i to fantastyczne uczucie, które się pojawia gdy się coś nowego odkrywa🕵️‍♀️. Bardzo chciałabym się jak najwięcej nauczyć, przygotować się jak najlepiej oraz prawidłowo wykonać wszystkie zadania. W DARE IT macie w sobie super energię i entuzjazm, który naprawdę zaraża🤧 i daje kopa do działania i bardzo sie cieszę, że mogę się od Was uczyć.
 
 
 PS Czuję się trochę jak ten Pan na zdjęciu poniżej &darr; - Nie wie czy mu się uda ale przecież MUSI spróbować 🐱‍🐉.
@@ -93,7 +93,7 @@ Aplikację, którą będziemy testować, jest: https://scouts-test.futbolkolekty
 ![image](https://user-images.githubusercontent.com/122229411/219715991-096da1d4-4813-4d0b-b8f0-7c1ac39a66f9.png)
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;Aplikacja służy do zapisywania i zarządzania danymi o wybranych piłkarzach oraz o meczach, w jakich brali udział. Służy do tworzenia szczegółowych oberwacji meczowych  - wprowadzania statystyk meczu z opcją notowania również w trakcie jego trwania. Daje możliwość tworzenia raportów dotyczących danego, obserwowanego zawodnika. Funkcją biznesową aplikacji jest zarabianie poprzez tworzenie bazy danych przydatnej w tranferach graczy. </p>
+&nbsp;&nbsp;&nbsp;&nbsp;Aplikacja służy do zapisywania i zarządzania danymi o wybranych piłkarzach oraz o meczach, w jakich brali udział. Służy do tworzenia szczegółowych oberwacji meczowych  - wprowadzania statystyk meczu z opcją notowania również w trakcie jego trwania. Daje możliwość tworzenia raportów dotyczących danego, obserwowanego zawodnika. Funkcją biznesową aplikacji jest zarabianie poprzez tworzenie bazy danych przydatnej w transferach graczy. </p>
 
 ***Funkcjonalości:***
 
@@ -114,8 +114,8 @@ Aplikację, którą będziemy testować, jest: https://scouts-test.futbolkolekty
 
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;Aplikacja ma bardzo prostą i dość mało atrakcyjną szatę graficzną. Elementy na stronie głównej, która jest wizytówką aplikacji są niedopracowane- nieprawidłowe umiejscowienie linków (helpdesk w panelu głównym i główna funkcja strony czyli dodanie gracza w oknie linki pomocnicze), literówki (aktywnosć, zaaktualizowane), brak wyrównania tekstu (linki w oknie aktywność). 
-Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodanie meczu dla gracza jest proste, dość intuicyjne. Mało intuicyjnym elemetem, który może sprawiać problemy jest obsługa opcji graficznego przedstawienia/wprowadzania danych statystycznych z meczu. Brakuje instrukcji, opisu przycisków, możliwości edycji już dodanej akcji. Przechodzi się do tej opcji poprzez małą ikonę umieszczoną na końcu tabeli meczów. Również tworzenie raportu może stanowić problem, ponieważ klikając opcję dodaj raport użytkownik jest przekierowywany do tabeli meczów, gdzie musi odnaleźć małą ikonkę odpowiedzialną za tę funkcję. </p>
+&nbsp;&nbsp;&nbsp;&nbsp;Aplikacja ma bardzo prostą, mało urozmaiconą szatę graficzną. Elementy na stronie głównej, która jest wizytówką aplikacji są niedopracowane - nieprawidłowe umiejscowienie linków (helpdesk w panelu głównym i główna funkcja strony czyli dodanie gracza w oknie linki pomocnicze), literówki (aktywnosć, zaaktualizowane), brak wyrównania tekstu (linki w oknie aktywność). 
+Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodanie meczu dla gracza jest proste, dość intuicyjne. Mało intuicyjnym elemetem, który może sprawiać problemy jest obsługa opcji graficznego przedstawienia / wprowadzania danych statystycznych z meczu. Brakuje instrukcji, opisu przycisków, możliwości edycji już dodanej akcji. Przechodzi się do tej opcji poprzez małą ikonę umieszczoną na końcu tabeli meczów. Również tworzenie raportu może stanowić problem, ponieważ klikając opcję dodaj raport użytkownik jest przekierowywany do tabeli meczów, gdzie musi odnaleźć małą ikonkę odpowiedzialną za tę funkcję. </p>
 
 ---
 
