@@ -343,7 +343,7 @@ Test case writting:
 - provide a clear and straightforward testing instuction
 - gives us a steps which we execute in a system
 - gives us the input data values which we enter in the system
-- gives us expected results when we execute a perticular test case
+- gives us expected results when we execute a particular test case
 - helps to expand test coverage
 - are like the checklist to ensure that we are not missing anything that is required
 - helps us to not skip as much as in ad-hoc testing
