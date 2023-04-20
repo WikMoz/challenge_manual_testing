@@ -1,4 +1,4 @@
-# Dare IT challenge - Zostań testerem manualnym
+# Dare IT challenge - Manual testing
 ---
 ---
 # Spis treści
@@ -45,6 +45,7 @@
 ---
 
 # Task 1
+
 ---
 
 ## *Subtask 1*
@@ -63,7 +64,7 @@ Cześć!
 </p>
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;Nazywam się Wika 😊. Bardzo się cieszę, że mogę brać udział w tym projekcie, ponieważ chcę pójść zupełnie nową ścieżką 👩‍🚀🚀, wyjść poza to, co znam i w czym czuję się bezpiecznie. Jeszcze nie mam doświadczenia w tej dziedzinie, dlatego czuję się trochę niezbyt pewnie 😱, ale z drugiej strony jestem też bardzo pozytywnie nakręcona🥳. Mam nadzieję, że poznawanie nieznanego da mi dużo frajdy, satysfakcji i to fantastyczne uczucie, które się pojawia gdy się coś nowego odkrywa🕵️‍♀️. Bardzo chciałabym się jak najwięcej nauczyć, przygotować się jak najlepiej oraz prawidłowo wykonać wszystkie zadania. W DARE IT macie w sobie super energię i entuzjazm, który naprawdę zaraża🤧 i daje kopa do działania i bardzo sie cieszę, że mogę się od Was uczyć.
+&nbsp;&nbsp;&nbsp;&nbsp;Nazywam się Wika 😊. Bardzo się cieszę, że mogę brać udział w tym projekcie, ponieważ chcę pójść zupełnie nową ścieżką 👩‍🚀🚀, wyjść poza to, co znam i w czym czuję się bezpiecznie. Jeszcze nie mam doświadczenia w tej dziedzinie, dlatego czuję się trochę niezbyt pewnie 😱, ale z drugiej strony jestem też bardzo pozytywnie nakręcona🥳. Mam nadzieję, że poznawanie nieznanego da mi dużo frajdy, satysfakcji i to fantastyczne uczucie, które się pojawia gdy się coś nowego odkrywa🕵️‍♀️. Bardzo chciałabym się jak najwięcej nauczyć, przygotować się jak najlepiej oraz prawidłowo wykonać wszystkie zadania. W DARE IT macie w sobie super energię i entuzjazm, który naprawdę zaraża🤧 i daje kopa do działania i bardzo się cieszę, że mogę się od Was uczyć.
 
 
 PS Czuję się trochę jak ten Pan na zdjęciu poniżej &darr; - Nie wie czy mu się uda ale przecież MUSI spróbować 🐱‍🐉.
@@ -78,7 +79,7 @@ Testowanie eksploracyjne
 
 Aplikację, którą będziemy testować, jest: https://scouts-test.futbolkolektyw.pl/pl
 - Na czym polega ta aplikacja? Do czego służy?
-- Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a? (Nie bój się wyrażać opinię!)
+- Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmieniła? (Nie bój się wyrażać opinię!)
 - Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?
 - Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).
 - Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem? Zapisz swoje przemyślenia w pliku. 
@@ -93,7 +94,7 @@ Aplikację, którą będziemy testować, jest: https://scouts-test.futbolkolekty
 ![image](https://user-images.githubusercontent.com/122229411/219715991-096da1d4-4813-4d0b-b8f0-7c1ac39a66f9.png)
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;Aplikacja służy do zapisywania i zarządzania danymi o wybranych piłkarzach oraz o meczach, w jakich brali udział. Służy do tworzenia szczegółowych oberwacji meczowych  - wprowadzania statystyk meczu z opcją notowania również w trakcie jego trwania. Daje możliwość tworzenia raportów dotyczących danego, obserwowanego zawodnika. Funkcją biznesową aplikacji jest zarabianie poprzez tworzenie bazy danych przydatnej w transferach graczy. </p>
+&nbsp;&nbsp;&nbsp;&nbsp;Aplikacja służy do zapisywania i zarządzania danymi o wybranych piłkarzach oraz o meczach, w jakich brali udział. Służy do tworzenia szczegółowych obesrwacji meczowych  - wprowadzania statystyk meczu z opcją notowania również w trakcie jego trwania. Daje możliwość tworzenia raportów dotyczących danego, obserwowanego zawodnika. Funkcją biznesową aplikacji jest zarabianie poprzez tworzenie bazy danych przydatnej w transferach graczy. </p>
 
 ***Funkcjonalości:***
 
@@ -114,8 +115,7 @@ Aplikację, którą będziemy testować, jest: https://scouts-test.futbolkolekty
 
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;Aplikacja ma bardzo prostą, mało urozmaiconą szatę graficzną. Elementy na stronie głównej, która jest wizytówką aplikacji są niedopracowane - nieprawidłowe umiejscowienie linków (helpdesk w panelu głównym i główna funkcja strony czyli dodanie gracza w oknie linki pomocnicze), literówki (aktywnosć, zaaktualizowane), brak wyrównania tekstu (linki w oknie aktywność). 
-Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodanie meczu dla gracza jest proste, dość intuicyjne. Mało intuicyjnym elemetem, który może sprawiać problemy jest obsługa opcji graficznego przedstawienia / wprowadzania danych statystycznych z meczu. Brakuje instrukcji, opisu przycisków, możliwości edycji już dodanej akcji. Przechodzi się do tej opcji poprzez małą ikonę umieszczoną na końcu tabeli meczów. Również tworzenie raportu może stanowić problem, ponieważ klikając opcję dodaj raport użytkownik jest przekierowywany do tabeli meczów, gdzie musi odnaleźć małą ikonkę odpowiedzialną za tę funkcję. </p>
+&nbsp;&nbsp;&nbsp;&nbsp;Aplikacja ma bardzo prostą szatę graficzną. Niektóre elementy na stronie głównej, będącej wizytówka aplikacji, zawierają błędy - nieprawidłowe umiejscowienie linków (helpdesk w panelu głównym i główna funkcja strony czyli dodanie gracza w oknie linki pomocnicze), literówki (aktywnosć, zaaktualizowane), brak wyrównania tekstu (linki w oknie aktywność). Główne funkcje aplikacji takie jak dodanie gracza oraz dodanie meczu dla gracza jest proste, dość intuicyjne. Mało intuicyjnym elementem, który może sprawiać problemy jest obsługa opcji graficznego przedstawienia / wprowadzania danych statystycznych z meczu. Brakuje instrukcji, opisu przycisków, możliwości edycji już dodanej akcji. Przechodzi się do tej opcji poprzez małą ikonę umieszczoną na końcu tabeli meczów. Również tworzenie raportu może stanowić problem, ponieważ klikając opcję dodaj raport użytkownik jest przekierowywany do tabeli meczów, gdzie musi odnaleźć małą ikonkę odpowiedzialną za tę funkcję. </p>
 
 ---
 
@@ -131,7 +131,7 @@ Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodani
 #### ***Strona główna***
 
 
-- przy wchodzeniu na stronę, jeszcze przed zalogowaniem pojawia się kod błędu odpowiedzi HTTP - 404- strona https://scouts-test.kolektyw.pl/pl/favicon.ico nie została odnazleziona 
+- przy wchodzeniu na stronę, jeszcze przed zalogowaniem pojawia się kod błędu odpowiedzi HTTP - 404- strona https://scouts-test.kolektyw.pl/pl/favicon.ico nie została odnaleziona 
 >request URL: https://scouts-test.kolektyw.pl/pl/favicon.ico 
 - przy wylogowaniu pojawia się informacja dotycząca braku autouzupełniania formularza logowania '[DOM] Input elements should have autocomplete attributes (suggested: "current-password")'
 - przypomnienie hasła przy logowaniu - pojawia się błąd '550 You are not allowed to send e-mails as the domain strapi.io'
@@ -201,7 +201,7 @@ Dodanie gracza, (mimo że opcja znajduje sie w linkach pomocniczych) oraz dodani
 
 ![image](https://user-images.githubusercontent.com/122229411/212755904-43fdce05-e532-45a8-a570-3b9f2ae3d2e4.png)
 
-- rubryka 'meta dane' powinna mieć inną nazwę odnoszacą się do zawartości tej rubryki
+- rubryka 'meta dane' powinna mieć inną nazwę odnoszącą się do zawartości tej rubryki
 - przycisk 'clear' usuwa tylko dane wpisane jako nowe, nie ma funkcji wyczyszczenia wszystkich danych po kliknięciu, a jedynie tych które nie zostały zapisane
 - lista zdarzeń powinna być osobno lub np. jako uzupełnienie raportu meczowego - jest na stronie pod edycją meczu. Jej umiejscowienie nie jest logiczne i można jej nie zauważyć.
 - na liście zdarzeń nie ma podziału na połówki meczu - np. jeśli akcja odbędzie się w 5 sekundzie drugiej połowy jest oznaczana jako 5 sekunda (tak samo jakby odbyła się w 5 sekundzie pierwszej połowy meczu)
@@ -324,7 +324,7 @@ After clicking the add player button, the user is redirected to the player-addin
 *Pisanie przypadków testowych na podstawie własnych doświadczeń*
 
 
-Napisz 20 (lub więcej) dowolnych test case’ów na podstawie własnych doświdczeń dla [platformy skautingowej Futbol kolektyw](https://scouts-test.futbolkolektyw.pl/pl)
+Napisz 20 (lub więcej) dowolnych test case’ów na podstawie własnych doświadczeń dla [platformy skautingowej Futbol kolektyw](https://scouts-test.futbolkolektyw.pl/pl)
 
 
 [Subtask 2 - test cases](https://docs.google.com/spreadsheets/d/1YmXbnhtnpeROPaZI6VZ_JnWPs83CFGMd/edit?usp=sharing&ouid=117170517202558210113&rtpof=true&sd=true)
@@ -407,9 +407,9 @@ Utwórz nowy dokument w folderze Dysk Google. Napisz bardzo krótki raport z tes
 
 *Testy eksploracyjne*
 
-- **Guidebook tour** - Twoim zadaniem jest przetestowanie oprogramowania według “reklamowanej funkcjonalności”, tak jak niektórzy turyści, którzy podróżują tylko zgodnie z przewodnikiemi. Przeczytaj przewodnik/instrukcje obsługi i postępuj zgodnie z nimi. Szukaj również błędów gramatycznych i ortograficznych, niezręcznych sformułowań.
-- **Intellectual Tour** - Twoim zadaniem jest zadanie programowi trudnych pytań. Przetestuj granice wytrzymałości oprogramowania. Używaj np. znaków specjalnych ä, ö, ü, ą, ę, ś, czy ogromne fragmenty tekstu wypełniając pola formularza. szukaj błędów typu poprawność (np. jeżeli jest limit 30 znaków, to czy da się wpisać 31 znaków), błędy w layoucie (układzie)(np. wpisanie długiego tekstu w imieniu może spowodować, że w polu edycji, czy gdzieś indziej będzie źle się wyświetlać).
-- **Obsessive-Compulsive Tour** - Klikaj jak porąbany po przyciskach. Serio. Zapisujesz jakiś formularz? Kliknij 5 razy przycisk zanim zdąży Ci się strona odświeżyć. Edytuj zawodnika z 5 razy. Klikaj szybko i intensywnie. Dodaj zawodnikowi 5 nagrań YT, a później przy edycji usuń.
+- **Guidebook tour** - Twoim zadaniem jest przetestowanie oprogramowania według “reklamowanej funkcjonalności”, tak jak niektórzy turyści, którzy podróżują tylko zgodnie z przewodnikiem. Przeczytaj przewodnik/instrukcje obsługi i postępuj zgodnie z nimi. Szukaj również błędów gramatycznych i ortograficznych, niezręcznych sformułowań.
+- **Intellectual Tour** - Twoim zadaniem jest zadanie programowi trudnych pytań. Przetestuj granice wytrzymałości oprogramowania. Używaj np. znaków specjalnych ä, ö, ü, ą, ę, ś, wtawiaj ogromne fragmenty tekstu wypełniając pola formularza. Szukaj błędów typu poprawność (np. jeżeli jest limit 30 znaków, to czy da się wpisać 31 znaków), błędy w layoucie (układzie)(np. wpisanie długiego tekstu w imieniu może spowodować, że w polu edycji, czy gdzieś indziej będzie źle się wyświetlać).
+- **Obsessive-Compulsive Tour** - Klikaj jak opętany po przyciskach. Zapisujesz jakiś formularz? Kliknij 5 razy przycisk zanim zdąży Ci się strona odświeżyć. Edytuj zawodnika 5 razy. Klikaj szybko i intensywnie. Dodaj zawodnikowi 5 nagrań YT, a później przy edycji usuń.
 - **Landmark Tour** - Wybierz zestaw punktów orientacyjnych (tak jakbyś był turystą, który chodzi tylko i wyłącznie po największych atrakcjach zwiedzanego miasta). Przechodź od punktu do punktu orientacyjnego, dopóki nie odwiedzisz wszystkich, które masz na liście. Exploruj wszystkie ścieżki (path’y).Zmień język na angielski i zwróć uwagę, czy wszystko jest tłumaczone.
 - **Anti social tour** - Wykonuj wszystkie testy na przekór, wykonuj najmniej prawdopodobne wydarzenia czynności. (Np. podawaj negatywne dane wejściowe i zobacz jaki będzie rezultat). Wykonuj NIELEGALNE działania. Jeżeli system prosi Cię, żebyś podał liczby Ty na przekór podaj litery i znaki specjalne. Szukaj luk w zabezpieczeniach czy problemów z użytecznością.
 - **Money Tour** - Czyli testowanie głównych funkcjonalności, które są “reklamowane”. Uruchom oprogramowanie tak jakbyś demonstrował je swojemu klientowi. Może głównym funkcjonalnościom brakuje opisanych “w broszurach” atrakcji (funkcjonalności). A może aplikacja ma problemy funkcjonalne, które wpływają na jej demonstrację przed klientem?
@@ -452,7 +452,7 @@ Wykonaj testy eksploracyjne aplikacji mobilnej OLX. Wszystkie znalezione błędy
 - poszukiwania/publikowania ofert pracy, 👨🏼‍💼
 - poszukiwania nowego domu dla zwierząt. 🐕🐈🐠
 
-*Uzytkownicy mogą:*
+*Użytkownicy mogą:*
 
 - wyszukiwać, przeglądać, wybierać, zapisywać oferty,
 - obserwować zdefiniowane przez siebie wyszukiwania, sprzedających lub konkretne oferty,
@@ -463,19 +463,19 @@ Wykonaj testy eksploracyjne aplikacji mobilnej OLX. Wszystkie znalezione błędy
 ---
 ### 2. Kto ma być użytkownikiem końcowym aplikacji?
 
-Uzytkownikiem końcowym aplikacji są osoby sprzedające/ kupujące/ wymieniające/ oddające z darmo produkty, nieruchomości, usługi jak również szukające nowego domu dla zwierząt
+Użytkownikiem końcowym aplikacji są osoby sprzedające/ kupujące/ wymieniające/ oddające z darmo produkty, nieruchomości, usługi jak również szukające nowego domu dla zwierząt
 
 ---
 ### 3. Czy według Ciebie aplikacja jest user friendly?
 
 1. ❤ Aplikacja jest intuicyjna, łatwa w obsłudze i dostępna dla wszystkich.
-2. ❤ Po pierwszym uruchomieniu aplikacji użytkownikowi wyświetlają się podpowiedzi/instrukcje jak poruszać się po aplikacji. Nawigacja po aplkacji jest łatwa i logiczna, pozwala na szybkie zapoznanie się z zawartością kluczowych części.
-3. ❤ Jest dostępne centrum pomocy a w nim wyszukiwarka z podziałem na kategorie, FAQ, porady, przydatne wskazówki, opcja 'sprawdż link do "odbioru wypłaty". Istnieje możliwość bezpośredniego kontaktu w celu uzyskania pomocy - formularz kontaktowy jest zamieszczony pod artykułami dotyczącymi konkretnych zapytań w centrum pomocy.  
+2. ❤ Po pierwszym uruchomieniu aplikacji użytkownikowi wyświetlają się podpowiedzi/instrukcje jak poruszać się po aplikacji. Nawigacja po aplikacji jest łatwa i logiczna, pozwala na szybkie zapoznanie się z zawartością kluczowych części.
+3. ❤ Jest dostępne centrum pomocy a w nim wyszukiwarka z podziałem na kategorie, FAQ, porady, przydatne wskazówki, opcja 'sprawdź link do "odbioru wypłaty". Istnieje możliwość bezpośredniego kontaktu w celu uzyskania pomocy - formularz kontaktowy jest zamieszczony pod artykułami dotyczącymi konkretnych zapytań w centrum pomocy.  
 4. 💔 Formularz ten mógłby być również umieszczony w miejscu łatwiej dostępnym dla użytkownika. 
 5. 💔 Czasami aplikacja zawiesza się podczas użytkowania, ładownie zdjęć jest spowolnione. Zdarza się, że dodani do ulubionych sprzedawcy pokazują się z opóźnieniem w sekcji 'Obserwujesz'. 
 6. 💔 Aplikacja nie posiada trybu oszczędzania energii. 
-7. ❤ Dane zapisane w aplikacji synchronizują się z tymi ze strony internetowej olx - można łatwo zarządzać dostępem do konta użytkownika na róznych urządzeniach. 
-8. ❤ Aplikacja ma możliwość wyświetlania personalizowanych powiadomień push. Uzytkownik ma zapewnioną mozliwość wyboru co spowoduje pojawienie się powiadomienia np. pojawienie się nowego ogłoszenia pasującego do tego co obserwuje dany użytkownik.
+7. ❤ Dane zapisane w aplikacji synchronizują się z tymi ze strony internetowej olx - można łatwo zarządzać dostępem do konta użytkownika na różnych urządzeniach. 
+8. ❤ Aplikacja ma możliwość wyświetlania personalizowanych powiadomień push. Użytkownik ma zapewnioną możliwość wyboru co spowoduje pojawienie się powiadomienia np. pojawienie się nowego ogłoszenia pasującego do tego co obserwuje dany użytkownik.
 9. ❤ Występuje dwuczynnikowa weryfikacja - podczas próby dodania oferty użytkownik musi być zalogowany a następnie proszony jest o podanie numeru telefonu, na który wysyłany jest kod weryfikujący. 
 10. ❤ Aplikacja posiada tryb jasny i ciemny umożliwiający użytkownikowi wybór bardziej przyjaznego w odbiorze ekranu aplikacji
 
@@ -484,12 +484,12 @@ Uzytkownikiem końcowym aplikacji są osoby sprzedające/ kupujące/ wymieniają
 
 - Dodanie trybu oszczędzania energii 🔋
 - Szybszy, łatwiejszy dostęp do formularza kontaktowego w celu uzyskania pomocy 🧯🔥
-- Krótki film instuktarzowy na początku dla nowych użytkowników (i możliwy do pominięcia) (np. szczególnie dla osób starszych mniej zaznajomionych z tego typu aplikacjami) 🎬
+- Krótki film instruktażowy na początku dla nowych użytkowników (i możliwy do pominięcia) (np. szczególnie dla osób starszych mniej zaznajomionych z tego typu aplikacjami) 🎬
 - Bardziej zaawansowana wyszukiwarka noclegów: noclegi do zaznaczenia z kalendarzem przyjazdu i wyjazdu oraz widoczne na mapce z cenami (np. jak na booking.com)🗺
 - Usługi, wypożyczenia również mogłyby mieć opcje dodania kalendarza dostępności 🗓
 - Produkty dla dzieci mogłyby mieć filtrowanie z kategorią wiekową 👶🏼
 - Możliwość dodania opinii o kupującym z komentarzem 📜
-- Możliwość dodania opinii o sprzedajacym z komentarzem 📜
+- Możliwość dodania opinii o sprzedającym z komentarzem 📜
 - Możliwość wsparcia Wielkiej Orkiestry Świątecznej Pomocy/ Organizacji charytatywnej (np. złotówka przy zakupie) 🦽
 - Możliwość automatycznego skierowania prośby do wysyłającego o opakowanie bardziej ekologiczne (np. mniej plastiku) - np. opcja do zaznaczenia przy wybieraniu formy dostawy🌍
 
@@ -499,19 +499,19 @@ Uzytkownikiem końcowym aplikacji są osoby sprzedające/ kupujące/ wymieniają
  
  W aplikacji natywnej w odróżnieniu do aplikacji internetowej należy sprawdzić:
  
-- Dodatkowe połączenia z urządzeniami do których aplikacja ma dostęp jak geolokacja, czujniki światła, powiadomienia push, kamera itp. 
+- Dodatkowe połączenia z urządzeniami, do których aplikacja ma dostęp jak geolokacja, czujniki światła, powiadomienia push, kamera itp. 
 - Wpływ zmiany orientacji obrazu na zachowanie, dostosowywanie się aplikacji (landscape/portrait mode)
-- Czy aplikacja działa również w trybie offline jęsli jest do tego dedykowana
+- Czy aplikacja działa również w trybie offline jesli jest do tego dedykowana
 - Jak bardzo energochłonne jest używanie aplikacji na telefonie
-- Responsywność - działanie aplikacji na różnych modelach smartfonów, na róznych systemach operacyjnych Android, iOS
-- Czy umiejscowanie nawigacji jest wygodne w uzytkowaniu na telefonie - czy jest nisko przy kciuku
+- Responsywność - działanie aplikacji na różnych modelach smartfonów, na różnych systemach operacyjnych Android, iOS
+- Czy umiejscowienie nawigacji jest wygodne w użytkowaniu na telefonie - czy jest nisko przy kciuku
 
  W aplikacji internetowej w odróżnieniu od natywnej:
  
 - Można do testowania użyć devtools dzięki czemu można zobaczyć jakiego rodzaju błąd się pojawia w systemie gdy jakaś funkcja nie działa prawidłowo
 - Należy zbadać responsywność w odniesieniu do używania aplikacji zarówno na komputerze jak i na różnych modelach smartfonów 
 - Obserwuje się prędkość wczytywania strony
-- Bada się funkcjonowanie aplikacji na róznych przeglądarkach
+- Bada się funkcjonowanie aplikacji na różnych przeglądarkach
 
 
 ---
