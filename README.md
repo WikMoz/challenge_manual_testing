@@ -4,11 +4,8 @@
 # Spis treści
 
  * ## [**Task 1 - Testy eksploracyjne**](#task-1)
-   * [Subtask 1](#subtask-1)
-   * [Subtask 3](#subtask-3)
-   * [Subtask 4](#subtask-4)
-     * [1. Testowana aplikacja](#1-testowana-aplikacja)
-     * [2. Znalezione błędy](#2-znalezione-błędy)
+    * [1. Testowana aplikacja](#1-testowana-aplikacja)
+    * [2. Znalezione błędy](#2-znalezione-błędy)
        1) [Strona główna](#strona-główna)
        2) [Dodaj gracza](#dodaj-gracza)
        3) [Gracze](#gracze)
@@ -43,41 +40,12 @@
    * [Subtask 3](#subtask-3-5) 
 
 ---
-
-# Task 1
-
 ---
 
-## *Subtask 1*
 
-*Test podsumowujący wiedzę, którą powinniście przyswoić przed przystąpieniem do kursu*
+## Testowanie eksploracyjne 
 
-Wynik
-**10 punktów** ![image](https://user-images.githubusercontent.com/122229411/215879441-df2a4968-a97c-400b-a9f8-49d0e1ddf7bc.png)
-
-
----
-
-## *Subtask 3*
-<p align="center">
-Cześć!
-</p>
-
-<p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;Nazywam się Wika 😊. Bardzo się cieszę, że mogę brać udział w tym projekcie, ponieważ chcę pójść zupełnie nową ścieżką 👩‍🚀🚀, wyjść poza to, co znam i w czym czuję się bezpiecznie. Jeszcze nie mam doświadczenia w tej dziedzinie, dlatego czuję się trochę niezbyt pewnie 😱, ale z drugiej strony jestem też bardzo pozytywnie nakręcona🥳. Mam nadzieję, że poznawanie nieznanego da mi dużo frajdy, satysfakcji i to fantastyczne uczucie, które się pojawia gdy się coś nowego odkrywa🕵️‍♀️. Bardzo chciałabym się jak najwięcej nauczyć, przygotować się jak najlepiej oraz prawidłowo wykonać wszystkie zadania. W DARE IT macie w sobie super energię i entuzjazm, który naprawdę zaraża🤧 i daje kopa do działania i bardzo się cieszę, że mogę się od Was uczyć.
-
-
-PS Czuję się trochę jak ten Pan na zdjęciu poniżej &darr; - Nie wie czy mu się uda ale przecież MUSI spróbować 🐱‍🐉.
-</p>
-
-![](https://i.pinimg.com/originals/47/43/a9/4743a96340c0dc4d46938e6df8f19f65.jpg)
-
----
-
-## *Subtask 4*
-Testowanie eksploracyjne 
-
-Aplikację, którą będziemy testować, jest: https://scouts-test.futbolkolektyw.pl/pl
+Aplikacją, którą będziemy testować, jest: https://scouts-test.futbolkolektyw.pl/pl
 - Na czym polega ta aplikacja? Do czego służy?
 - Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmieniła? (Nie bój się wyrażać opinię!)
 - Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?
