@@ -306,8 +306,8 @@ Test case is a set of conditions under which tester will determine whether an ap
 
 Test case writting:
 
-- clarify what needs to be done to test the system
-- provide a clear and straightforward testing instuction
+- clarifies what is needed to be done to test the system
+- provides a clear and straightforward testing instuction
 - gives us a steps which we execute in a system
 - gives us the input data values which we enter in the system
 - gives us expected results when we execute a particular test case
