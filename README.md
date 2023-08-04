@@ -36,7 +36,6 @@
    
  * ## [**Task 6 - SQL 2/2 i tworzenie portfolio**](#task-6)
    * [Subtask 1](#subtask-1-3)
-   * [Subtask 2](#subtask-2-1)
    * [Subtask 3](#subtask-3-5) 
 
 ---
@@ -918,13 +917,6 @@ lub bez użycia funkcji JOIN:
 
 ---
 
-## *Subtask 2*
-![2023-02-16_17h05_50](https://user-images.githubusercontent.com/122229411/219421784-35aefee5-7d42-49d9-a2b7-ed138a0ec4d5.png)
- 
-
-ale na 3 zagadnienia nie znałam odpowiedzi i musiałam doczytać w trakcie rozwiązywania testu
-
----
 
 ## *Subtask 3*
 
