@@ -525,7 +525,7 @@ Zadanie robiłam w mojej ❤ grupie SirTester, w składzie:
 
 - `USE AdventureWorks2014` - zmiana kontekstu bazy danych na AdventureWorks2014 (przełącz się na bazę danych AdventureWorks2014)
 
-- `SELECT * FROM Productionn.Product` - polecenie, które wyświetla zawartość tabeli (* - pokaż zawartość wszystkich kolumn) z tabeli Production.Product (gdzie: Production to nazwa schematu, która umożliwia grupowanie tabel aby ułatwić nadawanie uprawnień i Product to nazwa tabeli) 
+- `SELECT * FROM Production.Product` - polecenie, które wyświetla zawartość tabeli (* - pokaż zawartość wszystkich kolumn) z tabeli Production.Product (gdzie: Production to nazwa schematu, która umożliwia grupowanie tabel aby ułatwić nadawanie uprawnień i Product to nazwa tabeli) 
 
 - `GO`- dzieli nam zapytania (albo wsady - czyli jakiś szereg instrukcji) na osobne zapytania- przyspieszy to wykonanie skryptu
 
