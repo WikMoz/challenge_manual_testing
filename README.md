@@ -15,33 +15,34 @@
        7) [Raport meczowy](#raport-meczowy)
       
  * ## [**Task 2 - Przypadki testowe (test cases)**](#task-2)
-   * [Subtask 1](#subtask-1-1)
+   * [Subtask 1](#subtask-1)
    * [Subtask 2](#subtask-2)
-   * [Subtask 3](#subtask-3-1)
-   * [Subtask 4](#subtask-4-1)
+   * [Subtask 3](#subtask-3)
+   * [Subtask 4](#subtask-4)
    
  * ## [**Task 3 - Raportowanie błędów**](#task-3)
    * [Subtask 1 & 2](#subtask-1--2)
-   * [Subtask 3](#subtask-3-2)
-   * [Subtask 4](#subtask-4-2)
+   * [Subtask 3](#subtask-3-1)
+   * [Subtask 4](#subtask-4-1)
      
  * ## [**Task 4 - Testowanie aplikacji mobilnych**](#task-4)
    * [Subtask 1 & 2](#subtask-1--2-1)
-   * [Subtask 3](#subtask-3-3)
-   * [Subtask 4](#subtask-4-3)
+   * [Subtask 3](#subtask-3-2)
+   * [Subtask 4](#subtask-4-2)
    
  * ## [**Task 5 - SQL 1/2**](#task-5)
-   * [Subtask 1](#subtask-1-2)
-   * [Subtask 3](#subtask-3-4)
+   * [Subtask 1](#subtask-1-1)
+   * [Subtask 3](#subtask-3-3)
    
  * ## [**Task 6 - SQL 2/2 i tworzenie portfolio**](#task-6)
-   * [Subtask 1](#subtask-1-3)
-   * [Subtask 3](#subtask-3-5) 
+   * [Subtask 1](#subtask-1-2)
+   * [Subtask 3](#subtask-3-4) 
 
 ---
 ---
 
-
+# **Task 1**
+---
 ## Testowanie eksploracyjne 
 
 Aplikacją, którą będziemy testować, jest: https://scouts-test.futbolkolektyw.pl/pl
