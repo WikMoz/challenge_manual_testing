@@ -47,7 +47,7 @@
 
 Aplikacją, którą będziemy testować, jest: https://scouts-test.futbolkolektyw.pl/pl
 - Na czym polega ta aplikacja? Do czego służy?
-- Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmieniła? (Nie bój się wyrażać opinię!)
+- Jakie funkcjonalności znajdują się w aplikacji? Do czego służą? Czy są intuicyjne, czy może byś coś zmieniła? (Nie bój się wyrażać opinii!)
 - Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?
 - Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).
 - Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem? Zapisz swoje przemyślenia w pliku. 
@@ -62,7 +62,7 @@ Aplikacją, którą będziemy testować, jest: https://scouts-test.futbolkolekty
 ![image](https://user-images.githubusercontent.com/122229411/219715991-096da1d4-4813-4d0b-b8f0-7c1ac39a66f9.png)
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;Aplikacja służy do zapisywania i zarządzania danymi o wybranych piłkarzach oraz o meczach, w jakich brali udział. Służy do tworzenia szczegółowych obesrwacji meczowych  - wprowadzania statystyk meczu z opcją notowania również w trakcie jego trwania. Daje możliwość tworzenia raportów dotyczących danego, obserwowanego zawodnika. Funkcją biznesową aplikacji jest zarabianie poprzez tworzenie bazy danych przydatnej w transferach graczy. </p>
+&nbsp;&nbsp;&nbsp;&nbsp;Aplikacja służy do zapisywania i zarządzania danymi o wybranych piłkarzach oraz o meczach, w jakich brali udział. Służy do tworzenia szczegółowych obeserwacji meczowych  - wprowadzania statystyk meczu z opcją notowania również w trakcie jego trwania. Daje możliwość tworzenia raportów dotyczących danego, obserwowanego zawodnika. Funkcją biznesową aplikacji jest zarabianie poprzez tworzenie bazy danych przydatnej w transferach graczy. </p>
 
 ***Funkcjonalości:***
 
@@ -83,7 +83,7 @@ Aplikacją, którą będziemy testować, jest: https://scouts-test.futbolkolekty
 
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;Aplikacja ma bardzo prostą szatę graficzną. Niektóre elementy na stronie głównej, będącej wizytówka aplikacji, zawierają błędy - nieprawidłowe umiejscowienie linków (helpdesk w panelu głównym i główna funkcja strony czyli dodanie gracza w oknie linki pomocnicze), literówki (aktywnosć, zaaktualizowane), brak wyrównania tekstu (linki w oknie aktywność). Główne funkcje aplikacji takie jak dodanie gracza oraz dodanie meczu dla gracza jest proste, dość intuicyjne. Mało intuicyjnym elementem, który może sprawiać problemy jest obsługa opcji graficznego przedstawienia / wprowadzania danych statystycznych z meczu. Brakuje instrukcji, opisu przycisków, możliwości edycji już dodanej akcji. Przechodzi się do tej opcji poprzez małą ikonę umieszczoną na końcu tabeli meczów. Tworzenie raportu może stanowić problem, ponieważ klikając opcję dodaj raport użytkownik jest przekierowywany do tabeli meczów, gdzie musi odnaleźć małą ikonkę odpowiedzialną za tę funkcję. </p>
+&nbsp;&nbsp;&nbsp;&nbsp;Aplikacja ma bardzo prostą szatę graficzną. Niektóre elementy na stronie głównej, będącej wizytówka aplikacji, zawierają błędy - nieprawidłowe umiejscowienie linków (helpdesk w panelu głównym i główna funkcja strony czyli dodanie gracza w oknie linki pomocnicze), literówki ('aktywnosć', 'zaaktualizowane'), brak wyrównania tekstu (linki w oknie aktywność). Główne funkcje aplikacji takie jak dodanie gracza oraz dodanie meczu dla gracza jest proste, dość intuicyjne. Mało intuicyjnym elementem, który może sprawiać problemy jest obsługa opcji graficznego przedstawienia / wprowadzania danych statystycznych z meczu. Brakuje instrukcji, opisu przycisków, możliwości edycji już dodanej akcji. Przechodzi się do tej opcji poprzez małą ikonę umieszczoną na końcu tabeli meczów. Tworzenie raportu może stanowić problem, ponieważ klikając opcję 'dodaj raport' użytkownik jest przekierowywany do tabeli meczów, gdzie musi odnaleźć małą ikonkę odpowiedzialną za tę funkcję. </p>
 
 ---
 
